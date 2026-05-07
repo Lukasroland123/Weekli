@@ -1,0 +1,103 @@
+[
+  {
+    "id": "spidskaalssalat",
+    "navn": "Spidskålssalat",
+    "passer_til": ["kylling"],
+    "ingredienser": [
+      { "canonical": "CREME FRAICHE", "maengde": 25, "enhed": "ml" },
+      { "canonical": "ÆBLER", "maengde": 0.5, "enhed": "stk" },
+      { "canonical": "SPIDSKÅL", "maengde": 100, "enhed": "g" }
+    ]
+  },
+  {
+    "id": "broccolisalat",
+    "navn": "Broccolisalat",
+    "passer_til": ["kylling"],
+    "ingredienser": [
+      { "canonical": "BACON SKIVER", "kandidater": ["BACON SKIVER", "BACON TERN"], "maengde": 25, "enhed": "g" },
+      { "canonical": "CREME FRAICHE", "maengde": 25, "enhed": "ml" },
+      { "canonical": "BROCCOLI", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "ÆBLER", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "RØDLØG", "maengde": 0.25, "enhed": "stk" }
+    ]
+  },
+  {
+    "id": "avocado-tomatsalat",
+    "navn": "Avocado og tomatsalat",
+    "passer_til": ["kylling", "fisk", "okse", "svin"],
+    "ingredienser": [
+      { "canonical": "AVOCADO", "maengde": 0.5, "enhed": "stk" },
+      { "canonical": "AGURK", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "TOMATER", "maengde": 100, "enhed": "g" },
+      { "canonical": "RØDLØG", "maengde": 0.25, "enhed": "stk" }
+    ]
+  },
+  {
+    "id": "tomatsalat",
+    "navn": "Tomatsalat med feta",
+    "passer_til": ["kylling", "fisk", "okse", "svin", "vegetar"],
+    "ingredienser": [
+      { "canonical": "TOMATER", "maengde": 1, "enhed": "stk" },
+      { "canonical": "RØDLØG", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "SALATOST", "kandidater": ["SALATOST", "FETA OST"], "maengde": 50, "enhed": "g" }
+    ],
+    "basisvarer": ["sorte oliven", "olivenolie", "mørk balsamicoeddike", "sukker", "salt", "peber", "frisk basilikum"]
+  },
+  {
+    "id": "tomatsalat-mozzarella",
+    "navn": "Klassisk tomatsalat med mozzarella",
+    "passer_til": ["kylling", "fisk", "okse", "svin", "vegetar"],
+    "ingredienser": [
+      { "canonical": "TOMATER", "maengde": 1, "enhed": "stk" },
+      { "canonical": "RØDLØG", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "MOZZARELLA", "maengde": 0.25, "enhed": "stk" }
+    ],
+    "basisvarer": ["sorte oliven", "olivenolie", "mørk balsamicoeddike", "sukker", "salt", "peber", "frisk basilikum"]
+  },
+  {
+    "id": "coleslaw",
+    "navn": "Coleslaw",
+    "passer_til": ["fisk", "svin"],
+    "ingredienser": [
+      { "canonical": "CREME FRAICHE", "maengde": 50, "enhed": "ml" },
+      { "canonical": "HVIDKÅL", "maengde": 0.25, "enhed": "stk" },
+      { "canonical": "GULERØDDER", "maengde": 1.5, "enhed": "stk" }
+    ],
+    "basisvarer": ["mayonnaise", "sukker", "dijonsennep", "citronsaft", "salt", "peber", "evt. grofthakket persille"]
+  },
+  {
+    "id": "coleslaw-rødkål",
+    "navn": "Coleslaw med spidskål og rødkål",
+    "passer_til": ["fisk", "svin"],
+    "ingredienser": [
+      { "canonical": "CREME FRAICHE", "maengde": 50, "enhed": "ml" },
+      { "canonical": "SPIDSKÅL", "maengde": 0.125, "enhed": "stk" },
+      { "canonical": "RØDKÅL", "maengde": 0.125, "enhed": "stk" },
+      { "canonical": "GULERØDDER", "maengde": 1.5, "enhed": "stk" }
+    ],
+    "basisvarer": ["mayonnaise", "sukker", "dijonsennep", "citronsaft", "salt", "peber", "evt. grofthakket persille"]
+  },
+  {
+    "id": "spinatsalat",
+    "navn": "Spinatsalat",
+    "passer_til": ["kylling", "fisk", "okse", "svin", "vegetar"],
+    "ingredienser": [
+      { "canonical": "SPINAT", "maengde": 30, "enhed": "g" },
+      { "canonical": "TOMATER", "maengde": 2, "enhed": "stk" },
+      { "canonical": "RØDLØG", "maengde": 0.25, "enhed": "stk" }
+    ],
+    "basisvarer": ["balsamico", "olivenolie", "salt", "friskkværnet peber"]
+  },
+  {
+    "id": "edamame-bønnesalat",
+    "navn": "Edamamebønnesalat",
+    "passer_til": ["kylling", "fisk", "okse", "vegetar"],
+    "ingredienser": [
+      { "canonical": "EDAMAME BØNNER", "maengde": 50, "enhed": "g" },
+      { "canonical": "AVOCADO", "maengde": 0.5, "enhed": "stk" },
+      { "canonical": "TOMATER", "maengde": 2.5, "enhed": "stk" },
+      { "canonical": "MOZZARELLA", "maengde": 0.25, "enhed": "stk" }
+    ],
+    "basisvarer": ["citronsaft", "olivenolie", "salt", "peber"]
+  }
+]

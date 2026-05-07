@@ -38,3 +38,11 @@ Thumbs.db
 *.pem
 *.key
 secrets/
+
+# Claude Code lokale indstillinger (indeholder API-nøgler i bash-historik)
+.claude/
+
+# Store lokale kildefiler — hører ikke til i repo
+Billeder af retter/
+Opdateret produktdatabase/
+Frontend fejl sceenshots/

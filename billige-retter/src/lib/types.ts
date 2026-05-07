@@ -1,87 +1,112 @@
-export type Tag = "vegetar" | "kød" | "fisk";
-export type Preference = "billigst" | "okologisk" | "vegetarisk" | "dansk" | "kød";
-export type StoreMode = "alle" | "udvalgte" | "en";
+export type Tag = "vegetar" | "kød" | "fisk" | "kylling";
+export type PrisLogik = "pris" | "kilopris";
 
-export interface Ingredient {
+// Product from CSV data (after processing)
+export interface Product {
+  butik: string;          // "REMA 1000" | "FØTEX" | "NETTO"
+  kategori: string;       // canonical word — matches RecipeIngredientDef.canonical
+  produktnavn: string;
+  normalPris: number;     // kr — primary price for calculations
+  maengde: number;        // numeric package size
+  maengdeEnhed: string;   // "g" | "kg" | "ml" | "l" | "stk"
+  kilopris?: number;
+  stkPris?: number;
+  maerke?: string;
+  vegetar: boolean;
+  paTilbud: boolean;      // metadata only — not the backbone price
+}
+
+// One ingredient line in a recipe (as written in JSON)
+export interface RecipeIngredientDef {
+  canonical: string;      // uppercase canonical, matches Product.kategori
+  kandidater?: string[];  // if set, pick cheapest product from any of these canonicals
+  maengde: number;        // amount per person
+  enhed: string;          // "g" | "kg" | "ml" | "l" | "stk"
+  minTotal?: number;      // minimum total amount regardless of persons (e.g. 5g = 1 fed hvidløg)
+}
+
+// Placeholder — resolved at runtime, never shown to user as-is
+export type SalatType = "salat_fisk" | "salat_okse" | "salat_svin" | "salat_kylling";
+
+export interface RecipePlaceholder {
+  placeholder: SalatType | "blandede grøntsager";
+  kandidater?: string[];  // required for "blandede grøntsager" — canonical categories to pick from
+  antal?: number;         // how many to pick for "blandede grøntsager" (default: 2)
+}
+
+export type RecipeIngredient = RecipeIngredientDef | RecipePlaceholder;
+
+// Salad from salater.json — mini-recipe used as side dish
+export interface Salat {
   id: string;
-  name: string;
-  isPantry: boolean;
-  estimatedPantryPrice?: number;
+  navn: string;
+  passer_til: Array<"fisk" | "okse" | "svin" | "kylling" | "vegetar">;
+  ingredienser: RecipeIngredientDef[];
+  basisvarer?: string[];
 }
 
-export interface RecipeIngredient {
-  ingredient: Ingredient;
-  amount: number;
-  unit: string;
-  notes?: string;
-  offerPrice?: number;
-  offerStore?: string;
-  normalPrice?: number;
-  packageDesc?: string;
-}
-
+// Recipe as stored in src/data/recipes.json
 export interface Recipe {
-  id: string;
   slug: string;
-  title: string;
-  description: string;
-  servings: number;
-  estimatedTimeMinutes?: number;
-  imageUrl: string;
+  titel: string;
+  beskrivelse: string;
+  personer: number;
   tags: Tag[];
-  isOkologisk?: boolean;
-  isVegetarisk?: boolean;
-  isDansk?: boolean; // OPEN PUNKT: ikke koblet til produktdata endnu
-  ingredients: RecipeIngredient[];
+  tilberedningstid?: number;  // minutes
+  imageUrl?: string;
+  ingredienser: RecipeIngredient[];
+  basisvarer: string[];       // shown on page without price, not in calculations
+  fremgangsmaade?: string[];  // cooking steps
 }
 
+// A computed match: one recipe ingredient resolved to a product
+export interface MatchedIngredient {
+  canonical: string;
+  maengdeBehoevet: number;  // total needed (scaled to persons)
+  enhed: string;
+  produkt: Product;
+  pakker: number;           // number of packages to buy
+  pris: number;             // total cost (pakker × normalPris)
+}
+
+// Result of pricing a recipe
+export interface RecipePrice {
+  totalPris: number;
+  prPerPerson: number;
+  matchede: MatchedIngredient[];
+  manglerMatch: string[];   // canonicals with no product found in selected chains
+}
+
+// Item in shopping list
 export interface ShoppingItem {
   id: string;
-  name: string;
-  amount: number;
-  unit: string;
-  price?: number;
-  store?: string;
-  packageDesc?: string;
-  recipeTitle: string;
-  isPantry: boolean;
+  navn: string;
+  pakker: number;
+  maengde: number;
+  maengdeEnhed: string;
+  pris: number;
+  butik: string;
+  opskriftTitel: string;
 }
 
-export interface RecipePrice {
-  mainPrice: number;
-  pantryPrice: number;
-  totalPrice: number;
-  perPerson: number;
-  savings: number; // normalPrice - offerPrice sum
-}
-
-export interface StoreLocation {
-  id: string;
-  name: string;
-  chain: string; // "Netto" | "Føtex" | "Rema 1000"
-  lat: number;
-  lng: number;
-  address: string;
-}
-
-export interface AppState {
-  preferences: Preference[];
-  persons: number;
-  storeMode: StoreMode;
-  selectedStoreIds: string[];
-  areaCenter: { lat: number; lng: number };
-  areaRadiusKm: number;
-  searchQuery: string;
-  searchType: "retter" | "varer";
-  weekDays: number; // 2-7
-}
-
+// Weekly plan
 export interface WeeklyPlan {
   days: Array<{
     day: string;
     recipe: Recipe | null;
   }>;
-  totalPrice: number;
-  pricePerPerson: number;
-  shoppingList: ShoppingItem[];
+  totalPris: number;
+  prPerPerson: number;
+  indkoebsliste: ShoppingItem[];
+}
+
+// App-wide state
+export interface AppState {
+  persons: number;
+  selectedChains: string[];  // [] = all chains; ["REMA 1000"] = only Rema etc.
+  prisLogik: PrisLogik;
+  weekDays: number;
+  tagFilter: Tag | null;     // null = no tag filter
+  searchQuery: string;
+  searchType: "retter" | "varer";
 }

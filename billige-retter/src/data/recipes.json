@@ -1,0 +1,6815 @@
+[
+  {
+    "slug": "rod-karry-kylling",
+    "titel": "Rød karry med kylling og grøntsager",
+    "beskrivelse": "Krydret rød karry med kylling, broccoli og peberfrugt i cremet kokosmælk, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "HAKKET KYLLINGEKØD"
+        ],
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 200,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 11.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 7.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "sukker",
+      "fiskesovs",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog RIS efter anvisningen på pakken. Skær KYLLINGEFILET i mindre strimler. Hak LØG og HVIDLØG fint. Skær PEBERFRUGT i strimler og del BROCCOLI i små buketter.",
+      "Varm olie i en dyb pande eller wok. Svits RØD KARRYPASTA i et minut, til den dufter. Tilsæt LØG og HVIDLØG og lad det stege med kortvarigt.",
+      "Tilsæt kyllingestrimlerne og steg dem, indtil de er brunet på alle sider.",
+      "Hæld KOKOSMÆLK ved og bring retten i kog.",
+      "Tilsæt BROCCOLI og lad det simre ved middel varme i 5-7 minutter. Tilsæt PEBERFRUGT de sidste 2 minutter, så de bevarer deres bid.",
+      "Smag saucen til med saften fra LIME samt sukker og fiskesovs.",
+      "Server den varme røde karry i dybe tallerkener sammen med de kogte ris."
+    ],
+    "imageUrl": "/images/retter/rod-karry-kylling.png"
+  },
+  {
+    "slug": "klassisk-burger",
+    "titel": "Klassisk burger med oksekød og cheddar",
+    "beskrivelse": "Saftig hjemmelavet oksebøf med smeltet cheddar, friske grøntsager og sprødt burgerbølle",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BURGERBOLLER",
+        "maengde": 55,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHEDDAR",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.125,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ketchup",
+      "mayonnaise",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Del HAKKET OKSEKØD i 4 portioner. Form til bøffer og giv dem et let tryk på midten. Krydr med salt og peber.",
+      "Skyl ICEBERGSALAT og skær i grove strimler. Skær TOMATER, AGURK og RØDLØG i tynde skiver.",
+      "Varm olie på pande ved høj varme. Steg bøfferne ca. 3-4 minutter på hver side.",
+      "Fordel CHEDDAR oven på bøfferne det sidste minut, så den smelter.",
+      "Flæk BURGERBOLLER og rist dem let på skærefladen til lune og sprøde.",
+      "Smør bollerne med ketchup og mayonnaise. Læg ICEBERGSALAT i bunden, derefter bøf med ost, TOMATER, AGURK og RØDLØG. Server straks."
+    ]
+  },
+  {
+    "slug": "kylling-burger",
+    "titel": "Kyllingeburger med cheddar",
+    "beskrivelse": "Saftig stegt kyllingefilet med smeltet cheddar, friske grøntsager og sprødt burgerbølle",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BURGERBOLLER",
+        "maengde": 55,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHEDDAR",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.125,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ketchup",
+      "mayonnaise",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Krydr KYLLINGEFILET med salt og peber.",
+      "Skyl ICEBERGSALAT og skær i grove strimler. Skær TOMATER, AGURK og RØDLØG i tynde skiver.",
+      "Varm olie på pande ved høj varme. Steg KYLLINGEFILET ca. 4-5 minutter på hver side til gennemstegt.",
+      "Fordel CHEDDAR oven på fileterne det sidste minut, så den smelter.",
+      "Flæk BURGERBOLLER og rist dem let på skærefladen til lune og sprøde.",
+      "Smør bollerne med ketchup og mayonnaise. Læg ICEBERGSALAT i bunden, derefter kylling med ost, TOMATER, AGURK og RØDLØG. Server straks."
+    ]
+  },
+  {
+    "slug": "chili-sin-carne",
+    "titel": "Chili sin carne",
+    "beskrivelse": "Fyldig vegetarisk chili med bønner og grøntsager, serveret med ris og creme fraiche",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "RØDLØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "KIDNEYBØNNER",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CREME FRAICHE",
+        "maengde": 50,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "stødt spidskommen",
+      "stødt koriander",
+      "soltørrede tomater",
+      "mørk chokolade 80%",
+      "salt",
+      "chili krydderi",
+      "evt. tortillachips",
+      "evt. revet ost"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS.",
+      "Hak RØDLØG og HVIDLØG fint. Skær GULERØDDER i små tern og PEBERFRUGT i strimler.",
+      "Steg løg i smør et par minutter.",
+      "Tilsæt HVIDLØG, GULERØDDER, spidskommen og koriander, og steg videre kort.",
+      "Tilsæt soltørrede tomater, HAKKEDE TOMATER og KIDNEYBØNNER.",
+      "Tilsæt PEBERFRUGT og lad retten simre, til grøntsagerne er møre.",
+      "Rør mørk chokolade i til sidst og smag til med salt.",
+      "Server med BASMATI RIS, CREME FRAICHE, AVOCADO, LIME, rød chili, frisk koriander og tortillachips."
+    ]
+  },
+  {
+    "slug": "tomatsuppe",
+    "titel": "Tomatsuppe",
+    "beskrivelse": "Varm og fyldig tomatsuppe med pasta og spinat, serveret med rugbrød og creme fraiche",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PASTA",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CREME FRAICHE",
+        "maengde": 50,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPINAT",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "groft salt",
+      "sukker",
+      "tørret basilikum",
+      "grøntsagsbouillon",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Lad smørret smelte i en stor tykbundet gryde ved kraftig varme, men uden at det bruner. Svits LØG, HVIDLØG, salt og sukker i ca. 2 min.",
+      "Tilsæt resten af ingredienserne og kog ved svag varme og under låg i ca. 20 min. - eller til GULERØDDER er møre.",
+      "Blend suppen i mindre portioner (fyld kun blenderglasset Â½ op). Blend hver portion ved hurtigste hastighed i ca. 45 sek., eller til suppen er glat. Hæld den tilbage i gryden og bring atter suppen i kog.",
+      "Tilsæt PASTA og kog suppen ved svag varme og under låg i yderligere ca. 10 min. - rør af og til. Pastaen skal være mør, men ikke blød.",
+      "Smag tomatsuppen til og server straks med CREME FRAICHE, RUGBRØD og SPINAT."
+    ]
+  },
+  {
+    "slug": "kartoffelpizza",
+    "titel": "Kartoffelpizza",
+    "beskrivelse": "Sprød pizzabund med cremet mascarpone, tynde kartoffelskiver og mozzarella",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "PIZZADEJ",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MASCARPONE",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MOZZARELLA",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "frisk rosmarin",
+      "flagesalt",
+      "olivenolie"
+    ],
+    "fremgangsmaade": [
+      "Tænd ovnen efter anvisningen på PIZZADEJ.",
+      "Rul eller læg PIZZADEJ på en bageplade.",
+      "Smør bunden med MASCARPONE.",
+      "Skær KARTOFLER i meget tynde skiver og fordel dem på pizzaen.",
+      "Skær LØG i tynde skiver og fordel dem over.",
+      "Riv eller fordel MOZZARELLA på pizzaen.",
+      "Dryp med olivenolie og drys med frisk rosmarin og flagesalt.",
+      "Bag pizzaen, til bunden er sprød og kartoflerne møre."
+    ]
+  },
+  {
+    "slug": "bolognese",
+    "titel": "Bolognese",
+    "beskrivelse": "Klassisk kødsovs med hakket oksekød og spaghetti",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPAGHETTI",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 160,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 35,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "bouillon",
+      "oregano",
+      "salt",
+      "peber",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG og HVIDLØG fint. Skræl GULERØDDER og riv dem groft.",
+      "Varm olie i en gryde. Svits LØG og HVIDLØG, til de er klare.",
+      "Tilsæt HAKKET OKSEKØD og steg under omrøring, indtil alt kødet har taget farve.",
+      "Kom de revne GULERØDDER i gryden sammen med TOMATPURE og oregano. Lad det stege med i et par minutter.",
+      "Tilsæt HAKKEDE TOMATER og bouillon. Lad kødsovsen simre under låg i mindst 15 minutter.",
+      "Kog SPAGHETTI i rigeligt saltet vand efter pakkens anvisning.",
+      "Smag kødsovsen til med salt og peber, og server med den nykogte SPAGHETTI."
+    ],
+    "imageUrl": "/images/retter/bolognese.png"
+  },
+  {
+    "slug": "wraps-kylling",
+    "titel": "Wraps med kylling",
+    "beskrivelse": "Nemme wraps med stegt kyllingefilet og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 46,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KYLLINGEFILET",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "HAKKET KYLLINGEKØD"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "salatdressing"
+    ],
+    "fremgangsmaade": [
+      "Steg KYLLINGEFILET af med salt og peber.",
+      "Skær TOMATER, AGURK og RØDLØG i skiver.",
+      "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
+    ]
+  },
+  {
+    "slug": "wraps-oksekoed",
+    "titel": "Wraps med oksekød",
+    "beskrivelse": "Nemme wraps med stegt hakket oksekød og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 46,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "kandidater": [
+          "HAKKET OKSEKØD"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "salatdressing"
+    ],
+    "fremgangsmaade": [
+      "Steg HAKKET OKSEKØD af med salt og peber.",
+      "Skær TOMATER, AGURK og RØDLØG i skiver.",
+      "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
+    ]
+  },
+  {
+    "slug": "wraps-halloumi",
+    "titel": "Wraps med halloumi",
+    "beskrivelse": "Nemme wraps med stegt halloumi og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 46,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HALLOUMI",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "salatdressing",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Skær HALLOUMI i skiver og steg dem gyldne på en pande med lidt olie.",
+      "Skær TOMATER, AGURK og RØDLØG i skiver.",
+      "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
+    ]
+  },
+  {
+    "slug": "wraps-falafel",
+    "titel": "Wraps med falafel",
+    "beskrivelse": "Nemme wraps med sprød falafel og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 46,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FALAFEL",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "salatdressing"
+    ],
+    "fremgangsmaade": [
+      "Varm FALAFEL efter anvisning på pakken.",
+      "Skær TOMATER, AGURK og RØDLØG i skiver.",
+      "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
+    ]
+  },
+  {
+    "slug": "wraps-gris-kalv",
+    "titel": "Wraps med gris & kalv",
+    "beskrivelse": "Nemme wraps med stegt hakket gris & kalv og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 46,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKET GRIS & KALV",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "HAKKET GRIS & KALV",
+          "HAKKET GRISEKØD"
+        ]
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "salatdressing"
+    ],
+    "fremgangsmaade": [
+      "Steg HAKKET GRIS & KALV af med salt og peber.",
+      "Skær TOMATER, AGURK og RØDLØG i skiver.",
+      "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
+    ]
+  },
+  {
+    "slug": "pepperoni-pizza",
+    "titel": "Pepperoni pizza",
+    "beskrivelse": "Sprød pizzadej med tomatsovs, saftig pepperoni og smeltet mozzarella",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "PIZZADEJ",
+        "maengde": 175,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEPPERONI",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MOZZARELLA",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "oregano"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 220 grader.",
+      "Fold PIZZADEJ ud på en bageplade. Smør HAKKEDE TOMATER ud som tomatsovs og krydr med oregano og salt.",
+      "Skær LØG i tynde ringe og fordel over pizzaen.",
+      "Læg PEPPERONI jævnt over pizzaen og fordel MOZZARELLA over det hele.",
+      "Bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun og osten bobler."
+    ]
+  },
+  {
+    "slug": "parmaskinke-pizza",
+    "titel": "Parmaskinke pizza",
+    "beskrivelse": "Sprød pizzadej med tomatsovs og mozzarella â€” toppet med luftig parmaskinke efter bagning",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "PIZZADEJ",
+        "maengde": 175,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMA/SERRANOSKINE",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MOZZARELLA",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "oregano"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 220 grader.",
+      "Fold PIZZADEJ ud på en bageplade. Smør HAKKEDE TOMATER ud som tomatsovs og krydr med oregano og salt.",
+      "Skær LØG i tynde ringe og fordel over pizzaen.",
+      "Fordel MOZZARELLA over pizzaen og bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun.",
+      "Tag pizzaen ud og læg PARMA/SERRANOSKINE på toppen lige inden servering â€” skinken må ikke i ovnen."
+    ]
+  },
+  {
+    "slug": "hakkeBoef-bloede-loeg",
+    "titel": "Hakkebøf med bløde løg, brun sauce og kartofler",
+    "beskrivelse": "Klassisk dansk hakkebøf med karameliserede løg, rig brun sauce og kogte kartofler",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 250,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 120,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 25,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "oksefond",
+      "hvedemel",
+      "sukker",
+      "madkulør",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Brun skiveskårne LØG i halvdelen af smørret til de er bløde og lysebrune. Sæt til side.",
+      "Form HAKKET OKSEKØD til 4 hakkebøffer og krydr med salt og peber. Steg dem i det resterende smør 3-4 minutter på hver side. Sæt til side.",
+      "Kog KARTOFLER møre i saltet vand ca. 20 minutter.",
+      "Hæld oksefond og MADLAVNINGSFLØDE på den varme pande og bring i kog. Ryst hvedemel og 1 dl vand sammen og rør i saucen. Lad koge til den tykner.",
+      "Smag saucen til med madkulør, sukker, salt og peber.",
+      "Læg hakkebøfferne tilbage i saucen og placer de bløde løg ovenpå. Server med kogte kartofler."
+    ]
+  },
+  {
+    "slug": "svampepasta-bacon",
+    "titel": "Svampepasta med bacon",
+    "beskrivelse": "Cremet pasta med sprødt bacon, champignon, spinat og parmesanost i flødesauce",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "BACON SKIVER",
+        "kandidater": [
+          "BACON SKIVER",
+          "BACON TERN"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "PASTA",
+        "kandidater": [
+          "PASTA",
+          "SPAGHETTI"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPINAT",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "balsamico",
+      "tørret basilikum",
+      "hønsebouillon"
+    ],
+    "fremgangsmaade": [
+      "Steg BACON SKIVER sprødt på en pande. Tag det af og læg til side â€” lad halvdelen af fedtet blive på panden.",
+      "Skær HVIDLØG i skiver og CHAMPIGNON i skiver. Svits begge ved høj varme 1 minut, skru ned og lad svampene blive møre ca. 2 minutter. Krydr med salt og peber.",
+      "Tilsæt tørret basilikum og balsamico og varm 30 sekunder.",
+      "Tilsæt MADLAVNINGSFLØDE og smuldr hønsebouillon i saucen. Tilsæt PASTA og 10 dl vand, kog op og lad simre til pastaen er kogt.",
+      "Rør PARMESANOST og SPINAT i og varm 1 minut til spinaten falder sammen.",
+      "Drys sprødt BACON SKIVER over og server straks."
+    ]
+  },
+  {
+    "slug": "svampepasta-vegetar",
+    "titel": "Svampepasta (vegetar)",
+    "beskrivelse": "Cremet pasta med champignon, spinat og parmesanost i flødesauce",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "PASTA",
+        "kandidater": [
+          "PASTA",
+          "SPAGHETTI"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPINAT",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "balsamico",
+      "tørret basilikum",
+      "grøntsagsbouillon"
+    ],
+    "fremgangsmaade": [
+      "Skær HVIDLØG i skiver og CHAMPIGNON i skiver. Varm lidt olie på en pande og svits begge ved høj varme 1 minut, skru ned og lad svampene blive møre ca. 2 minutter. Krydr med salt og peber.",
+      "Tilsæt tørret basilikum og balsamico og varm 30 sekunder.",
+      "Tilsæt MADLAVNINGSFLØDE og smuldr grøntsagsbouillon i saucen. Tilsæt PASTA og 10 dl vand, kog op og lad simre til pastaen er kogt.",
+      "Rør PARMESANOST og SPINAT i og varm 1 minut til spinaten falder sammen.",
+      "Server straks."
+    ]
+  },
+  {
+    "slug": "pasta-vodkasauce",
+    "titel": "Vodka pasta",
+    "beskrivelse": "Cremet tomatbaseret vodkasauce med parmesanost og frisk basilikum",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "PASTA",
+        "kandidater": [
+          "PASTA",
+          "SPAGHETTI"
+        ],
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 18.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "vodka",
+      "chiliflager",
+      "basilikum",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Varm lidt olie i en gryde eller sauterpande. Steg finthakket LØG klart og blødt i 3-4 minutter. Tilsæt finpresset HVIDLØG og steg et minut mere.",
+      "Hæld vodka i og lad det meste fordampe.",
+      "Tilsæt HAKKEDE TOMATER og chiliflager. Rør PARMESANOST i og lad saucen simre.",
+      "Kog PASTA efter anvisningen på pakken. Gem lidt kogevand inden afdrænning.",
+      "Smag saucen til med salt og peber. Juster konsistensen med kogevand om nødvendigt.",
+      "Vend PASTA i saucen med grofthakkede basilikumblade. Server straks med ekstra PARMESANOST og basilikum."
+    ]
+  },
+  {
+    "slug": "sproed-kylling-alfredo",
+    "titel": "Pasta alfredo",
+    "beskrivelse": "Saftig stegt kyllingefilet på cremet alfredosauce med spaghetti og parmesanost",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPAGHETTI",
+        "kandidater": [
+          "SPAGHETTI",
+          "PASTA"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 75,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 6.25,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "olie",
+      "salt",
+      "oregano",
+      "timian",
+      "peber",
+      "persille"
+    ],
+    "fremgangsmaade": [
+      "Kog SPAGHETTI efter pakkens anvisning.",
+      "Halvér KYLLINGEFILET på langs til 2 tynde stykker. Bank det tykkeste stykke fladt med en kagerulle.",
+      "Hak HVIDLØG og riv PARMESANOST.",
+      "Steg KYLLINGEFILET i olie til gylden og gennemstegt. Krydr med salt, oregano, timian og peber. Skær i skiver.",
+      "Smelt smør på en anden pande og tilsæt HVIDLØG. Tilsæt MADLAVNINGSFLØDE og bring i kog ved middel varme.",
+      "Rør PARMESANOST i saucen og smag til med salt og peber.",
+      "Vend SPAGHETTI i saucen og server med kyllingeskiver på toppen. Pynt evt. med persille."
+    ]
+  },
+  {
+    "slug": "spaghetti-carbonara",
+    "titel": "Spaghetti carbonara",
+    "beskrivelse": "Klassisk italiensk pasta med sprødt bacon, cremet æggesauce og revet parmesanost",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "SPAGHETTI",
+        "kandidater": [
+          "SPAGHETTI",
+          "PASTA"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BACON SKIVER",
+        "kandidater": [
+          "BACON SKIVER",
+          "BACON TERN"
+        ],
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 1.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 37.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "persille"
+    ],
+    "fremgangsmaade": [
+      "Steg BACON SKIVER sprødt og gyldent på en pande ved jævn varme. Lad det dryppe af på køkkenrulle â€” gem ca. 2 spsk af fedtet.",
+      "Bland æggeblommerne fra ÆG med PARMESANOST, friskkværnet peber og baconfedt.",
+      "Kog SPAGHETTI i rigeligt saltet vand 8-10 min. Tag 2Â½ dl pastavand fra til saucen inden afdrænning.",
+      "Kom spaghetti i en sauterpande, tilsæt æggeblandingen og pastavandet. Rør ved lav varme til saucen er cremet og sætter sig om spaghettien.",
+      "Server straks, evt. pyntet med persille."
+    ]
+  },
+  {
+    "slug": "stegt-flaesk-persillesovs",
+    "titel": "Stegt flæsk med kartofler og persillesauce",
+    "beskrivelse": "Klassisk dansk ret med sprødt ovnstegt flæsk, kogte kartofler og cremet persillesauce",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 60,
+    "ingredienser": [
+      {
+        "canonical": "FLÆSK",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 300,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "kandidater": [
+          "LETMÆLK",
+          "MINIMÆLK",
+          "SØDMÆLK"
+        ],
+        "maengde": 125,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "hvedemel",
+      "persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Drys lidt salt over FLÆSK og læg det på en rist over en bradepande med bagepapir. Steg i forvarmet ovn ved 175 grader varmluft i 30-40 minutter og vend et par gange undervejs.",
+      "Kog KARTOFLER i rigeligt letsaltet vand ca. 20 minutter til de er møre. Hæld vandet fra og hold dem lune under låg.",
+      "Smelt smør i en gryde ved lav varme. Pisk hvedemel i til en jævn masse, tilsæt derefter LETMÆLK lidt ad gangen under piskning.",
+      "Kog persillesaucen ca. 5 minutter ved middelvarme under piskning. Smag til med hakket persille, salt og peber.",
+      "Server stegt flæsk med kartofler og persillesauce."
+    ]
+  },
+  {
+    "slug": "pitabrod-med-kebab",
+    "titel": "Pitabrød med kebab",
+    "beskrivelse": "Lune pitabrød fyldt med varm kebab, sprød salat og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 15,
+    "ingredienser": [
+      {
+        "canonical": "PITABRØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KEBAB",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "dressing"
+    ],
+    "fremgangsmaade": [
+      "Varm KEBAB efter anvisning eller steg det kort på en pande.",
+      "Snit ICEBERGSALAT, skær TOMATER i tern og LØG i tynde skiver.",
+      "Lun PITABRØD i ovn eller på pande.",
+      "Fyld pitabrødene med KEBAB, ICEBERGSALAT, TOMATER og LØG. Server straks, evt. med dressing."
+    ]
+  },
+  {
+    "slug": "kebab-rulle",
+    "titel": "Kebab rulle",
+    "beskrivelse": "Bløde tortillas rullet med varm kebab, sprød salat og friske grøntsager",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 15,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 92,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KEBAB",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "dressing"
+    ],
+    "fremgangsmaade": [
+      "Varm KEBAB efter anvisning eller steg det kort på en pande.",
+      "Snit ICEBERGSALAT, skær TOMATER i tern og LØG i tynde skiver.",
+      "Lun TORTILLAS på en tør pande.",
+      "Fordel KEBAB, ICEBERGSALAT, TOMATER og LØG på tortillaerne og rul dem sammen. Server straks, evt. med dressing."
+    ]
+  },
+  {
+    "slug": "pitabrod-med-falafel",
+    "titel": "Pitabrød med falafel",
+    "beskrivelse": "Lune pitabrød fyldt med sprød falafel, frisk salat og grøntsager",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 15,
+    "ingredienser": [
+      {
+        "canonical": "PITABRØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FALAFEL",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "dressing"
+    ],
+    "fremgangsmaade": [
+      "Varm FALAFEL efter anvisning eller steg dem kort på en pande.",
+      "Snit ICEBERGSALAT, skær TOMATER i tern og LØG i tynde skiver.",
+      "Lun PITABRØD i ovn eller på pande.",
+      "Fyld pitabrødene med FALAFEL, ICEBERGSALAT, TOMATER og LØG. Server straks, evt. med dressing."
+    ]
+  },
+  {
+    "slug": "falafel-rulle",
+    "titel": "Falafel rulle",
+    "beskrivelse": "Bløde tortillas rullet med sprød falafel, frisk salat og grøntsager",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 15,
+    "ingredienser": [
+      {
+        "canonical": "TORTILLAS",
+        "maengde": 92,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FALAFEL",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "dressing"
+    ],
+    "fremgangsmaade": [
+      "Varm FALAFEL efter anvisning eller steg dem kort på en pande.",
+      "Snit ICEBERGSALAT, skær TOMATER i tern og LØG i tynde skiver.",
+      "Lun TORTILLAS på en tør pande.",
+      "Fordel FALAFEL, ICEBERGSALAT, TOMATER og LØG på tortillaerne og rul dem sammen. Server straks, evt. med dressing."
+    ]
+  },
+  {
+    "slug": "braendende-kaerlighed",
+    "titel": "Brændende kærlighed",
+    "beskrivelse": "Klassisk dansk ret med blød kartoffelmos toppet med sprødt bacon og stegte løg, serveret med syltede rødbeder og rugbrød",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 250,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 180,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BACON TERN",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "kandidater": [
+          "LETMÆLK",
+          "MINIMÆLK",
+          "SØDMÆLK"
+        ],
+        "maengde": 62.5,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "SYLTEDE RØDBEDER",
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 60,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "salt",
+      "peber",
+      "persille eller purløg"
+    ],
+    "fremgangsmaade": [
+      "Skær KARTOFLER i mindre stykker og kog dem møre i vand uden salt, ca. 20 min.",
+      "Hæld kogevandet fra og mos kartoflerne. Vend smørret i og rør LETMÆLK i lidt efter lidt til passende konsistens. Smag til med salt og peber.",
+      "Lad smør blive gyldent på en pande. Steg BACON TERN 2 min. ved kraftig varme, derefter ca. 15 min. ved jævn varme til de er gyldne og sprøde. Lad dryppe af på køkkenrulle.",
+      "Steg LØG i baconfedtet ca. 5 min. ved kraftig varme og derefter 5 min. ved jævn varme. Krydr med salt.",
+      "Vend BACON TERN tilbage i panden og bland godt med løgene.",
+      "Server kartoffelmosen toppet med bacon og løg, friskkværnet peber, grønt drys og SYLTEDE RØDBEDER. Server RUGBRØD ved siden af."
+    ]
+  },
+  {
+    "slug": "gullash-kartoffelmos-gris",
+    "titel": "Gullash med kartoffelmos (gris)",
+    "beskrivelse": "Mørt svinekød i rig tomatbaseret sauce med gulerødder og champignon, serveret med blød kartoffelmos",
+    "personer": 7,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 120,
+    "ingredienser": [
+      {
+        "canonical": "KOTELETTER",
+        "kandidater": [
+          "KOTELETTER",
+          "GRISEMØRBRAD"
+        ],
+        "maengde": 114.3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 91.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 71.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 57.1,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 35.7,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 51.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "kandidater": [
+          "LETMÆLK",
+          "MINIMÆLK",
+          "SØDMÆLK"
+        ],
+        "maengde": 28.6,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 14.3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.6,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "svinebouillon",
+      "laurbærblade",
+      "paprika",
+      "salt",
+      "peber",
+      "kulør"
+    ],
+    "fremgangsmaade": [
+      "Skær KOTELETER i mundrette tern. Svits kødet i lidt smør sammen med bouillonterningerne til det har fået farve.",
+      "Tilsæt hakket LØG, HVIDLØG og CHAMPIGNON og svits med et par minutter.",
+      "Tilsæt paprika, salt og peber. Vend GULERØDDER i og tilsæt derefter HAKKEDE TOMATER og TOMATPURE.",
+      "Tilsæt 1 liter vand og laurbærblade. Tilsæt evt. et par dråber kulør. Lad retten simre under låg i minimum 1 time, gerne 2 timer.",
+      "Tilsæt MADLAVNINGSFLØDE, smag til og fisk laurbærbladene op.",
+      "Skræl KARTOFLER og kog dem møre. Hæld vandet fra og mos med smør, LETMÆLK, salt og peber til en blød kartoffelmos.",
+      "Server gullash over kartoffelmos."
+    ]
+  },
+  {
+    "slug": "gullash-kartoffelmos",
+    "titel": "Gullash med kartoffelmos",
+    "beskrivelse": "Mørt oksekød i rig tomatbaseret sauce med gulerødder og champignon, serveret med blød kartoffelmos",
+    "personer": 7,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 120,
+    "ingredienser": [
+      {
+        "canonical": "OKSESTEG",
+        "kandidater": [
+          "OKSESTEG"
+        ],
+        "maengde": 114.3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 91.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 71.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 57.1,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 35.7,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 51.4,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "kandidater": [
+          "LETMÆLK",
+          "MINIMÆLK",
+          "SØDMÆLK"
+        ],
+        "maengde": 28.6,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 14.3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.6,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "oksebouillon",
+      "laurbærblade",
+      "paprika",
+      "salt",
+      "peber",
+      "kulør"
+    ],
+    "fremgangsmaade": [
+      "Skær OKSESTEG i mundrette tern. Svits kødet i lidt smør sammen med oksebouillonterningerne til det har fået farve.",
+      "Tilsæt hakket LØG, HVIDLØG og CHAMPIGNON og svits med et par minutter.",
+      "Tilsæt paprika, salt og peber. Vend GULERØDDER i og tilsæt derefter HAKKEDE TOMATER og TOMATPURE.",
+      "Tilsæt 1 liter vand og laurbærblade. Tilsæt evt. et par dråber kulør. Lad retten simre under låg i minimum 1 time, gerne 2 timer.",
+      "Tilsæt MADLAVNINGSFLØDE, smag til og fisk laurbærbladene op.",
+      "Skræl KARTOFLER og kog dem møre. Hæld vandet fra og mos med smør, LETMÆLK, salt og peber til en blød kartoffelmos.",
+      "Server gullash over kartoffelmos."
+    ]
+  },
+  {
+    "slug": "vegansk-nudelsuppe",
+    "titel": "Vegansk nudelsuppe",
+    "beskrivelse": "Krydret vegansk nudelsuppe med tofu, pak choi og edamamebønner i kokosmælksbouillon",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "TOFU",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PAK CHOI",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.5,
+        "enhed": "stk",
+        "minTotal": 0.5
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "ingefær",
+      "paprika",
+      "grøntsagsbouillon",
+      "sojasauce"
+    ],
+    "fremgangsmaade": [
+      "Pres vandet ud af TOFU, skær den i tern og steg den gyldenbrun i lidt olie. Læg den til side.",
+      "Steg finthakket LØG og HVIDLØG i lidt olie. Tilsæt ingefær, paprika og RØD KARRYPASTA og vend godt sammen.",
+      "Tilsæt grøntsagsbouillon, KOKOSMÆLK og sojasauce og lad suppen koge langsomt op.",
+      "Tilsæt hakket PAK CHOI, EDAMAME BØNNER, finthakkede FORÅRSLØG og NUDLER. Lad suppen simre et par minutter til nudlerne er kogt efter pakkens anvisning.",
+      "Server den varme nudelsuppe toppet med stegt TOFU og skiver af LIME."
+    ],
+    "imageUrl": "/images/retter/vegansk-nudelsuppe.png"
+  },
+  {
+    "slug": "nudelsuppe-grisekoed",
+    "titel": "Nudelsuppe med grisekød og tomat",
+    "beskrivelse": "Hurtig nudelsuppe med hakket grisekød, peberfrugt og tomatbouillon",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET GRISEKØD",
+        "kandidater": [
+          "HAKKET GRISEKØD",
+          "GRISEMØRBRAD"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FLUTE",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "bouillon",
+      "stødt spidskommen",
+      "sojasauce",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog NUDLER og hæld dem op i en si. Skær de afdryppede nudler i mindre stykker.",
+      "Hak LØG mellemfint. Skær PEBERFRUGT i tynde skiver.",
+      "Svits LØG, PEBERFRUGT og HAKKET GRISEKØD i olie til kødet skifter farve.",
+      "Tilsæt 5 dl bouillon, TOMATPURE og stødt spidskommen. Kog suppen under låg i ca. 5 minutter.",
+      "Vend nudlerne i og varm igennem. Smag til med sojasauce, salt og peber.",
+      "Server med flute."
+    ],
+    "imageUrl": "/images/retter/nudelsuppe-grisekoed.png"
+  },
+  {
+    "slug": "nudelsuppe-kylling-tomat",
+    "titel": "Nudelsuppe med kylling og tomat",
+    "beskrivelse": "Hurtig nudelsuppe med hakket kylling, peberfrugt og tomatbouillon",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET KYLLINGEKØD",
+        "kandidater": [
+          "HAKKET KYLLINGEKØD",
+          "KYLLINGEFILET"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FLUTE",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "bouillon",
+      "stødt spidskommen",
+      "sojasauce",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog NUDLER og hæld dem op i en si. Skær de afdryppede nudler i mindre stykker.",
+      "Hak LØG mellemfint. Skær PEBERFRUGT i tynde skiver.",
+      "Svits LØG, PEBERFRUGT og HAKKET KYLLINGEKØD i olie til kødet skifter farve.",
+      "Tilsæt 5 dl bouillon, TOMATPURE og stødt spidskommen. Kog suppen under låg i ca. 5 minutter.",
+      "Vend nudlerne i og varm igennem. Smag til med sojasauce, salt og peber.",
+      "Server med flute."
+    ],
+    "imageUrl": "/images/retter/nudelsuppe-kylling-tomat.png"
+  },
+  {
+    "slug": "grisemoerbrad-nudelsuppe",
+    "titel": "Nudelsuppe med grisemørbrad og kokos",
+    "beskrivelse": "Krydret nudelsuppe med grisemørbrad, grøntsager og edamamebønner i en cremet kokosmælksbouillon",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "GRISEMØRBRAD",
+        "maengde": 87.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 1.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk",
+        "minTotal": 0.5
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "vand",
+      "hønsebouillon",
+      "soya"
+    ],
+    "fremgangsmaade": [
+      "Pil skrællen af LØG og HVIDLØG og skær begge dele i små tern. Skær GRISEMØRBRAD i mindre stykker.",
+      "Varm en dyb gryde op med olivenolie og svits RØD KARRYPASTA, LØG, HVIDLØG og kødet.",
+      "Tilsæt 5 dl vand, KOKOSMÆLK og 1 hønsebouillonterning.",
+      "Skræl GULERØDDER, skær dem i den ønskede størrelse og tilsæt til suppen.",
+      "Skær top og bund af PORRER, rens grundigt og skær i tynde strimler.",
+      "Tilsæt NUDLER, PORRER og EDAMAME BØNNER. Lad suppen simre under låg i ca. 7 min under omrøring.",
+      "Tilsæt soya og smag til med saft fra LIME. Server straks."
+    ],
+    "imageUrl": "/images/retter/grisemoerbrad-nudelsuppe.png"
+  },
+  {
+    "slug": "kylling-nudelsuppe",
+    "titel": "Nudelsuppe med kylling og kokos",
+    "beskrivelse": "Krydret nudelsuppe med kylling, grøntsager og edamamebønner i en cremet kokosmælksbouillon",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 87.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 1.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk",
+        "minTotal": 0.5
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "vand",
+      "hønsebouillon",
+      "soya"
+    ],
+    "fremgangsmaade": [
+      "Pil skrællen af LØG og HVIDLØG og skær begge dele i små tern. Skær KYLLINGEFILET i mindre stykker.",
+      "Varm en dyb gryde op med olivenolie og svits RØD KARRYPASTA, LØG, HVIDLØG og kylling.",
+      "Tilsæt 5 dl vand, KOKOSMÆLK og 1 hønsebouillonterning.",
+      "Skræl GULERØDDER, skær dem i den ønskede størrelse og tilsæt til suppen.",
+      "Skær top og bund af PORRER, rens grundigt og skær i tynde strimler.",
+      "Tilsæt NUDLER, PORRER og EDAMAME BØNNER. Lad suppen simre under låg i ca. 7 min under omrøring.",
+      "Tilsæt soya og smag til med saft fra LIME. Server straks."
+    ],
+    "imageUrl": "/images/retter/kylling-nudelsuppe.png"
+  },
+  {
+    "slug": "butter-chicken",
+    "titel": "Butter chicken",
+    "beskrivelse": "Krydret indisk kyllingeret med hakkede tomater og kokosmælk, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "ingefær",
+      "koriander",
+      "spidskommen",
+      "garam masala",
+      "chilipulver",
+      "salt"
+    ],
+    "fremgangsmaade": [
+      "Varm smørret i en gryde over medium varme.",
+      "Tilsæt LØG, ingefær, HVIDLØG, koriander, spidskommen, garam masala og chilipulver. Sauter indtil løgene er bløde.",
+      "Tilsæt KYLLINGEFILET og sauter til kyllingen er gennemstegt.",
+      "Tilsæt HAKKEDE TOMATER og KOKOSMÆLK. Lad retten simre i 10-15 minutter.",
+      "Kog BASMATI RIS efter anvisningen på pakken.",
+      "Smag butter chicken til med salt og servér med de kogte ris."
+    ],
+    "imageUrl": "/images/retter/butter-chicken.png"
+  },
+  {
+    "slug": "tacos-oksekod",
+    "titel": "Tacos med oksekød",
+    "beskrivelse": "Sprøde tacoskaller med krydret oksekød, friske grøntsager, cheddar og creme fraiche",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "TACOSKALLER",
+        "maengde": 36,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "CHEDDAR",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CREME FRAICHE",
+        "maengde": 50,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "tacokrydderi",
+      "salsa eller guacamole"
+    ],
+    "fremgangsmaade": [
+      "Varm olie på en pande og steg LØG og HVIDLØG kort.",
+      "Tilsæt HAKKET OKSEKØD og brun det godt. Kom tacokrydderi og 1 dl vand på og lad det simre et par minutter.",
+      "Hak AGURK og TOMATER i tern. Snit ICEBERGSALAT fint. Lad DÅSEMAJS dryppe af.",
+      "Lun TACOSKALLER efter anvisningen på pakken.",
+      "Fyld tacoskallerne med oksekød, grøntsager, DÅSEMAJS, CHEDDAR og CREME FRAICHE. Server evt. med salsa eller guacamole."
+    ]
+  },
+  {
+    "slug": "kebab-pizza",
+    "titel": "Kebab pizza",
+    "beskrivelse": "Sprød pizzadej med tomatsovs, kebab og mozzarella â€” toppet med frisk icebergsalat og tomater",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "PIZZADEJ",
+        "maengde": 175,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KEBAB",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MOZZARELLA",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 62.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "oregano",
+      "salatdressing"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 220 grader.",
+      "Fold PIZZADEJ ud på en bageplade. Smør HAKKEDE TOMATER ud som tomatsovs og krydr med oregano og salt.",
+      "Skær LØG i tynde ringe og fordel over pizzaen. Fordel KEBAB jævnt og læg MOZZARELLA over det hele.",
+      "Bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun og osten bobler.",
+      "Tag pizzaen ud og top med ICEBERGSALAT og skivede TOMATER. Dryp salatdressing over og server straks."
+    ]
+  },
+  {
+    "slug": "pasta-pesto-bacon",
+    "titel": "Pasta pesto med bacon og mozzarella",
+    "beskrivelse": "Spaghetti med cremet grøn pesto, sprødt bacon, cherrytomater og smeltet mozzarella",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "SPAGHETTI",
+        "kandidater": [
+          "SPAGHETTI",
+          "PASTA"
+        ],
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BACON TERN",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHERRYTOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GRØN PESTO",
+        "maengde": 47.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MOZZARELLA",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.125,
+        "enhed": "stk",
+        "minTotal": 0.5
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog SPAGHETTI i rigeligt saltet vand efter anvisningen på pakken. Gem 2 dl pastavand inden afdrænning.",
+      "Steg BACON TERN på en varm pande til de er helt sprøde. Lad dem dryppe af på køkkenrulle.",
+      "Halvér CHERRYTOMATER og skær AGURK i skiver.",
+      "Kom den afdryppede spaghetti tilbage i gryden. Tilsæt GRØN PESTO, saften fra CITRON og det gemte pastavand. Rør ved svag varme til en cremet sauce.",
+      "Vend CHERRYTOMATER, AGURK, det sprøde BACON TERN og MOZZARELLA i pastaen. Rør i 30 sekunder til osten akkurat begynder at smelte.",
+      "Smag til med salt og peber og server straks."
+    ]
+  },
+  {
+    "slug": "koteletter-i-fad-kartofler",
+    "titel": "Koteletter i fad med kartofler",
+    "beskrivelse": "Saftige svinekotelet bagt i fad med champignon, hakkede tomater og fløde, serveret med kogte kartofler",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KOTELETTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 250,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "sort peber",
+      "sød paprika",
+      "smagsneutral olie",
+      "chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 180 grader. Krydr KOTELETER med salt, peber og paprika. Brun dem godt af i olie på en pande med høj kant og læg dem i et ovnfast fad.",
+      "Skær CHAMPIGNON i kvarte og LØG i tynde både. Steg dem på samme pande og tilsæt chiliflager.",
+      "Tilsæt HAKKEDE TOMATER og MADLAVNINGSFLØDE og lad saucen simre 5-7 minutter. Smag til med salt, peber, paprika og chiliflager.",
+      "Fordel saucen over koteletterne i fadet og bag i ovnen i 20-25 minutter.",
+      "Kog KARTOFLER møre i saltet vand. Server koteletterne med de kogte kartofler."
+    ]
+  },
+  {
+    "slug": "koteletter-i-fad-ris",
+    "titel": "Koteletter i fad med ris",
+    "beskrivelse": "Saftige svinekotelet bagt i fad med champignon, hakkede tomater og fløde, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KOTELETTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 85,
+        "enhed": "g",
+        "kandidater": [
+          "JASMIN RIS"
+        ]
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "sort peber",
+      "sød paprika",
+      "smagsneutral olie",
+      "chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 180 grader. Krydr KOTELETER med salt, peber og paprika. Brun dem godt af i olie på en pande med høj kant og læg dem i et ovnfast fad.",
+      "Skær CHAMPIGNON i kvarte og LØG i tynde både. Steg dem på samme pande og tilsæt chiliflager.",
+      "Tilsæt HAKKEDE TOMATER og MADLAVNINGSFLØDE og lad saucen simre 5-7 minutter. Smag til med salt, peber, paprika og chiliflager.",
+      "Fordel saucen over koteletterne i fadet og bag i ovnen i 20-25 minutter.",
+      "Kog BASMATI RIS efter anvisning på pakken. Server koteletterne med risen."
+    ]
+  },
+  {
+    "slug": "kylling-i-fad-kartofler",
+    "titel": "Kylling i fad med kartofler",
+    "beskrivelse": "Saftige kyllingefileter bagt i fad med champignon, hakkede tomater og fløde, serveret med kogte kartofler",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 250,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "sort peber",
+      "sød paprika",
+      "smagsneutral olie",
+      "chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 180 grader. Krydr KYLLINGEFILET med salt, peber og paprika. Brun dem godt af i olie på en pande med høj kant og læg dem i et ovnfast fad.",
+      "Skær CHAMPIGNON i kvarte og LØG i tynde både. Steg dem på samme pande og tilsæt chiliflager.",
+      "Tilsæt HAKKEDE TOMATER og MADLAVNINGSFLØDE og lad saucen simre 5-7 minutter. Smag til med salt, peber, paprika og chiliflager.",
+      "Fordel saucen over kyllingefileterne i fadet og bag i ovnen i 20-25 minutter.",
+      "Kog KARTOFLER møre i saltet vand. Server kyllingen med de kogte kartofler."
+    ]
+  },
+  {
+    "slug": "kylling-i-fad-ris",
+    "titel": "Kylling i fad med ris",
+    "beskrivelse": "Saftige kyllingefileter bagt i fad med champignon, hakkede tomater og fløde, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 85,
+        "enhed": "g",
+        "kandidater": [
+          "JASMIN RIS"
+        ]
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "sort peber",
+      "sød paprika",
+      "smagsneutral olie",
+      "chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 180 grader. Krydr KYLLINGEFILET med salt, peber og paprika. Brun dem godt af i olie på en pande med høj kant og læg dem i et ovnfast fad.",
+      "Skær CHAMPIGNON i kvarte og LØG i tynde både. Steg dem på samme pande og tilsæt chiliflager.",
+      "Tilsæt HAKKEDE TOMATER og MADLAVNINGSFLØDE og lad saucen simre 5-7 minutter. Smag til med salt, peber, paprika og chiliflager.",
+      "Fordel saucen over kyllingefileterne i fadet og bag i ovnen i 20-25 minutter.",
+      "Kog BASMATI RIS efter anvisning på pakken. Server kyllingen med risen."
+    ]
+  },
+  {
+    "slug": "oksekods-lasagne",
+    "titel": "Oksekøds lasagne",
+    "beskrivelse": "Klassisk lasagne med krydret kødsauce, cremet mornaysauce og gylden osteskorpe",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 60,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 35,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MORNAYSAUCE",
+        "maengde": 0.25,
+        "enhed": "stk",
+        "minTotal": 1
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 18.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LASAGNEPLADER",
+        "maengde": 75,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "groft salt",
+      "friskkværnet peber",
+      "tørret timian eller basilikum",
+      "tørret oregano",
+      "oksebouillon"
+    ],
+    "fremgangsmaade": [
+      "Lad smørret blive gyldent i en gryde. Brun HAKKET OKSEKØD og LØG til kødet smuldrer og skifter farve.",
+      "Tilsæt groft salt, peber, timian eller basilikum, oregano, TOMATPURE, HAKKEDE TOMATER og oksebouillon. Lad koge ved svag varme under låg i ca. 10 min.",
+      "Læg lagvis i et smurt ovnfast fad: kødsauce, LASAGNEPLADER og MORNAYSAUCE â€“ det øverste lag skal være MORNAYSAUCE.",
+      "Drys med REVET OST.",
+      "Bag lasagnen midt i ovnen til overfladen er gylden, ca. 35 min. ved 200Â°C.",
+      "Lad lasagnen hvile tildækket i ca. 10 min. inden servering."
+    ],
+    "imageUrl": "/images/retter/oksekods-lasagne.png"
+  },
+  {
+    "slug": "kyllingelasagne-med-spinat",
+    "titel": "Kyllingelasagne med spinat",
+    "beskrivelse": "Cremet kyllingelasagne med spinatfyld, friske grøntsager og mornaysauce",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 90,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "HAKKET KYLLINGEKØD"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPINAT",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SMØREOST",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SQUASH",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 7.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MORNAYSAUCE",
+        "maengde": 0.2,
+        "enhed": "stk",
+        "minTotal": 1
+      },
+      {
+        "canonical": "LASAGNEPLADER",
+        "maengde": 75,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "friskkværnet peber",
+      "olivenolie",
+      "tørret oregano",
+      "tørret rosmarin",
+      "tørret timian",
+      "grøntsagsbouillon"
+    ],
+    "fremgangsmaade": [
+      "Sauter LØG til spinatfyld på en pande med olivenolie til de er bløde. Tilsæt SPINAT og varm igennem til den er helt tøet op. Tilsæt SMØREOST, salt og friskkværnet peber.",
+      "Varm en pande op med olie og brun KYLLINGEFILET hurtigt af ved høj varme. Sæt kødet til side.",
+      "Skru ned for varmen og sauter LØG, HVIDLØG og GULERØDDER på panden ved middelvarme.",
+      "Kom SQUASH, oregano, rosmarin, timian, TOMATPURE, HAKKEDE TOMATER og grøntsagsbouillon på panden og lad simre i ca. 15 min. til det koger ind.",
+      "Kom det brunede kød i tomatsaucen og sluk for varmen.",
+      "Fordel skiftevis tomatsauce, spinatfyld, MORNAYSAUCE og LASAGNEPLADER. Afslut med MORNAYSAUCE.",
+      "Bag lasagnen i en forvarmet ovn ved 220Â°C varmluft i 12-15 min."
+    ]
+  },
+  {
+    "slug": "grontsagslasagne",
+    "titel": "Grøntsagslasagne",
+    "beskrivelse": "Vegetarisk lasagne med revet squash, aubergine og gulerødder i krydret tomatsauce",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 70,
+    "ingredienser": [
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SQUASH",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "AUBERGINE",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MORNAYSAUCE",
+        "maengde": 0.25,
+        "enhed": "stk",
+        "minTotal": 1
+      },
+      {
+        "canonical": "LASAGNEPLADER",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "grøntsagsbouillon",
+      "tørret basilikum",
+      "paprika",
+      "sød chilisauce",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Pil og hak LØG og HVIDLØG og sauter dem i varm olie i en stor gryde, til de bliver klare.",
+      "Skræl GULERØDDER. Skyl SQUASH og AUBERGINE. Riv grøntsagerne groft på et rivejern og sauter dem i gryden i 2-3 min.",
+      "Tilsæt HAKKEDE TOMATER, grøntsagsbouillon, basilikum, paprika og sød chilisauce.",
+      "Bring saucen i kog og lad simre under låg i ca. 10 min. til den er tyk. Smag til med salt og peber.",
+      "Fordel grøntsagssauce, MORNAYSAUCE og LASAGNEPLADER lagvis i et ovnfast fad. Afslut med MORNAYSAUCE og drys REVET OST over.",
+      "Bag lasagnen i ovnen i ca. 30 min. til den er gylden og gennemvarm."
+    ]
+  },
+  {
+    "slug": "pastasalat",
+    "titel": "Pastasalat med feta og pesto",
+    "beskrivelse": "Kold pastasalat med fetaost, grøntsager og pesto â€” klar på 20 minutter",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "PASTA",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FETA OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GRØN PESTO",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "soltørrede tomater"
+    ],
+    "fremgangsmaade": [
+      "Sæt PASTA over til kogning og riv GULERØDDER groft på et rivejern.",
+      "Hak soltørrede tomater og skær AGURK og RØDLØG i tern.",
+      "Bland AGURK, RØDLØG, GULERØDDER, DÅSEMAJS, soltørrede tomater, GRØN PESTO og FETA OST i en stor skål.",
+      "Når PASTA er kogt, hæld vandet fra og lad den køle af et par minutter, bland den derefter i skålen.",
+      "Sæt pastasalaten i køleskabet i 10 minutter for at køle af â€” så er den klar."
+    ]
+  },
+  {
+    "slug": "pad-thai-kylling",
+    "titel": "Pad Thai med kylling",
+    "beskrivelse": "Klassisk pad thai med kyllingestrimler, æg og grøntsager i en syrlig-sød sauce af peanutbutter og soja",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "NUDLER",
+        "kandidater": [
+          "NUDLER",
+          "RISNUDLER"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "sojasauce",
+      "fiskesauce",
+      "eddike",
+      "peanutbutter",
+      "chilisauce",
+      "koriander",
+      "ingefær",
+      "farin",
+      "olivenolie"
+    ],
+    "fremgangsmaade": [
+      "Kog NUDLER efter pakkens anvisning. Skyl dem under koldt vand så snart de er kogt, så de ikke koger videre â€” de skal være al dente.",
+      "Skær KYLLINGEFILET i tynde strimler. Skær PEBERFRUGT i strimler, GULERØDDER i smalle stave, hak LØG, og skær FORÅRSLØG i skiver. Hak HVIDLØG fint.",
+      "Bland saften fra LIME med sojasauce, fiskesauce, eddike, peanutbutter, chilisauce, koriander, ingefær og farin til en sauce.",
+      "Steg KYLLINGEFILET i olivenolie på høj varme i et minut uden at røre. Steg derefter videre under omrøring i 4-5 minutter, til kyllingen er gennemstegt. Tag kyllingen af panden.",
+      "Steg PEBERFRUGT og LØG på samme pande i et minut. Tilsæt GULERØDDER og HVIDLØG og steg videre et minut.",
+      "Pisk ÆG sammen og hæld dem over retten. Steg ved medium varme til æggene ligner røræg.",
+      "Hæld saucen over og steg et minut. Tilsæt NUDLER, KYLLINGEFILET og FORÅRSLØG, steg i 2-3 minutter og servér straks."
+    ],
+    "imageUrl": "/images/retter/pad-thai-kylling.png"
+  },
+  {
+    "slug": "pad-thai-tofu",
+    "titel": "Pad Thai med tofu",
+    "beskrivelse": "Vegetarisk pad thai med sprød tofu, æg og grøntsager i en syrlig-sød sauce af peanutbutter og soja",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "NUDLER",
+        "kandidater": [
+          "NUDLER",
+          "RISNUDLER"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOFU",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "sojasauce",
+      "fiskesauce",
+      "eddike",
+      "peanutbutter",
+      "chilisauce",
+      "koriander",
+      "ingefær",
+      "farin",
+      "olivenolie"
+    ],
+    "fremgangsmaade": [
+      "Kog NUDLER efter pakkens anvisning. Skyl dem under koldt vand så snart de er kogt, så de ikke koger videre â€” de skal være al dente.",
+      "Skær TOFU i tern og dup dem tørre med køkkenrulle. Skær PEBERFRUGT i strimler, GULERØDDER i smalle stave, hak LØG, og skær FORÅRSLØG i skiver. Hak HVIDLØG fint.",
+      "Bland saften fra LIME med sojasauce, fiskesauce, eddike, peanutbutter, chilisauce, koriander, ingefær og farin til en sauce.",
+      "Steg TOFU-ternene i olivenolie på høj varme i 3-4 minutter uden at røre, til de er gyldne og sprøde. Vend dem og steg 2 minutter mere. Tag tofuen af panden.",
+      "Steg PEBERFRUGT og LØG på samme pande i et minut. Tilsæt GULERØDDER og HVIDLØG og steg videre et minut.",
+      "Pisk ÆG sammen og hæld dem over retten. Steg ved medium varme til æggene ligner røræg.",
+      "Hæld saucen over og steg et minut. Tilsæt NUDLER, TOFU og FORÅRSLØG, steg i 2-3 minutter og servér straks."
+    ],
+    "imageUrl": "/images/retter/pad-thai-tofu.png"
+  },
+  {
+    "slug": "ramen-kylling",
+    "titel": "Ramen med kylling",
+    "beskrivelse": "Varm ramensuppe med saftig kylling, svampe og et smilende æg â€” klar på 30 minutter",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ingefær",
+      "bouillon",
+      "soja",
+      "smør",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Kom ÆG i kogende vand og kog dem i 7 minutter, så de er smilende i midten. Hæld vandet fra og dæk æggene med koldt vand.",
+      "Steg KYLLINGEFILET i smør eller olie på en pande ved middel-høj varme til de er gennemstegte. Læg til side.",
+      "Vask panden af. Steg CHAMPIGNON i skiver til de har fået farve. Tilsæt lidt olie, HVIDLØG og ingefær og svits kortvarigt uden at tage farve.",
+      "Hæld vand ved med bouillon og soja. Bring det i kog og skru ned. Lad suppen småkoge i 5 minutter.",
+      "Tilsæt PEBERFRUGT i strimler og lad det koge et minut. Tilsæt NUDLER og kog dem med til de er møre.",
+      "Vend FORÅRSLØG i skiver i suppen og smag til med friskpresset LIME.",
+      "Pil ÆG og del dem i halve på den lange led. Skær KYLLINGEFILET i tynde skiver.",
+      "Anret ramensuppen i skåle og læg et halvt æg og skiver af kylling i hver portion."
+    ],
+    "imageUrl": "/images/retter/ramen-kylling.png"
+  },
+  {
+    "slug": "ramen-tofu",
+    "titel": "Ramen med tofu",
+    "beskrivelse": "Vegetarisk ramensuppe med sprød tofu, svampe og et smilende æg",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOFU",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ingefær",
+      "bouillon",
+      "soja",
+      "smør",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Kom ÆG i kogende vand og kog dem i 7 minutter, så de er smilende i midten. Hæld vandet fra og dæk æggene med koldt vand.",
+      "Dup TOFU tørre med køkkenrulle og skær i tern. Steg på høj varme i olie til alle sider er gyldne og sprøde. Læg til side.",
+      "Steg CHAMPIGNON i skiver til de har fået farve. Tilsæt lidt olie, HVIDLØG og ingefær og svits kortvarigt uden at tage farve.",
+      "Hæld vand ved med bouillon og soja. Bring det i kog og skru ned. Lad suppen småkoge i 5 minutter.",
+      "Tilsæt PEBERFRUGT i strimler og lad det koge et minut. Tilsæt NUDLER og kog dem med til de er møre.",
+      "Vend FORÅRSLØG i skiver i suppen og smag til med friskpresset LIME.",
+      "Pil ÆG og del dem i halve på den lange led.",
+      "Anret ramensuppen i skåle og læg et halvt æg og TOFU-tern i hver portion."
+    ],
+    "imageUrl": "/images/retter/ramen-tofu.png"
+  },
+  {
+    "slug": "ramen-koteletter",
+    "titel": "Ramen med koteletter",
+    "beskrivelse": "Fyldig ramensuppe med møre koteletskiver, svampe og et smilende æg",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "KOTELETTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "NUDLER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ingefær",
+      "bouillon",
+      "soja",
+      "smør",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Kom ÆG i kogende vand og kog dem i 7 minutter, så de er smilende i midten. Hæld vandet fra og dæk æggene med koldt vand.",
+      "Steg KOTELETTER i smør eller olie på en pande ved middel-høj varme, 3-4 minutter på hver side til de er gennemstegte. Lad dem hvile et par minutter og skær dem derefter i tynde skiver.",
+      "Vask panden af. Steg CHAMPIGNON i skiver til de har fået farve. Tilsæt lidt olie, HVIDLØG og ingefær og svits kortvarigt uden at tage farve.",
+      "Hæld vand ved med bouillon og soja. Bring det i kog og skru ned. Lad suppen småkoge i 5 minutter.",
+      "Tilsæt PEBERFRUGT i strimler og lad det koge et minut. Tilsæt NUDLER og kog dem med til de er møre.",
+      "Vend FORÅRSLØG i skiver i suppen og smag til med friskpresset LIME.",
+      "Pil ÆG og del dem i halve på den lange led.",
+      "Anret ramensuppen i skåle og læg et halvt æg og skiver af kotelet i hver portion."
+    ],
+    "imageUrl": "/images/retter/ramen-koteletter.png"
+  },
+  {
+    "slug": "panang-karry-kylling",
+    "titel": "Panang karry med kylling",
+    "beskrivelse": "Cremet panang karry med kylling i rig kokosmælkssauce med peanutbutter og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "KYLLINGELÅR"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 6.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "JASMIN RIS",
+        "kandidater": [
+          "JASMIN RIS",
+          "BASMATI RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 11.25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "brun farin",
+      "peanutbutter",
+      "fiskesauce",
+      "chiliflager",
+      "rapsolie",
+      "koriander"
+    ],
+    "fremgangsmaade": [
+      "Sæt vand over til JASMIN RIS og kog dem, mens du laver retten.",
+      "Skær KYLLINGEFILET i mundrette tern eller strimler. Skær PEBERFRUGT i lange strimler. Finhak LØG og HVIDLØG.",
+      "Varm olie i en stegegryde eller wok. Steg LØG og HVIDLØG i 3 minutter. Tilsæt RØD KARRYPASTA og steg et minut.",
+      "Tilsæt KYLLINGEFILET og PEBERFRUGT og steg til kyllingen har fået farve.",
+      "Hæld halvdelen af KOKOSMÆLK i, rør godt og lad det småsimre. Tilsæt resten og rør igen. Lad det koge et par minutter.",
+      "Tilsæt fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
+      "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
+    ],
+    "imageUrl": "/images/retter/panang-karry-kylling.png"
+  },
+  {
+    "slug": "panang-karry-koteletter",
+    "titel": "Panang karry med koteletter",
+    "beskrivelse": "Cremet panang karry med svinekotelet i rig kokosmælkssauce med peanutbutter og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KOTELETTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 6.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "JASMIN RIS",
+        "kandidater": [
+          "JASMIN RIS",
+          "BASMATI RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 11.25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "brun farin",
+      "peanutbutter",
+      "fiskesauce",
+      "chiliflager",
+      "rapsolie",
+      "koriander"
+    ],
+    "fremgangsmaade": [
+      "Sæt vand over til JASMIN RIS og kog dem, mens du laver retten.",
+      "Skær KOTELETTER i mundrette tern eller strimler. Skær PEBERFRUGT i lange strimler. Finhak LØG og HVIDLØG.",
+      "Varm olie i en stegegryde eller wok. Steg LØG og HVIDLØG i 3 minutter. Tilsæt RØD KARRYPASTA og steg et minut.",
+      "Tilsæt KOTELETTER og PEBERFRUGT og steg til kødet har fået farve.",
+      "Hæld halvdelen af KOKOSMÆLK i, rør godt og lad det småsimre. Tilsæt resten og rør igen. Lad det koge et par minutter.",
+      "Tilsæt fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
+      "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
+    ],
+    "imageUrl": "/images/retter/panang-karry-koteletter.png"
+  },
+  {
+    "slug": "panang-karry-tofu",
+    "titel": "Panang karry med tofu",
+    "beskrivelse": "Vegetarisk panang karry med sprød tofu i cremet kokosmælkssauce med peanutbutter og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "TOFU",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 6.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "JASMIN RIS",
+        "kandidater": [
+          "JASMIN RIS",
+          "BASMATI RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 11.25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "brun farin",
+      "peanutbutter",
+      "soja",
+      "chiliflager",
+      "rapsolie",
+      "koriander"
+    ],
+    "fremgangsmaade": [
+      "Sæt vand over til JASMIN RIS og kog dem, mens du laver retten.",
+      "Dup TOFU tørre med køkkenrulle og skær i tern. Steg på høj varme i olie til alle sider er gyldne. Læg til side. Skær PEBERFRUGT i lange strimler. Finhak LØG og HVIDLØG.",
+      "Varm olie i en stegegryde eller wok. Steg LØG og HVIDLØG i 3 minutter. Tilsæt RØD KARRYPASTA og steg et minut.",
+      "Tilsæt PEBERFRUGT og steg et minut.",
+      "Hæld halvdelen af KOKOSMÆLK i, rør godt og lad det småsimre. Tilsæt resten og rør igen. Lad det koge et par minutter.",
+      "Tilsæt soja i stedet for fiskesauce, peanutbutter, brun farin, chiliflager, DÅSEMAJS og TOFU-tern. Lad retten simre uden låg i 10 minutter. Smag til.",
+      "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
+    ],
+    "imageUrl": "/images/retter/panang-karry-tofu.png"
+  },
+  {
+    "slug": "panang-karry-kikaerter",
+    "titel": "Panang karry med kikærter",
+    "beskrivelse": "Vegetarisk panang karry med kikærter i cremet kokosmælkssauce med peanutbutter og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KIKÆRTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 6.25,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "JASMIN RIS",
+        "kandidater": [
+          "JASMIN RIS",
+          "BASMATI RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 11.25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "brun farin",
+      "peanutbutter",
+      "soja",
+      "chiliflager",
+      "rapsolie",
+      "koriander"
+    ],
+    "fremgangsmaade": [
+      "Sæt vand over til JASMIN RIS og kog dem, mens du laver retten.",
+      "Afdryp KIKÆRTER. Skær PEBERFRUGT i lange strimler. Finhak LØG og HVIDLØG.",
+      "Varm olie i en stegegryde eller wok. Steg LØG og HVIDLØG i 3 minutter. Tilsæt RØD KARRYPASTA og steg et minut.",
+      "Tilsæt KIKÆRTER og PEBERFRUGT og steg et par minutter.",
+      "Hæld halvdelen af KOKOSMÆLK i, rør godt og lad det småsimre. Tilsæt resten og rør igen. Lad det koge et par minutter.",
+      "Tilsæt soja i stedet for fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
+      "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
+    ],
+    "imageUrl": "/images/retter/panang-karry-kikaerter.png"
+  },
+  {
+    "slug": "moerbradgryde",
+    "titel": "Mørbradgryde",
+    "beskrivelse": "Klassisk dansk mørbradgryde med bacon, grisemørbrad og cocktailpølser i cremet tomatsauce",
+    "personer": 6,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "BACON SKIVER",
+        "kandidater": [
+          "BACON SKIVER",
+          "BACON TERN"
+        ],
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GRISEMØRBRAD",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 1.67,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 50,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "COCKTAILPØLSER",
+        "maengde": 33.33,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "tørret timian",
+      "groft salt",
+      "peber",
+      "persille"
+    ],
+    "fremgangsmaade": [
+      "Kom BACON SKIVER i en stor gryde og steg ved jævn varme i ca. 5 minutter til let gyldent. Tilsæt GRISEMØRBRAD og steg ved kraftig varme i ca. 5 minutter til kødet har skiftet farve.",
+      "Tilsæt LØG, HVIDLØG, CHAMPIGNON og TOMATPURE samt paprika og timian. Steg ved jævn varme i yderligere ca. 3 minutter.",
+      "Tilsæt HAKKEDE TOMATER, MADLAVNINGSFLØDE, 1 dl vand og GULERØDDER. Lad retten koge ved svag varme under låg i ca. 15 minutter.",
+      "Kom COCKTAILPØLSER i gryden, varm igennem og smag til med salt og peber.",
+      "Servér med nykogte RIS og evt. et drys persille."
+    ]
+  },
+  {
+    "slug": "rispapirruller-kylling",
+    "titel": "Rispapirruller med kylling",
+    "beskrivelse": "Friske rispapirruller fyldt med kyllingestrimler, sprøde grøntsager og avocado â€” serveret med hjemmelavet peanutdip",
+    "personer": 2,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RISPAPIR",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPIDSKÅL",
+        "maengde": 0.125,
+        "enhed": "stk",
+        "kandidater": [
+          "SPIDSKÅL",
+          "HVIDKÅL"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 120,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "peanutbutter",
+      "sojasauce",
+      "lime",
+      "sød chilisauce",
+      "sriracha",
+      "ingefær",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Lav peanutdippen ved at røre peanutbutter, sojasauce, lidt lime- eller citronsaft, vand, sød chilisauce, sriracha og revet ingefær sammen i en skål. Juster konsistensen med vand.",
+      "Skær KYLLINGEFILET i strimler og krydr med valgfrit krydderi eller marinade. Steg på en pande i lidt olie til gennemstegt.",
+      "Snit SPIDSKÅL, GULERØDDER, AGURK, PEBERFRUGT og FORÅRSLØG så fint som muligt. Skær AVOCADO i skiver.",
+      "Læg et RISPAPIR ad gangen i et fad med vand og lad det ligge ca. 30 sekunder til det er blødt og gennemsigtigt.",
+      "Tag rispapiret op og læg det på et stort skærebræt. Læg fyld ca. 1/3 inde på papiret.",
+      "Hold fast om fyldet og rul stramt sammen â€” fold siderne ind undervejs.",
+      "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
+    ]
+  },
+  {
+    "slug": "rispapirruller-tofu",
+    "titel": "Rispapirruller med tofu",
+    "beskrivelse": "Vegetariske rispapirruller fyldt med sprød tofu, friske grøntsager og avocado â€” serveret med hjemmelavet peanutdip",
+    "personer": 2,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "TOFU",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RISPAPIR",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPIDSKÅL",
+        "maengde": 0.125,
+        "enhed": "stk",
+        "kandidater": [
+          "SPIDSKÅL",
+          "HVIDKÅL"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 120,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "peanutbutter",
+      "sojasauce",
+      "lime",
+      "sød chilisauce",
+      "sriracha",
+      "ingefær",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Lav peanutdippen ved at røre peanutbutter, sojasauce, lidt lime- eller citronsaft, vand, sød chilisauce, sriracha og revet ingefær sammen i en skål. Juster konsistensen med vand.",
+      "Dup TOFU tørre med køkkenrulle og skær i strimler. Steg på høj varme i olie til alle sider er gyldne og sprøde.",
+      "Snit SPIDSKÅL, GULERØDDER, AGURK, PEBERFRUGT og FORÅRSLØG så fint som muligt. Skær AVOCADO i skiver.",
+      "Læg et RISPAPIR ad gangen i et fad med vand og lad det ligge ca. 30 sekunder til det er blødt og gennemsigtigt.",
+      "Tag rispapiret op og læg det på et stort skærebræt. Læg fyld ca. 1/3 inde på papiret.",
+      "Hold fast om fyldet og rul stramt sammen â€” fold siderne ind undervejs.",
+      "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
+    ]
+  },
+  {
+    "slug": "rispapirruller-koteletter",
+    "titel": "Rispapirruller med kotelet",
+    "beskrivelse": "Friske rispapirruller fyldt med møre koteletstrimler, sprøde grøntsager og avocado â€” serveret med hjemmelavet peanutdip",
+    "personer": 2,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KOTELETTER",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RISPAPIR",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPIDSKÅL",
+        "maengde": 0.125,
+        "enhed": "stk",
+        "kandidater": [
+          "SPIDSKÅL",
+          "HVIDKÅL"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 120,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "peanutbutter",
+      "sojasauce",
+      "lime",
+      "sød chilisauce",
+      "sriracha",
+      "ingefær",
+      "olie"
+    ],
+    "fremgangsmaade": [
+      "Lav peanutdippen ved at røre peanutbutter, sojasauce, lidt lime- eller citronsaft, vand, sød chilisauce, sriracha og revet ingefær sammen i en skål. Juster konsistensen med vand.",
+      "Steg KOTELETTER i lidt olie på en pande ved middel-høj varme, 3-4 minutter på hver side til gennemstegte. Lad hvile et par minutter og skær i tynde strimler.",
+      "Snit SPIDSKÅL, GULERØDDER, AGURK, PEBERFRUGT og FORÅRSLØG så fint som muligt. Skær AVOCADO i skiver.",
+      "Læg et RISPAPIR ad gangen i et fad med vand og lad det ligge ca. 30 sekunder til det er blødt og gennemsigtigt.",
+      "Tag rispapiret op og læg det på et stort skærebræt. Læg fyld ca. 1/3 inde på papiret.",
+      "Hold fast om fyldet og rul stramt sammen â€” fold siderne ind undervejs.",
+      "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
+    ]
+  },
+  {
+    "slug": "kylling-i-karry",
+    "titel": "Kylling i karry",
+    "beskrivelse": "Klassisk dansk kylling i karry med blomkål, gulerødder og æbler i en mild karrysauce med letmælk",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 90,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BLOMKÅL",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FORÅRSLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 50,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 57.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "karry",
+      "hvedemel",
+      "grøntsagsbouillon",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Smelt smørret i en pande og svits karry heri. Tilsæt LØG og KYLLINGEFILET i tern og steg i ca. 2 minutter.",
+      "Tilsæt BLOMKÅL i buketter, GULERØDDER i skiver og FORÅRSLØG i ringe. Steg i ca. 2 minutter. Drys mel over og rør rundt.",
+      "Tilsæt grøntsagsbouillon og LETMÆLK. Smag til med salt og peber og lad retten koge ved svag varme i ca. 12 minutter.",
+      "Vend ÆBLER skåret i tern i og smag til.",
+      "Servér kylling i karry med kogte ris."
+    ],
+    "imageUrl": "/images/retter/kylling-i-karry.png"
+  },
+  {
+    "slug": "boller-i-karry",
+    "titel": "Boller i karry",
+    "beskrivelse": "Klassisk dansk ret med hjemmelavede svinekødboller i en mild karrysovs med æble og letmælk",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET GRISEKØD",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 118.75,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 28.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "hvedemel",
+      "salt",
+      "peber",
+      "olie",
+      "smør",
+      "karry",
+      "gurkemeje",
+      "svinebouillon",
+      "mangochutney"
+    ],
+    "fremgangsmaade": [
+      "Bland HAKKET GRISEKØD, 1 hakket LØG, halvdelen af LETMÆLK, ÆG, 2 spsk hvedemel, salt og peber til en jævn fars.",
+      "Bring en stor gryde vand i kog. Form farsen til små kødboller og kog dem i ca. 10 minutter. Tag dem op og læg til side.",
+      "Varm smør og olie på en pande. Tilsæt karry og gurkemeje og lad det brænde af i et minut.",
+      "Tilsæt det resterende hakkede LØG og svits i ca. 5 minutter. Tilsæt det revne ÆBLE og 3 spsk hvedemel og rør godt.",
+      "Tilsæt resten af LETMÆLK lidt efter lidt under omrøring, så der dannes en opbagt sovs. Tilsæt vand og svinebouillon og lad det simre.",
+      "Smag til med salt, peber og mangochutney. Vend kødbollerne i sovsen og varm dem igennem.",
+      "Servér med kogte RIS."
+    ]
+  },
+  {
+    "slug": "boller-i-karry-kylling",
+    "titel": "Boller i karry med kyllingefars",
+    "beskrivelse": "Klassisk boller i karry med lette kyllingekødboller i en mild karrysovs med æble og letmælk",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET KYLLINGEKØD",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 118.75,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 28.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "hvedemel",
+      "salt",
+      "peber",
+      "olie",
+      "smør",
+      "karry",
+      "gurkemeje",
+      "kyllingebouillon",
+      "mangochutney"
+    ],
+    "fremgangsmaade": [
+      "Bland HAKKET KYLLINGEKØD, 1 hakket LØG, halvdelen af LETMÆLK, ÆG, 2 spsk hvedemel, salt og peber til en jævn fars.",
+      "Bring en stor gryde vand i kog. Form farsen til små kødboller og kog dem i ca. 10 minutter. Tag dem op og læg til side.",
+      "Varm smør og olie på en pande. Tilsæt karry og gurkemeje og lad det brænde af i et minut.",
+      "Tilsæt det resterende hakkede LØG og svits i ca. 5 minutter. Tilsæt det revne ÆBLE og 3 spsk hvedemel og rør godt.",
+      "Tilsæt resten af LETMÆLK lidt efter lidt under omrøring, så der dannes en opbagt sovs. Tilsæt vand og kyllingebouillon og lad det simre.",
+      "Smag til med salt, peber og mangochutney. Vend kødbollerne i sovsen og varm dem igennem.",
+      "Servér med kogte RIS."
+    ]
+  },
+  {
+    "slug": "vegetar-bolognese-linser",
+    "titel": "Vegetar bolognese med linser",
+    "beskrivelse": "Kraftig vegetarisk bolognese med røde linser, champignon og squash i en rig tomatsauce",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "SPLITLINSER",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SQUASH",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPAGHETTI",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 12.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "tørret timian",
+      "røget paprika",
+      "soltørrede tomater",
+      "rød balsamico",
+      "rødvin eller grøntsagsbouillon",
+      "salt",
+      "peber",
+      "olivenolie"
+    ],
+    "fremgangsmaade": [
+      "Sauter LØG og HVIDLØG i olie i en gryde til de er bløde.",
+      "Skru op for varmen og tilsæt finthakkede CHAMPIGNON. Rør godt igennem.",
+      "Tilsæt SQUASH i tern, HAKKEDE TOMATER, SPLITLINSER, rød balsamico, soltørrede tomater, timian og røget paprika.",
+      "Tilsæt rødvin eller grøntsagsbouillon. Skru ned og lad retten simre i 20 minutter til linserne er møre. Smag til med salt og peber.",
+      "Kog SPAGHETTI efter pakkens anvisning. Servér med saucen og friskrevet PARMESANOST."
+    ],
+    "imageUrl": "/images/retter/vegetar-bolognese-linser.png"
+  },
+  {
+    "slug": "vegetar-bolognese-kikaerter",
+    "titel": "Vegetar bolognese med kikærter",
+    "beskrivelse": "Kraftig vegetarisk bolognese med kikærter, champignon og squash i en rig tomatsauce",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KIKÆRTER",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SQUASH",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPAGHETTI",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 12.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "tørret timian",
+      "røget paprika",
+      "soltørrede tomater",
+      "rød balsamico",
+      "rødvin eller grøntsagsbouillon",
+      "salt",
+      "peber",
+      "olivenolie"
+    ],
+    "fremgangsmaade": [
+      "Sauter LØG og HVIDLØG i olie i en gryde til de er bløde.",
+      "Skru op for varmen og tilsæt finthakkede CHAMPIGNON. Rør godt igennem.",
+      "Afdryp KIKÆRTER og tilsæt sammen med SQUASH i tern, HAKKEDE TOMATER, rød balsamico, soltørrede tomater, timian og røget paprika.",
+      "Tilsæt rødvin eller grøntsagsbouillon. Skru ned og lad retten simre i 20 minutter. Smag til med salt og peber.",
+      "Kog SPAGHETTI efter pakkens anvisning. Servér med saucen og friskrevet PARMESANOST."
+    ],
+    "imageUrl": "/images/retter/vegetar-bolognese-kikaerter.png"
+  },
+  {
+    "slug": "aeggekage-bacon",
+    "titel": "Æggekage med bacon",
+    "beskrivelse": "Klassisk dansk æggekage med bacon og friske tomater, serveret med rugbrød",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 37.5,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BACON SKIVER",
+        "kandidater": [
+          "BACON SKIVER",
+          "BACON TERN"
+        ],
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 150,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vand",
+      "persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Pisk ÆG, MADLAVNINGSFLØDE og 1 dl vand sammen i en skål. Tilsæt evt. hakket persille, salt og peber.",
+      "Smelt smørret på en ovnfast pande ved kraftig varme uden at det bruner. Hæld æggeblandingen i og skru ned til meget svag varme.",
+      "Skub forsigtigt i blandingen til den begynder at stivne â€” ca. 5 minutter.",
+      "Fordel BACON og TOMATER i skiver oven på æggekagen.",
+      "Bag færdig i ovn ved 225Â° i 12-15 minutter. Servér direkte fra panden med RUGBRØD."
+    ]
+  },
+  {
+    "slug": "aeggekage-kartofler",
+    "titel": "Æggekage med kartofler",
+    "beskrivelse": "Mættende æggekage med kogte kartoffeltern og friske tomater, serveret med rugbrød",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 37.5,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 150,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vand",
+      "persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER møre i saltet vand, ca. 15 minutter. Lad dem køle lidt og skær i tern.",
+      "Pisk ÆG, MADLAVNINGSFLØDE og 1 dl vand sammen i en skål. Tilsæt evt. hakket persille, salt og peber.",
+      "Smelt smørret på en ovnfast pande ved kraftig varme uden at det bruner. Læg KARTOFFEL-ternene i panden og hæld æggeblandingen over.",
+      "Skru ned til meget svag varme og skub forsigtigt i blandingen til den begynder at stivne â€” ca. 5 minutter.",
+      "Fordel TOMATER i skiver oven på æggekagen.",
+      "Bag færdig i ovn ved 225Â° i 12-15 minutter. Servér direkte fra panden med RUGBRØD."
+    ]
+  },
+  {
+    "slug": "aeggekage-grontsager",
+    "titel": "Æggekage med løg, porre og kartofler",
+    "beskrivelse": "Mættende grøntsagsæggekage med løgtern, porrestrimler og kogte kartoffeltern, serveret med rugbrød",
+    "personer": 6,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 1.33,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 16.67,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 20,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 41.6667,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 150,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vand",
+      "persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER møre i saltet vand, ca. 15 minutter. Lad dem køle let af og skær i tern.",
+      "Hak LØG fint i tern og skær PORRER i tynde skiver. Steg dem let på panden i lidt smør.",
+      "Pisk ÆG, LETMÆLK og 1 dl vand sammen i en skål. Tilsæt evt. hakket persille, salt og peber.",
+      "Smelt resten af smørret på en ovnfast pande ved kraftig varme uden at det bruner.",
+      "Fordel LØG, PORRER og KARTOFLER i panden og hæld æggeblandingen over.",
+      "Skru ned til meget svag varme og skub forsigtigt i blandingen til den begynder at stivne â€” ca. 5 minutter.",
+      "Læg låg på og bag æggekagen færdig i ovn ved 225Â° i 12-15 minutter.",
+      "Fordel TOMATER i skiver oven på æggekagen og pynt med persille. Servér med RUGBRØD."
+    ]
+  },
+  {
+    "slug": "aeggekage-grontsager-bacon",
+    "titel": "Æggekage med bacon, løg, porre og kartofler",
+    "beskrivelse": "Fyldig æggekage med bacon, løgtern, porrestrimler og kogte kartoffeltern, serveret med rugbrød",
+    "personer": 6,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "ÆG",
+        "maengde": 1.33,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 16.67,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BACON SKIVER",
+        "kandidater": [
+          "BACON SKIVER",
+          "BACON TERN"
+        ],
+        "maengde": 33.33,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 20,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.16,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 41.6667,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 66.67,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vand",
+      "persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER møre i saltet vand, ca. 15 minutter. Lad dem køle let af og skær i tern.",
+      "Hak LØG fint i tern og skær PORRER i tynde skiver. Steg BACON SKIVER på panden til let gyldent. Tilsæt LØG og PORRER og steg kort.",
+      "Pisk ÆG, LETMÆLK og 1 dl vand sammen i en skål. Tilsæt evt. hakket persille, salt og peber.",
+      "Smelt smør på en ovnfast pande ved kraftig varme uden at det bruner.",
+      "Fordel BACON, LØG, PORRER og KARTOFLER i panden og hæld æggeblandingen over.",
+      "Skru ned til meget svag varme og skub forsigtigt i blandingen til den begynder at stivne â€” ca. 5 minutter.",
+      "Læg låg på og bag æggekagen færdig i ovn ved 225Â° i 12-15 minutter.",
+      "Fordel TOMATER i skiver oven på æggekagen og pynt med persille. Servér med RUGBRØD."
+    ]
+  },
+  {
+    "slug": "dahl",
+    "titel": "Dahl med røde linser og kokosmælk",
+    "beskrivelse": "Varm og krydret indisk linsegryde med kokosmælk og hakkede tomater, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "SPLITLINSER",
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "ingefær",
+      "stødt spidskommen",
+      "stødt koriander",
+      "chilipulver",
+      "garam masala",
+      "grøntsagsbouillon",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG fint, pres eller hak HVIDLØG fint, og skræl og riv ingefær fint.",
+      "Opvarm lidt olivenolie i en gryde eller sauterpande.",
+      "Tilsæt spidskommen, koriander, chilipulver og garam masala og lad det svitse i olien i cirka 30 sekunder.",
+      "Tilsæt LØG, HVIDLØG og ingefær og giv det 1-2 minutter.",
+      "Skyl SPLITLINSER grundigt i en si og tilsæt dem til gryden sammen med HAKKEDE TOMATER, KOKOSMÆLK og 3 dl grøntsagsbouillon.",
+      "Lad retten simre i cirka 20-30 minutter eller indtil linserne er møre.",
+      "Smag retten til med salt og peber og eventuelt mere af krydderierne.",
+      "Kog BASMATI RIS og servér til dahl."
+    ],
+    "imageUrl": "/images/retter/dahl.png"
+  },
+  {
+    "slug": "mexi-bowl-okse",
+    "titel": "Mexi Bowl med oksekød",
+    "beskrivelse": "Krydret hakket oksekød med ris, avocado, majs, edamame og revet ost i en farverig mexicansk bowl",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "chiliflager",
+      "olie",
+      "salt",
+      "peber",
+      "frisk koriander",
+      "nachos chips",
+      "chili mayo"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisning på pakken.",
+      "Opvarm en pande med olie og steg HAKKET OKSEKØD. Krydr med chiliflager, paprika, salt og peber.",
+      "Riv GULERØDDER, skær AVOCADO i skiver, hak TOMATER i tern, og gør EDAMAME BØNNER og DÅSEMAJS klar.",
+      "Anret BASMATI RIS i en skål og fordel HAKKET OKSEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
+      "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
+    ]
+  },
+  {
+    "slug": "mexi-bowl-gris",
+    "titel": "Mexi Bowl med grisekød",
+    "beskrivelse": "Krydret hakket grisekød med ris, avocado, majs, edamame og revet ost i en farverig mexicansk bowl",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET GRISEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "chiliflager",
+      "olie",
+      "salt",
+      "peber",
+      "frisk koriander",
+      "nachos chips",
+      "chili mayo"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisning på pakken.",
+      "Opvarm en pande med olie og steg HAKKET GRISEKØD. Krydr med chiliflager, paprika, salt og peber.",
+      "Riv GULERØDDER, skær AVOCADO i skiver, hak TOMATER i tern, og gør EDAMAME BØNNER og DÅSEMAJS klar.",
+      "Anret BASMATI RIS i en skål og fordel HAKKET GRISEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
+      "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
+    ]
+  },
+  {
+    "slug": "mexi-bowl-kylling",
+    "titel": "Mexi Bowl med kyllingekød",
+    "beskrivelse": "Krydret hakket kyllingekød med ris, avocado, majs, edamame og revet ost i en farverig mexicansk bowl",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET KYLLINGEKØD",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "HAKKET KYLLINGEKØD",
+          "KYLLINGEFILET"
+        ]
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "chiliflager",
+      "olie",
+      "salt",
+      "peber",
+      "frisk koriander",
+      "nachos chips",
+      "chili mayo"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisning på pakken.",
+      "Opvarm en pande med olie og steg HAKKET KYLLINGEKØD. Krydr med chiliflager, paprika, salt og peber.",
+      "Riv GULERØDDER, skær AVOCADO i skiver, hak TOMATER i tern, og gør EDAMAME BØNNER og DÅSEMAJS klar.",
+      "Anret BASMATI RIS i en skål og fordel HAKKET KYLLINGEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
+      "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
+    ]
+  },
+  {
+    "slug": "mexi-bowl-gris-kalv",
+    "titel": "Mexi Bowl med gris & kalv",
+    "beskrivelse": "Krydret hakket gris & kalv med ris, avocado, majs, edamame og revet ost i en farverig mexicansk bowl",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET GRIS & KALV",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "chiliflager",
+      "olie",
+      "salt",
+      "peber",
+      "frisk koriander",
+      "nachos chips",
+      "chili mayo"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisning på pakken.",
+      "Opvarm en pande med olie og steg HAKKET GRIS & KALV. Krydr med chiliflager, paprika, salt og peber.",
+      "Riv GULERØDDER, skær AVOCADO i skiver, hak TOMATER i tern, og gør EDAMAME BØNNER og DÅSEMAJS klar.",
+      "Anret BASMATI RIS i en skål og fordel HAKKET GRIS & KALV, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
+      "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
+    ]
+  },
+  {
+    "slug": "mexi-bowl-laks",
+    "titel": "Mexi Bowl med laksefilet",
+    "beskrivelse": "Krydret laksefilet med ris, avocado, majs, edamame og revet ost i en farverig mexicansk bowl",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "LAKSEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AVOCADO",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "EDAMAME BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REVET OST",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "paprika",
+      "chiliflager",
+      "olie",
+      "salt",
+      "peber",
+      "frisk koriander",
+      "nachos chips",
+      "chili mayo"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisning på pakken.",
+      "Krydr LAKSEFILET med chiliflager, paprika, salt og peber. Steg på en varm pande med olie ca. 3-4 minutter på hver side, til fisken er gennemstegt. Bræk den i stykker.",
+      "Riv GULERØDDER, skær AVOCADO i skiver, hak TOMATER i tern, og gør EDAMAME BØNNER og DÅSEMAJS klar.",
+      "Anret BASMATI RIS i en skål og fordel LAKSEFILET, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
+      "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
+    ]
+  },
+  {
+    "slug": "flæskestegssandwich",
+    "titel": "Flæskestegssandwich",
+    "beskrivelse": "Sprød flæskesteg i boblebolle med cremet dressing, syltet rødkål, æble og icebergsalat",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "BURGERBOLLER",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FLÆSKESTEG",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SYLTET RØDKÅL",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "SYLTEDE AGURKER",
+        "maengde": 25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "mayonnaise",
+      "stærk sennep",
+      "sukker",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Rør mayonnaise sammen med stærk sennep, sukker og peber og smag til.",
+      "Lun BURGERBOLLER og SYLTET RØDKÅL.",
+      "Skær ÆBLER i tynde skiver.",
+      "Smør burgerbollerne med dressingen og læg dem sammen om FLÆSKESTEG, ÆBLER, SYLTET RØDKÅL, SYLTEDE AGURKER og ICEBERGSALAT."
+    ]
+  },
+  {
+    "slug": "flæskesteg",
+    "titel": "Flæskesteg med kartofler og brunsovs",
+    "beskrivelse": "Klassisk dansk flæskesteg med sprød svær, kogte kartofler, hjemmelavet rødkål og brunsovs",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 180,
+    "ingredienser": [
+      {
+        "canonical": "FLÆSKESTEG",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SYLTET RØDKÅL",
+        "maengde": 75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "friskkværnet peber",
+      "vand",
+      "maizena",
+      "kulør",
+      "rødvin"
+    ],
+    "fremgangsmaade": [
+      "Læg FLÆSKESTEG på en rist i en bradepande, gnid salt ind i sværen, og hæld 2 dl vand i bunden af bradepanden.",
+      "Sæt stegen i en kold ovn, tænd ovnen på 200Â°, og steg flæskestegen i 2 timer, til den er gennemstegt og sværen sprød.",
+      "Lad stegen hvile 15 min. før den skæres i skiver. Hvis sværen ikke er sprød, skrues ovnen op på 275Â° grill og steg indtil sprød â€” hold øje med at den ikke brænder.",
+      "Kom 2 dl vand og 1 dl rødvin i skyen på bradepanden og hæld det over i en gryde. Fjern fedtet med en ske og afmål ca. 7Â½ dl stegesky.",
+      "Kog skyen i ca. 5 min. og smag til med salt og peber. Jævn saucen med maizena og kog i yderligere 5 min. Tilsæt lidt kulør og smag til med ekstra peber og lidt rødvin.",
+      "Kog KARTOFLER møre i saltet vand.",
+      "Anret skiver af flæskestegen sammen med kogte KARTOFLER, SYLTET RØDKÅL og sauce."
+    ]
+  },
+  {
+    "slug": "fiskefad-mørksej-kuller",
+    "titel": "Fiskefad med kokosmælk (mørksej/kuller)",
+    "beskrivelse": "Ovnbagt mørksej eller kuller i krydret kokosmælkssauce med peberfrugt, gulerødder og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "MØRKSEJ OG KULLERFILETER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FROSNE BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "grøntsagsbouillon",
+      "frisk koriander",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Tænd ovnen på 190 grader varmluft.",
+      "Skyl PEBERFRUGT og skræl GULERØDDER. Skær HVIDLØG, LØG, GULERØDDER og PEBERFRUGT i skiver.",
+      "Opvarm olie på en pande og svits grøntsagerne ved middelhøj varme i ca. 5 minutter. Tilsæt FROSNE BØNNER og svits kort.",
+      "Tilsæt KOKOSMÆLK, RØD KARRYPASTA, smuldret grøntsagsbouillon, salt og peber. Rør godt og lad det simre et par minutter.",
+      "Hæld sauce og grøntsager i et ildfast fad.",
+      "Fjern eventuelle ben fra MØRKSEJ OG KULLERFILETER, skær fisken i mindre stykker, krydr med salt og peber og læg den ovenpå grøntsagerne i fadet.",
+      "Bag retten i ovnen i ca. 20 minutter.",
+      "Kog BASMATI RIS i saltet vand efter pakkens anvisning.",
+      "Top fiskefadet med frisk koriander og server med LIME."
+    ]
+  },
+  {
+    "slug": "fiskefad-torsk",
+    "titel": "Fiskefad med kokosmælk (torsk)",
+    "beskrivelse": "Ovnbagt torsk i krydret kokosmælkssauce med peberfrugt, gulerødder og rød karrypasta",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "TORSK",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "RØD KARRYPASTA",
+        "maengde": 3,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FROSNE BØNNER",
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "grøntsagsbouillon",
+      "frisk koriander",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Tænd ovnen på 190 grader varmluft.",
+      "Skyl PEBERFRUGT og skræl GULERØDDER. Skær HVIDLØG, LØG, GULERØDDER og PEBERFRUGT i skiver.",
+      "Opvarm olie på en pande og svits grøntsagerne ved middelhøj varme i ca. 5 minutter. Tilsæt FROSNE BØNNER og svits kort.",
+      "Tilsæt KOKOSMÆLK, RØD KARRYPASTA, smuldret grøntsagsbouillon, salt og peber. Rør godt og lad det simre et par minutter.",
+      "Hæld sauce og grøntsager i et ildfast fad.",
+      "Fjern eventuelle ben fra TORSK, skær fisken i mindre stykker, krydr med salt og peber og læg den ovenpå grøntsagerne i fadet.",
+      "Bag retten i ovnen i ca. 20 minutter.",
+      "Kog BASMATI RIS i saltet vand efter pakkens anvisning.",
+      "Top fiskefadet med frisk koriander og server med LIME."
+    ]
+  },
+  {
+    "slug": "tarteletter-hons-asparges",
+    "titel": "Tarteletter med høns i asparges",
+    "beskrivelse": "Klassisk dansk ret med kylling kogt i suppe, hvide asparges og flødesauce fyldt i sprøde tarteletter",
+    "personer": 5,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 90,
+    "ingredienser": [
+      {
+        "canonical": "HEL KYLLING",
+        "maengde": 220,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 48,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 32,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.4,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDE ASPARGES",
+        "maengde": 108,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 20,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "TARTELETTER",
+        "maengde": 90,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "vand",
+      "laurbærblade",
+      "groft salt",
+      "smør",
+      "hvedemel",
+      "friskkværnet peber"
+    ],
+    "fremgangsmaade": [
+      "Tag indmaden ud af HEL KYLLING, rens og skyl den godt. Bring kylling og 1 liter vand i kog i en stor gryde.",
+      "Skum suppen og tilsæt LØG, GULERØDDER, PORRER, laurbærblade og 1 tsk groft salt. Kog suppen ved svag varme under låg i ca. 45 min.",
+      "Tag kød og grøntsager op. Si suppen og skum fedtet af â€” du skal bruge ca. 3 dl suppe til saucen.",
+      "Lad kødet køle lidt af og riv det i trevler med 2 gafler.",
+      "Smelt smørret i en tykbundet gryde ved jævn varme. Tilsæt hvedemel under kraftig omrøring i ca. 2 min.",
+      "Tilsæt aspargesvand fra HVIDE ASPARGES og bring opbagningen i kog. Tilsæt ca. 3 dl kyllingesuppe og MADLAVNINGSFLØDE og bring stuvningen i kog.",
+      "Vend kyllingekød, HVIDE ASPARGES, 1Â½ tsk groft salt og friskkværnet peber i.",
+      "Kog stuvningen ved svag varme under forsigtig omrøring i ca. 2 min. og smag til.",
+      "Varm TARTELETTER og fyld dem med høns i asparges. Server straks."
+    ]
+  },
+  {
+    "slug": "pulled-pork-burger-coleslaw",
+    "titel": "Pulled pork burger med coleslaw",
+    "beskrivelse": "Saftig pulled pork i blød bolle med hjemmelavet coleslaw af hvidkål og gulerødder",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "PULLED PORK/CHICKEN",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BURGERBOLLER",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDKÅL",
+        "maengde": 0.114,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "mayonnaise",
+      "dijonsennep",
+      "salt",
+      "sort peber",
+      "sukker",
+      "rapsolie",
+      "hvidvinseddike",
+      "krydderurter efter eget valg"
+    ],
+    "fremgangsmaade": [
+      "Snit HVIDKÅL fint og vend det sammen med groftrevet GULERØDDER i en skål.",
+      "Bland mayonnaise, dijonsennep, salt, peber og sukker sammen i en skål.",
+      "Pisk rapsolie og hvidvinseddike i, og pisk til det er en glat dressing.",
+      "Vend dressing og grøntsager sammen og lad det trække i mindst 4 timer i køleskab.",
+      "Tilbered PULLED PORK/CHICKEN efter anvisning på emballagen.",
+      "Lun BURGERBOLLER efter anvisning på pakken.",
+      "Læg PULLED PORK/CHICKEN i bollen og top med coleslaw.",
+      "Tilsæt evt. krydderurter før du lægger låget på burgeren."
+    ]
+  },
+  {
+    "slug": "aebleflaek",
+    "titel": "Æbleflæsk",
+    "beskrivelse": "Klassisk dansk æbleflæsk med sprødt flæsk, søde æblebåde og karamelliserede rødløg",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "FLÆSK",
+        "maengde": 112.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 90,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 172.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "brun farin",
+      "purløg",
+      "salt",
+      "friskkværnet peber",
+      "rapsolie"
+    ],
+    "fremgangsmaade": [
+      "Skær FLÆSK ud i tynde skiver og steg dem sprøde på en varm pande med lidt rapsolie. Steg ikke flæsket ved for hård varme.",
+      "Tag FLÆSK af og læg det på et stykke køkkenrulle.",
+      "Skær RØDLØG i tynde skiver og udkern ÆBLER, inden de skæres i mindre både.",
+      "Kom RØDLØG og ÆBLER på panden med fedtstoffet fra flæsket og tilsæt brun farin.",
+      "Ryst det lidt rundt på panden og steg løg og æbler næsten møre i 4-5 minutter ved ikke for høj varme.",
+      "Læg FLÆSK tilbage i panden og krydr med salt og friskkværnet peber.",
+      "Hak purløg groft og drys det over æbleflæsket.",
+      "Rist RUGBRØD og server det til retten."
+    ]
+  },
+  {
+    "slug": "kikaerter-krydret-tomatsauce",
+    "titel": "Kikærter i krydret tomatsauce",
+    "beskrivelse": "Krydret vegetarret med kikærter i en fyldig tomatsauce med ingefær og varme krydderier, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 120,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KIKÆRTER",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "frisk ingefær",
+      "frisk chili",
+      "spidskommen",
+      "stødt koriander",
+      "tørret gurkemeje",
+      "stødt nellike",
+      "kardemomme",
+      "kanel",
+      "citronskræl",
+      "laurbærblade",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG og HVIDLØG fint. Varm olie i en stor pande eller gryde og tilsæt løg og hvidløg. Lad det stege ved middel varme uden at blive brunt.",
+      "Riv ingefær fint og tilsæt det til panden.",
+      "Tilsæt chili, spidskommen, koriander, gurkemeje, nellike, kardemomme og kanel. Rør rundt mens det steger et øjeblik.",
+      "Skær TOMATER i tern og tilsæt dem til panden. Tilsæt HAKKEDE TOMATER, fintrevet citronskræl og laurbærblade. Lad det simre, til saucen er kogt lidt ind.",
+      "Skyl KIKÆRTER grundigt og tilsæt dem til panden. Smag til med salt og peber.",
+      "Kog BASMATI RIS efter anvisningen på pakken og server til retten."
+    ],
+    "imageUrl": "/images/retter/kikaerter-krydret-tomatsauce.jpg"
+  },
+  {
+    "slug": "tikka-masala",
+    "titel": "Tikka masala med kylling",
+    "beskrivelse": "Klassisk tikka masala med saftig kylling marineret i græsk yoghurt og krydderier, serveret i en fyldig tomatsauce med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 60,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GRÆSK YOGHURT",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.75,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 90,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 15,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "frisk ingefær",
+      "garam masala",
+      "smør",
+      "frisk gurkemejerod",
+      "salte cashewnødder",
+      "grøntsagsbouillon",
+      "groft salt",
+      "tørrede chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Rør GRÆSK YOGHURT, HVIDLØG, ingefær og garam masala sammen og kom marinaden i en frysepose.",
+      "Kom KYLLINGEFILET i marinaden og massér den godt ind i kødet. Lad det marinere i køleskabet i mindst 15 min. â€“ gerne længere.",
+      "Fordel kylling og marinade i et ovnfast fad og bag midt i ovnen i ca. 15 min. ved 225Â° almindelig ovn.",
+      "Kom smør og gurkemeje på en kold pande. Skru op til kraftig varme og rør i blandingen til smørret er smeltet.",
+      "Svits LØG, TOMATPURE og cashewnødder i gurkemejesmørret i ca. 1 min.",
+      "Rør grøntsagsbouillon, groft salt, tørrede chiliflager og de bagte kyllingestykker med marinade i. Varm saucen igennem og smag til.",
+      "Kog BASMATI RIS efter anvisningen på pakken og server tikka masalaen til."
+    ],
+    "imageUrl": "/images/retter/tikka-masala.png"
+  },
+  {
+    "slug": "fyldte-squash",
+    "titel": "Fyldte squash med oksekød",
+    "beskrivelse": "Udhulede squash fyldt med krydret oksekødsfyld med champignon, tomater og løg, bagt i ovnen med parmesanost",
+    "personer": 3,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "SQUASH",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "kandidater": [
+          "PARMESANOST",
+          "REVET OST"
+        ],
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "tørret oregano",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Skyl SQUASH og flæk dem på langs. Udhul dem forsigtigt med en teske og hak indmaden. Stil den til side.",
+      "Hak LØG. Skyl CHAMPIGNON og TOMATER og hak dem.",
+      "Varm smørret op på en pande eller i en gryde og svits HAKKET OKSEKØD ved høj varme, til væden er fordampet.",
+      "Tilsæt LØG og lad dem stege lidt, før CHAMPIGNON tilsættes.",
+      "Når væden fra CHAMPIGNON er fordampet, tilsættes TOMATER og indmaden fra SQUASH.",
+      "Lad fyldet simre ved svag til middel varme, til væden er fordampet. Tilsæt oregano og smag til med salt og peber.",
+      "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
+      "Bag de fyldte squash i ovnen ved 200Â° i ca. 25 minutter."
+    ]
+  },
+  {
+    "slug": "fyldte-squash-kylling",
+    "titel": "Fyldte squash med kylling",
+    "beskrivelse": "Udhulede squash fyldt med krydret kyllingefyld med champignon, tomater og løg, bagt i ovnen med parmesanost",
+    "personer": 3,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "SQUASH",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "HAKKET KYLLINGEKØD"
+        ]
+      },
+      {
+        "canonical": "PARMESANOST",
+        "kandidater": [
+          "PARMESANOST",
+          "REVET OST"
+        ],
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "tørret oregano",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Skyl SQUASH og flæk dem på langs. Udhul dem forsigtigt med en teske og hak indmaden. Stil den til side.",
+      "Hak LØG. Skyl CHAMPIGNON og TOMATER og hak dem.",
+      "Varm smørret op på en pande eller i en gryde og svits HAKKET OKSEKØD ved høj varme, til væden er fordampet.",
+      "Tilsæt LØG og lad dem stege lidt, før CHAMPIGNON tilsættes.",
+      "Når væden fra CHAMPIGNON er fordampet, tilsættes TOMATER og indmaden fra SQUASH.",
+      "Lad fyldet simre ved svag til middel varme, til væden er fordampet. Tilsæt oregano og smag til med salt og peber.",
+      "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
+      "Bag de fyldte squash i ovnen ved 200Â° i ca. 25 minutter."
+    ]
+  },
+  {
+    "slug": "fyldte-squash-gris-kalv",
+    "titel": "Fyldte squash med hakket gris & kalv",
+    "beskrivelse": "Udhulede squash fyldt med krydret gris- og kalvekødsfyld med champignon, tomater og løg, bagt i ovnen med parmesanost",
+    "personer": 3,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "SQUASH",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHAMPIGNON",
+        "maengde": 66.67,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKET GRIS & KALV",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "kandidater": [
+          "PARMESANOST",
+          "REVET OST"
+        ],
+        "maengde": 30,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "tørret oregano",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Skyl SQUASH og flæk dem på langs. Udhul dem forsigtigt med en teske og hak indmaden. Stil den til side.",
+      "Hak LØG. Skyl CHAMPIGNON og TOMATER og hak dem.",
+      "Varm smørret op på en pande eller i en gryde og svits HAKKET OKSEKØD ved høj varme, til væden er fordampet.",
+      "Tilsæt LØG og lad dem stege lidt, før CHAMPIGNON tilsættes.",
+      "Når væden fra CHAMPIGNON er fordampet, tilsættes TOMATER og indmaden fra SQUASH.",
+      "Lad fyldet simre ved svag til middel varme, til væden er fordampet. Tilsæt oregano og smag til med salt og peber.",
+      "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
+      "Bag de fyldte squash i ovnen ved 200Â° i ca. 25 minutter."
+    ]
+  },
+  {
+    "slug": "bacon-porretaerte",
+    "titel": "Bacon-porretærte",
+    "beskrivelse": "Sprød tærte med saftige porrer, bacon og en cremet æggemasse krydret med frisk rosmarin",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "BACON TERN",
+        "kandidater": [
+          "BACON TERN",
+          "BACON SKIVER"
+        ],
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TÆRTEDEJ",
+        "maengde": 43.75,
+        "enhed": "g",
+        "minTotal": 175
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 2,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "frisk rosmarin",
+      "fedtstof",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 185 Â°C.",
+      "Kom BACON TERN på en stor varm pande uden fedtstof og lad det svitse 2-3 minutter. Rør i baconternene et par gange.",
+      "Rens PORRER, skær det hvide fra porrerne i skiver og kom dem ned i panden til baconternene.",
+      "Lad det hele svitse i yderligere 2-3 minutter og rør undervejs, så alt bliver godt blandet. Baconternene skal ikke blive sprøde, og porrerne skal ikke tage farve.",
+      "Tilsæt finthakket frisk rosmarin og tag derefter bacon, porrer og rosmarin af varmen. Stil til side.",
+      "Lav en æggemasse ved at piske ÆG, salt og peber sammen med en gaffel.",
+      "Smør en tærteform på ca. 24 cm med lidt fedtstof og fór den med TÆRTEDEJ.",
+      "Fordel bacon og porrer i tærteformen og hæld æggemassen over.",
+      "Bag tærten i ovnen ved 185 Â°C i ca. 35 minutter.",
+      "Lad tærten hvile 5 minutter inden servering."
+    ]
+  },
+  {
+    "slug": "bacon-broccolitage",
+    "titel": "Bacon-broccolitage",
+    "beskrivelse": "Sprød tærte med broccoli, bacon og en cremet æggemasse krydret med frisk rosmarin",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "BACON TERN",
+        "kandidater": [
+          "BACON TERN",
+          "BACON SKIVER"
+        ],
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TÆRTEDEJ",
+        "maengde": 43.75,
+        "enhed": "g",
+        "minTotal": 175
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 2,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "frisk rosmarin",
+      "fedtstof",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 185 Â°C.",
+      "Kom BACON TERN på en stor varm pande uden fedtstof og lad det svitse 2-3 minutter. Rør i baconternene et par gange.",
+      "Del BROCCOLI i små buketter og kom dem ned i panden til baconternene.",
+      "Lad det hele svitse i yderligere 2-3 minutter og rør undervejs, så alt bliver godt blandet. Baconternene skal ikke blive sprøde, og broccolien skal bevare sit bid.",
+      "Tilsæt finthakket frisk rosmarin og tag derefter bacon, broccoli og rosmarin af varmen. Stil til side.",
+      "Lav en æggemasse ved at piske ÆG, salt og peber sammen med en gaffel.",
+      "Smør en tærteform på ca. 24 cm med lidt fedtstof og fór den med TÆRTEDEJ.",
+      "Fordel bacon og broccoli i tærteformen og hæld æggemassen over.",
+      "Bag tærten i ovnen ved 185 Â°C i ca. 35 minutter.",
+      "Lad tærten hvile 5 minutter inden servering."
+    ]
+  },
+  {
+    "slug": "vegetarisk-broccolitage",
+    "titel": "Vegetarisk broccolitage med feta",
+    "beskrivelse": "Sprød tærte med broccoli og feta i tern, bagt med en cremet æggemasse og krydret med frisk rosmarin",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "TÆRTEDEJ",
+        "maengde": 43.75,
+        "enhed": "g",
+        "minTotal": 175
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 2,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "FETA OST",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "frisk rosmarin",
+      "fedtstof",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 185 Â°C.",
+      "Del BROCCOLI i små buketter og svits dem på en pande med lidt fedtstof i 2-3 minutter, så de bevarer deres bid. Stil til side.",
+      "Tilsæt finthakket frisk rosmarin og tag broccolien af varmen.",
+      "Lav en æggemasse ved at piske ÆG, salt og peber sammen med en gaffel.",
+      "Smør en tærteform på ca. 24 cm med lidt fedtstof og fór den med TÆRTEDEJ.",
+      "Fordel broccoli og FETA OST i tern i tærteformen og hæld æggemassen over.",
+      "Bag tærten i ovnen ved 185 Â°C i ca. 35 minutter.",
+      "Lad tærten hvile 5 minutter inden servering."
+    ]
+  },
+  {
+    "slug": "indisk-kartoffelcurry",
+    "titel": "Indisk kartoffelcurry",
+    "beskrivelse": "Cremet vegetarisk curry med kartofler og røde linser i krydret kokosmælk og hakkede tomater, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "SPLITLINSER",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 175,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "sennepsfrø",
+      "gurkemeje",
+      "stødt koriander",
+      "friskrevet ingefær",
+      "finthakket rød chili",
+      "vand",
+      "salt",
+      "frisk koriander"
+    ],
+    "fremgangsmaade": [
+      "Kom SPLITLINSER i en sigte og skyl dem i rindende koldt vand.",
+      "Skær LØG i små tern.",
+      "Opvarm en gryde med olivenolie og steg LØG i ca. 5 minutter ved svag varme, til de er møre.",
+      "Tilsæt SPLITLINSER, sennepsfrø, gurkemeje, stødt koriander, friskrevet ingefær og finthakket chili, og lad det stege med i 1-2 minutter.",
+      "Hæld HAKKEDE TOMATER og vand i og læg låg på gryden. Kog linserne møre i ca. 15 minutter.",
+      "Skræl KARTOFLER og skær dem i mindre tern. Kom dem op i gryden til linserne.",
+      "Tilsæt evt. ekstra vand, hvis der ikke er nok væske til kogning af kartoflerne. Lad retten koge videre i 10 minutter ved svag varme, til KARTOFLER er møre.",
+      "Tilsæt KOKOSMÆLK og kog retten igennem.",
+      "Smag til med limesaft fra LIME, salt og frisk koriander.",
+      "Kog BASMATI RIS efter anvisningen på pakken og server til kartoffelcurryen."
+    ],
+    "imageUrl": "/images/retter/indisk-kartoffelcurry.png"
+  },
+  {
+    "slug": "indisk-kartoffelcurry-kikaerter",
+    "titel": "Indisk kartoffelcurry med kikærter",
+    "beskrivelse": "Cremet vegetarisk curry med kartofler og kikærter i krydret kokosmælk og hakkede tomater, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "KIKÆRTER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 175,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 100,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "LIME",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 75,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "sennepsfrø",
+      "gurkemeje",
+      "stødt koriander",
+      "friskrevet ingefær",
+      "finthakket rød chili",
+      "vand",
+      "salt",
+      "frisk koriander"
+    ],
+    "fremgangsmaade": [
+      "Skær LØG i små tern.",
+      "Opvarm en gryde med olivenolie og steg LØG i ca. 5 minutter ved svag varme, til de er møre.",
+      "Tilsæt sennepsfrø, gurkemeje, stødt koriander, friskrevet ingefær og finthakket chili, og lad det stege med i 1-2 minutter.",
+      "Hæld HAKKEDE TOMATER og vand i og lad det simre i ca. 5 minutter.",
+      "Skræl KARTOFLER og skær dem i mindre tern. Kom dem op i gryden.",
+      "Tilsæt evt. ekstra vand, hvis der ikke er nok væske. Lad retten koge i 10 minutter ved svag varme, til KARTOFLER er næsten møre.",
+      "Skyl KIKÆRTER og tilsæt dem. Lad retten koge videre i 5 minutter.",
+      "Tilsæt KOKOSMÆLK og kog retten igennem.",
+      "Smag til med limesaft fra LIME, salt og frisk koriander.",
+      "Kog BASMATI RIS efter anvisningen på pakken og server til kartoffelcurryen."
+    ],
+    "imageUrl": "/images/retter/indisk-kartoffelcurry-kikaerter.png"
+  },
+  {
+    "slug": "kikaertegryde-blomkaal-spinat",
+    "titel": "Kikærtegryde med blomkål og spinat",
+    "beskrivelse": "Krydret vegetarisk gryde med kikærter, blomkål og spinat i en cremet kokosmælk og tomatsauce, serveret med ris",
+    "personer": 3,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 83.33,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BLOMKÅL",
+        "maengde": 0.1667,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 3.33,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 133.33,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KOKOSMÆLK",
+        "maengde": 133.33,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "KIKÆRTER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPINAT",
+        "maengde": 33.33,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "spidskommen",
+      "karry",
+      "stødt koriander",
+      "stødt kardemomme",
+      "grøntsagsbouillon",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog BASMATI RIS efter anvisningen på pakken.",
+      "Skyl BLOMKÅL og del den i små buketter. Hak HVIDLØG fint og skær LØG i tern.",
+      "Varm lidt olivenolie i en gryde og steg LØG, HVIDLØG og krydderier kort.",
+      "Tilsæt HAKKEDE TOMATER, KOKOSMÆLK og grøntsagsbouillon.",
+      "Kom BLOMKÅL og KIKÆRTER i gryden og lad retten simre i ca. 20 minutter.",
+      "Vend SPINAT i til sidst og smag til med salt og peber.",
+      "Server med varme BASMATI RIS."
+    ],
+    "imageUrl": "/images/retter/kikaertegryde-blomkaal-spinat.png"
+  },
+  {
+    "slug": "laks-kartofler-salat",
+    "titel": "Laks med kartofler og salat",
+    "beskrivelse": "Saftig laksefilet bagt i ovn med kartofler, serveret med frisk salat",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LAKSEFILET",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "placeholder": "salat_fisk"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "salt",
+      "friskkværnet peber",
+      "dild"
+    ],
+    "fremgangsmaade": [
+      "Tænd ovnen på 180 grader varmluft og smør et ildfast fad med lidt olivenolie.",
+      "Skær KARTOFLER i kvarte og kom dem i fadet. Vend dem med olivenolie, salt og friskkværnet peber.",
+      "Sæt fadet i ovnen i 20 minutter.",
+      "Tag fadet ud. Læg LAKSEFILET ovenpå kartoflerne. Klem lidt saft fra CITRON over og krydr med salt og peber.",
+      "Sæt fadet tilbage i ovnen og bag retten i ca. 15 minutter mere.",
+      "Pynt med dild og server med salat."
+    ]
+  },
+  {
+    "slug": "kylling-broccoli-ris",
+    "titel": "Kyllingebryst med broccoli og ris",
+    "beskrivelse": "Simpel hverdagsret med saftig kyllingefilet, dampet broccoli og ris kogt i kyllingebouillon",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "kyllingebouillon"
+    ],
+    "fremgangsmaade": [
+      "Kog RIS efter anvisningen på pakken sammen med kyllingebouillon.",
+      "Steg KYLLINGEFILET hele i olie ved middelhøj varme. Krydr med salt og peber. Sørg for at kyllingen er gennemstegt.",
+      "Tilsæt DÅSEMAJS de sidste par minutter og varm igennem.",
+      "Damp eller steg BROCCOLI til den er mør med lidt bid.",
+      "Server kylling med BROCCOLI, DÅSEMAJS og RIS."
+    ]
+  },
+  {
+    "slug": "hel-kylling-broccoli-ris",
+    "titel": "Hel kylling med broccoli og ris",
+    "beskrivelse": "Simpel hverdagsret med ovnstegt hel kylling, dampet broccoli og ris kogt i kyllingebouillon",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 70,
+    "ingredienser": [
+      {
+        "canonical": "HEL KYLLING",
+        "kandidater": [
+          "HEL KYLLING",
+          "KYLLINGELÅR"
+        ],
+        "maengde": 250,
+        "enhed": "g"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ],
+        "maengde": 80,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber",
+      "kyllingebouillon"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200°. Krydr HEL KYLLING med salt og peber udvendigt og indvendigt. Steg i ovnen i ca. 60 minutter til gennemstegt og skindet er gyldent.",
+      "Kog RIS efter anvisningen på pakken sammen med kyllingebouillon.",
+      "Tilsæt DÅSEMAJS de sidste par minutter og varm igennem.",
+      "Damp eller steg BROCCOLI til den er mør med lidt bid.",
+      "Skær kyllingen ud og server med BROCCOLI, DÅSEMAJS og RIS."
+    ]
+  },
+  {
+    "slug": "fiskefilet-rugbroed-salat",
+    "titel": "Fiskefilet med rugbrød og salat",
+    "beskrivelse": "Enkel hverdagsret med ovnbagt fiskefilet, mørkt rugbrød og frisk salat",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "FISKEFILET",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "placeholder": "salat_fisk"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber",
+      "olie",
+      "remulade"
+    ],
+    "fremgangsmaade": [
+      "Varm ovnen op og bag FISKEFILET efter pakningens anvisning.",
+      "Skær CITRON i både og server ved siden af.",
+      "Anret med RUGBRØD og salat. Server med remulade."
+    ]
+  },
+  {
+    "slug": "morksej-kuller-kartofler-salat",
+    "titel": "Mørksej/kuller med kartofler og salat",
+    "beskrivelse": "Hvid fiskefilet bagt i ovn med kartofler, serveret med frisk salat",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MØRKSEJ OG KULLERFILETER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "placeholder": "salat_fisk"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "salt",
+      "friskkværnet peber",
+      "dild"
+    ],
+    "fremgangsmaade": [
+      "Tænd ovnen på 180 grader varmluft og smør et ildfast fad med lidt olivenolie.",
+      "Skær KARTOFLER i kvarte og kom dem i fadet. Vend dem med olivenolie, salt og friskkværnet peber.",
+      "Sæt fadet i ovnen i 20 minutter.",
+      "Tag fadet ud. Læg MØRKSEJ OG KULLERFILETER ovenpå kartoflerne. Klem lidt saft fra CITRON over og krydr med salt og peber.",
+      "Sæt fadet tilbage i ovnen og bag retten i ca. 15 minutter mere.",
+      "Pynt med dild og server med salat."
+    ]
+  },
+  {
+    "slug": "fiskefrikadeller",
+    "titel": "Fiskefrikadeller",
+    "beskrivelse": "Hjemmelavede fiskefrikadeller på pande, serveret med rugbrød og tomatsalat",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "FISKEFARS",
+        "kandidater": [
+          "FISKEFARS",
+          "TORSK",
+          "MØRKSEJ OG KULLERFILETER"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 25,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "SALATOST",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "groft salt",
+      "hvedemel",
+      "fintrevet citronskal",
+      "smør",
+      "smagsneutral olie",
+      "sorte oliven",
+      "olivenolie",
+      "mørk balsamicoeddike",
+      "sukker",
+      "frisk basilikum",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak fisken groft med en kniv eller i en foodprocessor i ca. 15 sekunder.",
+      "Hak LØG fint.",
+      "Kom fisken i en skål, tilsæt salt og rør den sej.",
+      "Tilsæt LØG, LETMÆLK, ÆG, hvedemel og citronskal. Rør godt og lad farsen hvile i køleskabet i ca. 15 minutter.",
+      "Varm en pande op og tilsæt smør og olie. Steg fiskefrikadellerne i ca. 15 minutter ved jævn varme og vend dem undervejs.",
+      "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
+      "Server med RUGBRØD og tomatsalat."
+    ]
+  },
+  {
+    "slug": "kyllinge-frikadeller",
+    "titel": "Kyllinge frikadeller",
+    "beskrivelse": "Saftige kyllinge frikadeller på pande, serveret med rugbrød og tomatsalat",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET KYLLINGEKØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 25,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "SALATOST",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "groft salt",
+      "hvedemel",
+      "smør",
+      "smagsneutral olie",
+      "sorte oliven",
+      "olivenolie",
+      "mørk balsamicoeddike",
+      "sukker",
+      "frisk basilikum",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG fint.",
+      "Rør HAKKET KYLLINGEKØD, LØG, LETMÆLK, ÆG, hvedemel og salt godt sammen til en fars. Lad den hvile i køleskabet i 15 minutter.",
+      "Varm en pande op og tilsæt smør og olie. Steg frikadellerne i ca. 15 minutter ved jævn varme og vend dem undervejs.",
+      "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
+      "Server med RUGBRØD og tomatsalat."
+    ]
+  },
+  {
+    "slug": "grise-frikadeller",
+    "titel": "Grise frikadeller",
+    "beskrivelse": "Klassiske frikadeller af hakket grisekød eller gris og kalv, serveret med rugbrød og tomatsalat",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET GRISEKØD",
+        "kandidater": [
+          "HAKKET GRISEKØD",
+          "HAKKET GRIS & KALV"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 25,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "ÆG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RUGBRØD",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 1,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "SALATOST",
+        "maengde": 50,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "groft salt",
+      "hvedemel",
+      "smør",
+      "smagsneutral olie",
+      "sorte oliven",
+      "olivenolie",
+      "mørk balsamicoeddike",
+      "sukker",
+      "frisk basilikum",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG fint.",
+      "Rør HAKKET GRISEKØD, LØG, LETMÆLK, ÆG, hvedemel og salt godt sammen til en fars. Lad den hvile i køleskabet i 15 minutter.",
+      "Varm en pande op og tilsæt smør og olie. Steg frikadellerne i ca. 15 minutter ved jævn varme og vend dem undervejs.",
+      "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
+      "Server med RUGBRØD og tomatsalat."
+    ]
+  },
+  {
+    "slug": "ovnstegt-kyllingelaar-ris",
+    "titel": "Ovnstegte kyllingelår med grøntsager og ris",
+    "beskrivelse": "Sprøde kyllingelår stegt på rist over ovnbagte grøntsager, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGELÅR",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 80,
+        "enhed": "g",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader.",
+      "Skær GULERØDDER (eller den valgte grøntsag) i stænger på ca. 1-2 cm tykkelse og del BROCCOLI i buketter. Læg grøntsagerne i en bradepande.",
+      "Krydr KYLLINGELÅR med salt og peber og placer dem på en rist ovenover bradepanden med grøntsagerne.",
+      "Sæt bradepanden og risten i ovnen og steg i ca. 40 minutter, til kyllingelårene er gennemstegte og har fået sprød hud.",
+      "Kog BASMATI RIS efter anvisningen på pakken imens.",
+      "Server kyllingelårene med de ovnstegte grøntsager og ris."
+    ]
+  },
+  {
+    "slug": "ovnstegt-kyllingelaar-kartofler",
+    "titel": "Ovnstegte kyllingelår med grøntsager og kartofler",
+    "beskrivelse": "Sprøde kyllingelår stegt på rist over ovnbagte grøntsager og kartofler",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGELÅR",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader.",
+      "Skær KARTOFLER og GULERØDDER (eller den valgte grøntsag) i stænger på ca. 1-2 cm tykkelse og del BROCCOLI i buketter. Læg det hele i en bradepande.",
+      "Krydr KYLLINGELÅR med salt og peber og placer dem på en rist ovenover bradepanden.",
+      "Sæt bradepanden og risten i ovnen og steg i ca. 40 minutter, til kyllingelårene er gennemstegte og har fået sprød hud.",
+      "Server kyllingelårene med de ovnstegte grøntsager og kartofler."
+    ]
+  },
+  {
+    "slug": "ovnstegt-hel-kylling-ris",
+    "titel": "Ovnstegt hel kylling med grøntsager og ris",
+    "beskrivelse": "Hel kylling stegt på rist over ovnbagte grøntsager, serveret med ris",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 60,
+    "ingredienser": [
+      {
+        "canonical": "HEL KYLLING",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 80,
+        "enhed": "g",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader.",
+      "Skær GULERØDDER (eller den valgte grøntsag) i stænger på ca. 1-2 cm tykkelse og del BROCCOLI i buketter. Læg grøntsagerne i en bradepande.",
+      "Krydr HEL KYLLING med salt og peber udvendigt og indvendigt, og placer den på en rist ovenover bradepanden med grøntsagerne.",
+      "Sæt bradepanden og risten i ovnen og steg i ca. 60 minutter, til kyllingen er gennemstegt og skindet er sprødt og gyldent.",
+      "Kog BASMATI RIS efter anvisningen på pakken imens.",
+      "Server kyllingen med de ovnstegte grøntsager og ris."
+    ]
+  },
+  {
+    "slug": "ovnstegt-hel-kylling-kartofler",
+    "titel": "Ovnstegt hel kylling med grøntsager og kartofler",
+    "beskrivelse": "Hel kylling stegt på rist over ovnbagte grøntsager og kartofler",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 60,
+    "ingredienser": [
+      {
+        "canonical": "HEL KYLLING",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader.",
+      "Skær KARTOFLER og GULERØDDER (eller den valgte grøntsag) i stænger på ca. 1-2 cm tykkelse og del BROCCOLI i buketter. Læg det hele i en bradepande.",
+      "Krydr HEL KYLLING med salt og peber udvendigt og indvendigt, og placer den på en rist ovenover bradepanden.",
+      "Sæt bradepanden og risten i ovnen og steg i ca. 60 minutter, til kyllingen er gennemstegt og skindet er sprødt og gyldent.",
+      "Server kyllingen med de ovnstegte grøntsager og kartofler."
+    ]
+  },
+  {
+    "slug": "stegte-ris-kyllingefilet",
+    "titel": "Stegte ris med kyllingefilet og grøntsager",
+    "beskrivelse": "Ovnbagte grøntsager og pandestegt kyllingefilet serveret på stegte ris med majs",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGEFILET",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "KYLLINGEFILET",
+          "HAKKET KYLLINGEKØD"
+        ]
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 80,
+        "enhed": "g",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK",
+          "KARTOFLER"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g",
+        "minTotal": 285
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader. Skær GULERØDDER (eller den valgte grøntsag) i stænger og del BROCCOLI i buketter. Læg grøntsagerne i et fad, vend med olie og bag i ovnen i 30-40 minutter.",
+      "Kog BASMATI RIS efter anvisningen på pakken imens.",
+      "Steg KYLLINGEFILET på en pande med olie, salt og peber, til den er gennemstegt. Skær den i skiver eller strimler.",
+      "Steg de kogte RIS i lidt olie på en varm pande i et par minutter. Tilsæt DÅSEMAJS og vend det hele sammen.",
+      "Server de stegte ris med kylling og de ovnbagte grøntsager."
+    ]
+  },
+  {
+    "slug": "stegte-ris-kyllingelaar",
+    "titel": "Stegte ris med kyllingelår og grøntsager",
+    "beskrivelse": "Ovnstegt kyllingelår og ovnbagte grøntsager serveret på stegte ris med majs",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 50,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGELÅR",
+        "maengde": 200,
+        "enhed": "g",
+        "kandidater": [
+          "KYLLINGELÅR",
+          "HEL KYLLING"
+        ]
+      },
+      {
+        "canonical": "BASMATI RIS",
+        "maengde": 80,
+        "enhed": "g",
+        "kandidater": [
+          "BASMATI RIS",
+          "JASMIN RIS"
+        ]
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 100,
+        "enhed": "g",
+        "kandidater": [
+          "GULERØDDER",
+          "LØG",
+          "PASTINAK",
+          "KARTOFLER"
+        ]
+      },
+      {
+        "canonical": "BROCCOLI",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "DÅSEMAJS",
+        "maengde": 71.25,
+        "enhed": "g",
+        "minTotal": 285
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Forvarm ovnen til 200 grader. Krydr KYLLINGELÅR med salt og peber og læg dem i et fad. Steg i ovnen i ca. 40 minutter.",
+      "Skær GULERØDDER (eller den valgte grøntsag) i stænger og del BROCCOLI i buketter. Læg grøntsagerne i et separat fad, vend med olie og bag i ovnen de sidste 30-40 minutter.",
+      "Kog BASMATI RIS efter anvisningen på pakken imens.",
+      "Steg de kogte RIS i lidt olie på en varm pande i et par minutter. Tilsæt DÅSEMAJS og vend det hele sammen.",
+      "Server de stegte ris med kyllingelår og de ovnbagte grøntsager."
+    ]
+  }
+]

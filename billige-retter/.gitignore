@@ -36,9 +36,15 @@ yarn-error.log*
 # prisdata billeder
 /priser
 
+# Opskriftbilleder — for store til Vercel Hobby (håndteres via Supabase Storage)
+/public/images/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+.env*.local

@@ -6,7 +6,7 @@ import { ShoppingItem } from "@/lib/types";
 interface ShoppingContextType {
   items: ShoppingItem[];
   addItems: (newItems: ShoppingItem[]) => void;
-  removeItem: (name: string) => void;
+  removeItem: (id: string) => void;
   clearList: () => void;
   isOpen: boolean;
   openList: () => void;
@@ -23,17 +23,15 @@ export function ShoppingProvider({ children }: { children: ReactNode }) {
     setItems((prev) => {
       const updated = [...prev];
       for (const item of newItems) {
-        const existing = updated.findIndex((i) => i.name === item.name);
-        if (existing === -1) {
-          updated.push(item);
-        }
+        const exists = updated.findIndex((i) => i.id === item.id);
+        if (exists === -1) updated.push(item);
       }
       return updated;
     });
   }
 
-  function removeItem(name: string) {
-    setItems((prev) => prev.filter((i) => i.name !== name));
+  function removeItem(id: string) {
+    setItems((prev) => prev.filter((i) => i.id !== id));
   }
 
   function clearList() {
