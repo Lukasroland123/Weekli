@@ -1,48 +1,50 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.venv/
-venv/
-env/
-*.egg-info/
-dist/
-build/
-.pytest_cache/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Node / Next.js
-node_modules/
-.next/
-out/
-.env
-.env.local
-.env.*.local
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Database
-*.sqlite
-*.db
+# testing
+/coverage
 
-# Docker
-.dockerenv
+# next.js
+/.next/
+/out/
 
-# OS
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# Secrets
 *.pem
-*.key
-secrets/
 
-# Claude Code lokale indstillinger (indeholder API-nøgler i bash-historik)
-.claude/
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Store lokale kildefiler — hører ikke til i repo
-Billeder af retter/
-Opdateret produktdatabase/
-Frontend fejl sceenshots/
+# env files (can opt-in for committing if needed)
+.env*
+
+# prisdata billeder
+/priser
+
+# Opskriftbilleder — for store til Vercel Hobby (håndteres via Supabase Storage)
+/public/images/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+.env*.local
