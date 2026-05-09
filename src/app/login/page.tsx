@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -16,22 +15,13 @@ export default function LoginPage() {
     e.preventDefault();
     setError(null);
     setLoading(true);
-
-    try {
-      if (mode === "login") {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        if (error) throw error;
-      } else {
-        const { error } = await supabase.auth.signUp({ email, password });
-        if (error) throw error;
-      }
-      router.replace("/");
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : "Noget gik galt";
-      setError(msg);
-    } finally {
+    if (!email || !password) {
+      setError("Udfyld email og adgangskode");
       setLoading(false);
+      return;
     }
+    localStorage.setItem("weekli_user", email);
+    router.replace("/");
   }
 
   function handleGuest() {
