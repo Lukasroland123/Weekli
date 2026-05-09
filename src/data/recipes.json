@@ -85,7 +85,7 @@
       "Smag saucen til med saften fra LIME samt sukker og fiskesovs.",
       "Server den varme røde karry i dybe tallerkener sammen med de kogte ris."
     ],
-    "imageUrl": "/images/retter/rod-karry-kylling.png"
+    "imageUrl": "/images/retter/rod-karry-kylling.webp"
   },
   {
     "slug": "klassisk-burger",
@@ -148,7 +148,7 @@
       "Flæk BURGERBOLLER og rist dem let på skærefladen til lune og sprøde.",
       "Smør bollerne med ketchup og mayonnaise. Læg ICEBERGSALAT i bunden, derefter bøf med ost, TOMATER, AGURK og RØDLØG. Server straks."
     ],
-    "imageUrl": "/images/retter/klassisk-burger.png"
+    "imageUrl": "/images/retter/klassisk-burger.webp"
   },
   {
     "slug": "kylling-burger",
@@ -211,7 +211,7 @@
       "Flæk BURGERBOLLER og rist dem let på skærefladen til lune og sprøde.",
       "Smør bollerne med ketchup og mayonnaise. Læg ICEBERGSALAT i bunden, derefter kylling med ost, TOMATER, AGURK og RØDLØG. Server straks."
     ],
-    "imageUrl": "/images/retter/kylling-burger.png"
+    "imageUrl": "/images/retter/kylling-burger.webp"
   },
   {
     "slug": "chili-sin-carne",
@@ -294,7 +294,7 @@
       "Rør mørk chokolade i til sidst og smag til med salt.",
       "Server med BASMATI RIS, CREME FRAICHE, AVOCADO, LIME, rød chili, frisk koriander og tortillachips."
     ],
-    "imageUrl": "/images/retter/chili-sin-carne.png"
+    "imageUrl": "/images/retter/chili-sin-carne.webp"
   },
   {
     "slug": "tomatsuppe",
@@ -363,7 +363,7 @@
       "Tilsæt PASTA og kog suppen ved svag varme og under låg i yderligere ca. 10 min. - rør af og til. Pastaen skal være mør, men ikke blød.",
       "Smag tomatsuppen til og server straks med CREME FRAICHE, RUGBRØD og SPINAT."
     ],
-    "imageUrl": "/images/retter/tomatsuppe.png"
+    "imageUrl": "/images/retter/tomatsuppe.webp"
   },
   {
     "slug": "kartoffelpizza",
@@ -416,7 +416,7 @@
       "Dryp med olivenolie og drys med frisk rosmarin og flagesalt.",
       "Bag pizzaen, til bunden er sprød og kartoflerne møre."
     ],
-    "imageUrl": "/images/retter/kartoffelpizza.png"
+    "imageUrl": "/images/retter/kartoffelpizza.webp"
   },
   {
     "slug": "bolognese",
@@ -481,7 +481,7 @@
       "Kog SPAGHETTI i rigeligt saltet vand efter pakkens anvisning.",
       "Smag kødsovsen til med salt og peber, og server med den nykogte SPAGHETTI."
     ],
-    "imageUrl": "/images/retter/bolognese.png"
+    "imageUrl": "/images/retter/bolognese.webp"
   },
   {
     "slug": "wraps-kylling",
@@ -538,7 +538,7 @@
       "Skær TOMATER, AGURK og RØDLØG i skiver.",
       "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
     ],
-    "imageUrl": "/images/retter/wraps-kylling.png"
+    "imageUrl": "/images/retter/wraps-kylling.webp"
   },
   {
     "slug": "wraps-oksekoed",
@@ -594,7 +594,7 @@
       "Skær TOMATER, AGURK og RØDLØG i skiver.",
       "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
     ],
-    "imageUrl": "/images/retter/wraps-oksekoed.png"
+    "imageUrl": "/images/retter/wraps-oksekoed.webp"
   },
   {
     "slug": "wraps-halloumi",
@@ -648,7 +648,7 @@
       "Skær TOMATER, AGURK og RØDLØG i skiver.",
       "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
     ],
-    "imageUrl": "/images/retter/wraps-halloumi.png"
+    "imageUrl": "/images/retter/wraps-halloumi.webp"
   },
   {
     "slug": "wraps-falafel",
@@ -701,7 +701,7 @@
       "Skær TOMATER, AGURK og RØDLØG i skiver.",
       "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
     ],
-    "imageUrl": "/images/retter/wraps-falafel.png"
+    "imageUrl": "/images/retter/wraps-falafel.webp"
   },
   {
     "slug": "wraps-gris-kalv",
@@ -758,7 +758,7 @@
       "Skær TOMATER, AGURK og RØDLØG i skiver.",
       "Server som tag-selv-bord med TORTILLAS, ICEBERGSALAT og grøntsager."
     ],
-    "imageUrl": "/images/retter/wraps-gris-kalv.png"
+    "imageUrl": "/images/retter/wraps-gris-kalv.webp"
   },
   {
     "slug": "pepperoni-pizza",
@@ -807,7 +807,7 @@
       "Læg PEPPERONI jævnt over pizzaen og fordel MOZZARELLA over det hele.",
       "Bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun og osten bobler."
     ],
-    "imageUrl": "/images/retter/pepperoni-pizza.png"
+    "imageUrl": "/images/retter/pepperoni-pizza.webp"
   },
   {
     "slug": "parmaskinke-pizza",
@@ -856,7 +856,7 @@
       "Fordel MOZZARELLA over pizzaen og bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun.",
       "Tag pizzaen ud og læg PARMA/SERRANOSKINE på toppen lige inden servering — skinken må ikke i ovnen."
     ],
-    "imageUrl": "/images/retter/parmaskinke-pizza.png"
+    "imageUrl": "/images/retter/parmaskinke-pizza.webp"
   },
   {
     "slug": "hakkeBoef-bloede-loeg",
@@ -906,7 +906,7 @@
       "Smag saucen til med madkulør, sukker, salt og peber.",
       "Læg hakkebøfferne tilbage i saucen og placer de bløde løg ovenpå. Server med kogte kartofler."
     ],
-    "imageUrl": "/images/retter/hakkeBoef-bloede-loeg.png"
+    "imageUrl": "/images/retter/hakkeBoef-bloede-loeg.webp"
   },
   {
     "slug": "svampepasta-bacon",
@@ -978,7 +978,7 @@
       "Rør PARMESANOST og SPINAT i og varm 1 minut til spinaten falder sammen.",
       "Drys sprødt BACON SKIVER over og server straks."
     ],
-    "imageUrl": "/images/retter/svampepasta-bacon.png"
+    "imageUrl": "/images/retter/svampepasta-bacon.webp"
   },
   {
     "slug": "svampepasta-vegetar",
@@ -1040,7 +1040,7 @@
       "Rør PARMESANOST og SPINAT i og varm 1 minut til spinaten falder sammen.",
       "Server straks."
     ],
-    "imageUrl": "/images/retter/svampepasta-vegetar.png"
+    "imageUrl": "/images/retter/svampepasta-vegetar.webp"
   },
   {
     "slug": "pasta-vodkasauce",
@@ -1099,7 +1099,7 @@
       "Smag saucen til med salt og peber. Juster konsistensen med kogevand om nødvendigt.",
       "Vend PASTA i saucen med grofthakkede basilikumblade. Server straks med ekstra PARMESANOST og basilikum."
     ],
-    "imageUrl": "/images/retter/pasta-vodkasauce.png"
+    "imageUrl": "/images/retter/pasta-vodkasauce.webp"
   },
   {
     "slug": "sproed-kylling-alfredo",
@@ -1160,7 +1160,7 @@
       "Rør PARMESANOST i saucen og smag til med salt og peber.",
       "Vend SPAGHETTI i saucen og server med kyllingeskiver på toppen. Pynt evt. med persille."
     ],
-    "imageUrl": "/images/retter/sproed-kylling-alfredo.png"
+    "imageUrl": "/images/retter/sproed-kylling-alfredo.webp"
   },
   {
     "slug": "spaghetti-carbonara",
@@ -1213,7 +1213,7 @@
       "Kom spaghetti i en sauterpande, tilsæt æggeblandingen og pastavandet. Rør ved lav varme til saucen er cremet og sætter sig om spaghettien.",
       "Server straks, evt. pyntet med persille."
     ],
-    "imageUrl": "/images/retter/spaghetti-carbonara.png"
+    "imageUrl": "/images/retter/spaghetti-carbonara.webp"
   },
   {
     "slug": "stegt-flaesk-persillesovs",
@@ -1260,7 +1260,7 @@
       "Kog persillesaucen ca. 5 minutter ved middelvarme under piskning. Smag til med hakket persille, salt og peber.",
       "Server stegt flæsk med kartofler og persillesauce."
     ],
-    "imageUrl": "/images/retter/stegt-flaesk-persillesovs.png"
+    "imageUrl": "/images/retter/stegt-flaesk-persillesovs.webp"
   },
   {
     "slug": "pitabrod-med-kebab",
@@ -1310,7 +1310,7 @@
       "Lun PITABRØD i ovn eller på pande.",
       "Fyld pitabrødene med KEBAB, ICEBERGSALAT, TOMATER og LØG. Server straks, evt. med dressing."
     ],
-    "imageUrl": "/images/retter/pitabrod-med-kebab.png"
+    "imageUrl": "/images/retter/pitabrod-med-kebab.webp"
   },
   {
     "slug": "kebab-rulle",
@@ -1360,7 +1360,7 @@
       "Lun TORTILLAS på en tør pande.",
       "Fordel KEBAB, ICEBERGSALAT, TOMATER og LØG på tortillaerne og rul dem sammen. Server straks, evt. med dressing."
     ],
-    "imageUrl": "/images/retter/kebab-rulle.png"
+    "imageUrl": "/images/retter/kebab-rulle.webp"
   },
   {
     "slug": "pitabrod-med-falafel",
@@ -1410,7 +1410,7 @@
       "Lun PITABRØD i ovn eller på pande.",
       "Fyld pitabrødene med FALAFEL, ICEBERGSALAT, TOMATER og LØG. Server straks, evt. med dressing."
     ],
-    "imageUrl": "/images/retter/pitabrod-med-falafel.png"
+    "imageUrl": "/images/retter/pitabrod-med-falafel.webp"
   },
   {
     "slug": "falafel-rulle",
@@ -1460,7 +1460,7 @@
       "Lun TORTILLAS på en tør pande.",
       "Fordel FALAFEL, ICEBERGSALAT, TOMATER og LØG på tortillaerne og rul dem sammen. Server straks, evt. med dressing."
     ],
-    "imageUrl": "/images/retter/falafel-rulle.png"
+    "imageUrl": "/images/retter/falafel-rulle.webp"
   },
   {
     "slug": "braendende-kaerlighed",
@@ -1522,7 +1522,7 @@
       "Vend BACON TERN tilbage i panden og bland godt med løgene.",
       "Server kartoffelmosen toppet med bacon og løg, friskkværnet peber, grønt drys og SYLTEDE RØDBEDER. Server RUGBRØD ved siden af."
     ],
-    "imageUrl": "/images/retter/braendende-kaerlighed.png"
+    "imageUrl": "/images/retter/braendende-kaerlighed.webp"
   },
   {
     "slug": "gullash-kartoffelmos-gris",
@@ -1613,7 +1613,7 @@
       "Skræl KARTOFLER og kog dem møre. Hæld vandet fra og mos med smør, LETMÆLK, salt og peber til en blød kartoffelmos.",
       "Server gullash over kartoffelmos."
     ],
-    "imageUrl": "/images/retter/gullash-kartoffelmos-gris.png"
+    "imageUrl": "/images/retter/gullash-kartoffelmos-gris.webp"
   },
   {
     "slug": "gullash-kartoffelmos",
@@ -1703,7 +1703,7 @@
       "Skræl KARTOFLER og kog dem møre. Hæld vandet fra og mos med smør, LETMÆLK, salt og peber til en blød kartoffelmos.",
       "Server gullash over kartoffelmos."
     ],
-    "imageUrl": "/images/retter/gullash-kartoffelmos.png"
+    "imageUrl": "/images/retter/gullash-kartoffelmos.webp"
   },
   {
     "slug": "vegansk-nudelsuppe",
@@ -1783,7 +1783,7 @@
       "Tilsæt hakket PAK CHOI, EDAMAME BØNNER, finthakkede FORÅRSLØG og NUDLER. Lad suppen simre et par minutter til nudlerne er kogt efter pakkens anvisning.",
       "Server den varme nudelsuppe toppet med stegt TOFU og skiver af LIME."
     ],
-    "imageUrl": "/images/retter/vegansk-nudelsuppe.png"
+    "imageUrl": "/images/retter/vegansk-nudelsuppe.webp"
   },
   {
     "slug": "nudelsuppe-grisekoed",
@@ -1846,7 +1846,7 @@
       "Vend nudlerne i og varm igennem. Smag til med sojasauce, salt og peber.",
       "Server med flute."
     ],
-    "imageUrl": "/images/retter/nudelsuppe-grisekoed.png"
+    "imageUrl": "/images/retter/nudelsuppe-grisekoed.webp"
   },
   {
     "slug": "nudelsuppe-kylling-tomat",
@@ -1909,7 +1909,7 @@
       "Vend nudlerne i og varm igennem. Smag til med sojasauce, salt og peber.",
       "Server med flute."
     ],
-    "imageUrl": "/images/retter/nudelsuppe-kylling-tomat.png"
+    "imageUrl": "/images/retter/nudelsuppe-kylling-tomat.webp"
   },
   {
     "slug": "grisemoerbrad-nudelsuppe",
@@ -1990,7 +1990,7 @@
       "Tilsæt NUDLER, PORRER og EDAMAME BØNNER. Lad suppen simre under låg i ca. 7 min under omrøring.",
       "Tilsæt soya og smag til med saft fra LIME. Server straks."
     ],
-    "imageUrl": "/images/retter/grisemoerbrad-nudelsuppe.png"
+    "imageUrl": "/images/retter/grisemoerbrad-nudelsuppe.webp"
   },
   {
     "slug": "kylling-nudelsuppe",
@@ -2071,7 +2071,7 @@
       "Tilsæt NUDLER, PORRER og EDAMAME BØNNER. Lad suppen simre under låg i ca. 7 min under omrøring.",
       "Tilsæt soya og smag til med saft fra LIME. Server straks."
     ],
-    "imageUrl": "/images/retter/kylling-nudelsuppe.png"
+    "imageUrl": "/images/retter/kylling-nudelsuppe.webp"
   },
   {
     "slug": "butter-chicken",
@@ -2136,7 +2136,7 @@
       "Kog BASMATI RIS efter anvisningen på pakken.",
       "Smag butter chicken til med salt og servér med de kogte ris."
     ],
-    "imageUrl": "/images/retter/butter-chicken.png"
+    "imageUrl": "/images/retter/butter-chicken.webp"
   },
   {
     "slug": "tacos-oksekod",
@@ -2212,7 +2212,7 @@
       "Lun TACOSKALLER efter anvisningen på pakken.",
       "Fyld tacoskallerne med oksekød, grøntsager, DÅSEMAJS, CHEDDAR og CREME FRAICHE. Server evt. med salsa eller guacamole."
     ],
-    "imageUrl": "/images/retter/tacos-oksekod.png"
+    "imageUrl": "/images/retter/tacos-oksekod.webp"
   },
   {
     "slug": "kebab-pizza",
@@ -2272,7 +2272,7 @@
       "Bag i ovnen i 15-20 minutter indtil skorpen er gyldenbrun og osten bobler.",
       "Tag pizzaen ud og top med ICEBERGSALAT og skivede TOMATER. Dryp salatdressing over og server straks."
     ],
-    "imageUrl": "/images/retter/kebab-pizza.png"
+    "imageUrl": "/images/retter/kebab-pizza.webp"
   },
   {
     "slug": "pasta-pesto-bacon",
@@ -2337,7 +2337,7 @@
       "Vend CHERRYTOMATER, AGURK, det sprøde BACON TERN og MOZZARELLA i pastaen. Rør i 30 sekunder til osten akkurat begynder at smelte.",
       "Smag til med salt og peber og server straks."
     ],
-    "imageUrl": "/images/retter/pasta-pesto-bacon.png"
+    "imageUrl": "/images/retter/pasta-pesto-bacon.webp"
   },
   {
     "slug": "koteletter-i-fad-kartofler",
@@ -2394,7 +2394,7 @@
       "Fordel saucen over koteletterne i fadet og bag i ovnen i 20-25 minutter.",
       "Kog KARTOFLER møre i saltet vand. Server koteletterne med de kogte kartofler."
     ],
-    "imageUrl": "/images/retter/koteletter-i-fad-kartofler.png"
+    "imageUrl": "/images/retter/koteletter-i-fad-kartofler.webp"
   },
   {
     "slug": "koteletter-i-fad-ris",
@@ -2454,7 +2454,7 @@
       "Fordel saucen over koteletterne i fadet og bag i ovnen i 20-25 minutter.",
       "Kog BASMATI RIS efter anvisning på pakken. Server koteletterne med risen."
     ],
-    "imageUrl": "/images/retter/koteletter-i-fad-ris.png"
+    "imageUrl": "/images/retter/koteletter-i-fad-ris.webp"
   },
   {
     "slug": "kylling-i-fad-kartofler",
@@ -2511,7 +2511,7 @@
       "Fordel saucen over kyllingefileterne i fadet og bag i ovnen i 20-25 minutter.",
       "Kog KARTOFLER møre i saltet vand. Server kyllingen med de kogte kartofler."
     ],
-    "imageUrl": "/images/retter/kylling-i-fad-kartofler.png"
+    "imageUrl": "/images/retter/kylling-i-fad-kartofler.webp"
   },
   {
     "slug": "kylling-i-fad-ris",
@@ -2571,7 +2571,7 @@
       "Fordel saucen over kyllingefileterne i fadet og bag i ovnen i 20-25 minutter.",
       "Kog BASMATI RIS efter anvisning på pakken. Server kyllingen med risen."
     ],
-    "imageUrl": "/images/retter/kylling-i-fad-ris.png"
+    "imageUrl": "/images/retter/kylling-i-fad-ris.webp"
   },
   {
     "slug": "oksekods-lasagne",
@@ -2636,7 +2636,7 @@
       "Bag lasagnen midt i ovnen til overfladen er gylden, ca. 35 min. ved 200°C.",
       "Lad lasagnen hvile tildækket i ca. 10 min. inden servering."
     ],
-    "imageUrl": "/images/retter/oksekods-lasagne.png"
+    "imageUrl": "/images/retter/oksekods-lasagne.webp"
   },
   {
     "slug": "kyllingelasagne-med-spinat",
@@ -2728,7 +2728,7 @@
       "Fordel skiftevis tomatsauce, spinatfyld, MORNAYSAUCE og LASAGNEPLADER. Afslut med MORNAYSAUCE.",
       "Bag lasagnen i en forvarmet ovn ved 220°C varmluft i 12-15 min."
     ],
-    "imageUrl": "/images/retter/kyllingelasagne-med-spinat.png"
+    "imageUrl": "/images/retter/kyllingelasagne-med-spinat.webp"
   },
   {
     "slug": "grontsagslasagne",
@@ -2805,7 +2805,7 @@
       "Fordel grøntsagssauce, MORNAYSAUCE og LASAGNEPLADER lagvis i et ovnfast fad. Afslut med MORNAYSAUCE og drys REVET OST over.",
       "Bag lasagnen i ovnen i ca. 30 min. til den er gylden og gennemvarm."
     ],
-    "imageUrl": "/images/retter/grontsagslasagne.png"
+    "imageUrl": "/images/retter/grontsagslasagne.webp"
   },
   {
     "slug": "pastasalat",
@@ -2863,7 +2863,7 @@
       "Når PASTA er kogt, hæld vandet fra og lad den køle af et par minutter, bland den derefter i skålen.",
       "Sæt pastasalaten i køleskabet i 10 minutter for at køle af — så er den klar."
     ],
-    "imageUrl": "/images/retter/pastasalat.png"
+    "imageUrl": "/images/retter/pastasalat.webp"
   },
   {
     "slug": "pad-thai-kylling",
@@ -2946,7 +2946,7 @@
       "Pisk ÆG sammen og hæld dem over retten. Steg ved medium varme til æggene ligner røræg.",
       "Hæld saucen over og steg et minut. Tilsæt NUDLER, KYLLINGEFILET og FORÅRSLØG, steg i 2-3 minutter og servér straks."
     ],
-    "imageUrl": "/images/retter/pad-thai-kylling.png"
+    "imageUrl": "/images/retter/pad-thai-kylling.webp"
   },
   {
     "slug": "pad-thai-tofu",
@@ -3029,7 +3029,7 @@
       "Pisk ÆG sammen og hæld dem over retten. Steg ved medium varme til æggene ligner røræg.",
       "Hæld saucen over og steg et minut. Tilsæt NUDLER, TOFU og FORÅRSLØG, steg i 2-3 minutter og servér straks."
     ],
-    "imageUrl": "/images/retter/pad-thai-tofu.png"
+    "imageUrl": "/images/retter/pad-thai-tofu.webp"
   },
   {
     "slug": "ramen-kylling",
@@ -3100,7 +3100,7 @@
       "Pil ÆG og del dem i halve på den lange led. Skær KYLLINGEFILET i tynde skiver.",
       "Anret ramensuppen i skåle og læg et halvt æg og skiver af kylling i hver portion."
     ],
-    "imageUrl": "/images/retter/ramen-kylling.png"
+    "imageUrl": "/images/retter/ramen-kylling.webp"
   },
   {
     "slug": "ramen-tofu",
@@ -3171,7 +3171,7 @@
       "Pil ÆG og del dem i halve på den lange led.",
       "Anret ramensuppen i skåle og læg et halvt æg og TOFU-tern i hver portion."
     ],
-    "imageUrl": "/images/retter/ramen-tofu.png"
+    "imageUrl": "/images/retter/ramen-tofu.webp"
   },
   {
     "slug": "ramen-koteletter",
@@ -3242,7 +3242,7 @@
       "Pil ÆG og del dem i halve på den lange led.",
       "Anret ramensuppen i skåle og læg et halvt æg og skiver af kotelet i hver portion."
     ],
-    "imageUrl": "/images/retter/ramen-koteletter.png"
+    "imageUrl": "/images/retter/ramen-koteletter.webp"
   },
   {
     "slug": "panang-karry-kylling",
@@ -3317,7 +3317,7 @@
       "Tilsæt fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
       "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
     ],
-    "imageUrl": "/images/retter/panang-karry-kylling.png"
+    "imageUrl": "/images/retter/panang-karry-kylling.webp"
   },
   {
     "slug": "panang-karry-koteletter",
@@ -3392,7 +3392,7 @@
       "Tilsæt fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
       "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
     ],
-    "imageUrl": "/images/retter/panang-karry-koteletter.png"
+    "imageUrl": "/images/retter/panang-karry-koteletter.webp"
   },
   {
     "slug": "panang-karry-tofu",
@@ -3467,7 +3467,7 @@
       "Tilsæt soja i stedet for fiskesauce, peanutbutter, brun farin, chiliflager, DÅSEMAJS og TOFU-tern. Lad retten simre uden låg i 10 minutter. Smag til.",
       "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
     ],
-    "imageUrl": "/images/retter/panang-karry-tofu.png"
+    "imageUrl": "/images/retter/panang-karry-tofu.webp"
   },
   {
     "slug": "panang-karry-kikaerter",
@@ -3542,7 +3542,7 @@
       "Tilsæt soja i stedet for fiskesauce, peanutbutter, brun farin, chiliflager og DÅSEMAJS. Lad retten simre uden låg i 10 minutter. Smag til.",
       "Servér med kogte JASMIN RIS og top evt. med friske korianderblade."
     ],
-    "imageUrl": "/images/retter/panang-karry-kikaerter.png"
+    "imageUrl": "/images/retter/panang-karry-kikaerter.webp"
   },
   {
     "slug": "moerbradgryde",
@@ -3633,7 +3633,7 @@
       "Kom COCKTAILPØLSER i gryden, varm igennem og smag til med salt og peber.",
       "Servér med nykogte RIS og evt. et drys persille."
     ],
-    "imageUrl": "/images/retter/moerbradgryde.png"
+    "imageUrl": "/images/retter/moerbradgryde.webp"
   },
   {
     "slug": "rispapirruller-kylling",
@@ -3708,7 +3708,7 @@
       "Hold fast om fyldet og rul stramt sammen — fold siderne ind undervejs.",
       "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
     ],
-    "imageUrl": "/images/retter/rispapirruller-kylling.png"
+    "imageUrl": "/images/retter/rispapirruller-kylling.webp"
   },
   {
     "slug": "rispapirruller-tofu",
@@ -3783,7 +3783,7 @@
       "Hold fast om fyldet og rul stramt sammen — fold siderne ind undervejs.",
       "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
     ],
-    "imageUrl": "/images/retter/rispapirruller-tofu.png"
+    "imageUrl": "/images/retter/rispapirruller-tofu.webp"
   },
   {
     "slug": "rispapirruller-koteletter",
@@ -3858,7 +3858,7 @@
       "Hold fast om fyldet og rul stramt sammen — fold siderne ind undervejs.",
       "Skær rullerne i 2-3 stykker og servér med peanutdippen og evt. sød chilisauce."
     ],
-    "imageUrl": "/images/retter/rispapirruller-koteletter.png"
+    "imageUrl": "/images/retter/rispapirruller-koteletter.webp"
   },
   {
     "slug": "kylling-i-karry",
@@ -3930,7 +3930,7 @@
       "Vend ÆBLER skåret i tern i og smag til.",
       "Servér kylling i karry med kogte ris."
     ],
-    "imageUrl": "/images/retter/kylling-i-karry.png"
+    "imageUrl": "/images/retter/kylling-i-karry.webp"
   },
   {
     "slug": "boller-i-karry",
@@ -3997,7 +3997,7 @@
       "Smag til med salt, peber og mangochutney. Vend kødbollerne i sovsen og varm dem igennem.",
       "Servér med kogte RIS."
     ],
-    "imageUrl": "/images/retter/boller-i-karry.png"
+    "imageUrl": "/images/retter/boller-i-karry.webp"
   },
   {
     "slug": "boller-i-karry-kylling",
@@ -4064,7 +4064,7 @@
       "Smag til med salt, peber og mangochutney. Vend kødbollerne i sovsen og varm dem igennem.",
       "Servér med kogte RIS."
     ],
-    "imageUrl": "/images/retter/boller-i-karry-kylling.png"
+    "imageUrl": "/images/retter/boller-i-karry-kylling.webp"
   },
   {
     "slug": "vegetar-bolognese-linser",
@@ -4135,7 +4135,7 @@
       "Tilsæt rødvin eller grøntsagsbouillon. Skru ned og lad retten simre i 20 minutter til linserne er møre. Smag til med salt og peber.",
       "Kog SPAGHETTI efter pakkens anvisning. Servér med saucen og friskrevet PARMESANOST."
     ],
-    "imageUrl": "/images/retter/vegetar-bolognese-linser.png"
+    "imageUrl": "/images/retter/vegetar-bolognese-linser.webp"
   },
   {
     "slug": "vegetar-bolognese-kikaerter",
@@ -4206,7 +4206,7 @@
       "Tilsæt rødvin eller grøntsagsbouillon. Skru ned og lad retten simre i 20 minutter. Smag til med salt og peber.",
       "Kog SPAGHETTI efter pakkens anvisning. Servér med saucen og friskrevet PARMESANOST."
     ],
-    "imageUrl": "/images/retter/vegetar-bolognese-kikaerter.png"
+    "imageUrl": "/images/retter/vegetar-bolognese-kikaerter.webp"
   },
   {
     "slug": "aeggekage-bacon",
@@ -4262,7 +4262,7 @@
       "Fordel BACON og TOMATER i skiver oven på æggekagen.",
       "Bag færdig i ovn ved 225° i 12-15 minutter. Servér direkte fra panden med RUGBRØD."
     ],
-    "imageUrl": "/images/retter/aeggekage-bacon.png"
+    "imageUrl": "/images/retter/aeggekage-bacon.webp"
   },
   {
     "slug": "aeggekage-kartofler",
@@ -4315,7 +4315,7 @@
       "Fordel TOMATER i skiver oven på æggekagen.",
       "Bag færdig i ovn ved 225° i 12-15 minutter. Servér direkte fra panden med RUGBRØD."
     ],
-    "imageUrl": "/images/retter/aeggekage-kartofler.png"
+    "imageUrl": "/images/retter/aeggekage-kartofler.webp"
   },
   {
     "slug": "aeggekage-grontsager",
@@ -4380,7 +4380,7 @@
       "Læg låg på og bag æggekagen færdig i ovn ved 225° i 12-15 minutter.",
       "Fordel TOMATER i skiver oven på æggekagen og pynt med persille. Servér med RUGBRØD."
     ],
-    "imageUrl": "/images/retter/aeggekage-grontsager.png"
+    "imageUrl": "/images/retter/aeggekage-grontsager.webp"
   },
   {
     "slug": "aeggekage-grontsager-bacon",
@@ -4454,7 +4454,7 @@
       "Læg låg på og bag æggekagen færdig i ovn ved 225° i 12-15 minutter.",
       "Fordel TOMATER i skiver oven på æggekagen og pynt med persille. Servér med RUGBRØD."
     ],
-    "imageUrl": "/images/retter/aeggekage-grontsager-bacon.png"
+    "imageUrl": "/images/retter/aeggekage-grontsager-bacon.webp"
   },
   {
     "slug": "dahl",
@@ -4523,7 +4523,7 @@
       "Smag retten til med salt og peber og eventuelt mere af krydderierne.",
       "Kog BASMATI RIS og servér til dahl."
     ],
-    "imageUrl": "/images/retter/dahl.png"
+    "imageUrl": "/images/retter/dahl.webp"
   },
   {
     "slug": "mexi-bowl-okse",
@@ -4602,7 +4602,7 @@
       "Anret BASMATI RIS i en skål og fordel HAKKET OKSEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
       "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
     ],
-    "imageUrl": "/images/retter/mexi-bowl-okse.png"
+    "imageUrl": "/images/retter/mexi-bowl-okse.webp"
   },
   {
     "slug": "mexi-bowl-gris",
@@ -4681,7 +4681,7 @@
       "Anret BASMATI RIS i en skål og fordel HAKKET GRISEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
       "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
     ],
-    "imageUrl": "/images/retter/mexi-bowl-gris.png"
+    "imageUrl": "/images/retter/mexi-bowl-gris.webp"
   },
   {
     "slug": "mexi-bowl-kylling",
@@ -4764,7 +4764,7 @@
       "Anret BASMATI RIS i en skål og fordel HAKKET KYLLINGEKØD, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
       "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
     ],
-    "imageUrl": "/images/retter/mexi-bowl-kylling.png"
+    "imageUrl": "/images/retter/mexi-bowl-kylling.webp"
   },
   {
     "slug": "mexi-bowl-gris-kalv",
@@ -4843,7 +4843,7 @@
       "Anret BASMATI RIS i en skål og fordel HAKKET GRIS & KALV, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
       "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
     ],
-    "imageUrl": "/images/retter/mexi-bowl-gris-kalv.png"
+    "imageUrl": "/images/retter/mexi-bowl-gris-kalv.webp"
   },
   {
     "slug": "mexi-bowl-laks",
@@ -4922,7 +4922,7 @@
       "Anret BASMATI RIS i en skål og fordel LAKSEFILET, AVOCADO, GULERØDDER, TOMATER, EDAMAME BØNNER, DÅSEMAJS og REVET OST ovenpå.",
       "Top med nachos chips, frisk koriander, limesaft fra LIME og chili mayo."
     ],
-    "imageUrl": "/images/retter/mexi-bowl-laks.png"
+    "imageUrl": "/images/retter/mexi-bowl-laks.webp"
   },
   {
     "slug": "flaeskestegssandwich",
@@ -4977,7 +4977,7 @@
       "Skær ÆBLER i tynde skiver.",
       "Smør burgerbollerne med dressingen og læg dem sammen om FLÆSKESTEG, ÆBLER, SYLTET RØDKÅL, SYLTEDE AGURKER og ICEBERGSALAT."
     ],
-    "imageUrl": "/images/retter/flaeskestegssandwich.png"
+    "imageUrl": "/images/retter/flaeskestegssandwich.webp"
   },
   {
     "slug": "flaeskesteg",
@@ -5022,7 +5022,7 @@
       "Kog KARTOFLER møre i saltet vand.",
       "Anret skiver af flæskestegen sammen med kogte KARTOFLER, SYLTET RØDKÅL og sauce."
     ],
-    "imageUrl": "/images/retter/flaeskesteg.png"
+    "imageUrl": "/images/retter/flaeskesteg.webp"
   },
   {
     "slug": "fiskefad-morksej-kuller",
@@ -5108,7 +5108,7 @@
       "Kog BASMATI RIS i saltet vand efter pakkens anvisning.",
       "Top fiskefadet med frisk koriander og server med LIME."
     ],
-    "imageUrl": "/images/retter/fiskefad-morksej-kuller.png"
+    "imageUrl": "/images/retter/fiskefad-morksej-kuller.webp"
   },
   {
     "slug": "fiskefad-torsk",
@@ -5194,7 +5194,7 @@
       "Kog BASMATI RIS i saltet vand efter pakkens anvisning.",
       "Top fiskefadet med frisk koriander og server med LIME."
     ],
-    "imageUrl": "/images/retter/fiskefad-torsk.png"
+    "imageUrl": "/images/retter/fiskefad-torsk.webp"
   },
   {
     "slug": "tarteletter-hons-asparges",
@@ -5261,7 +5261,7 @@
       "Kog stuvningen ved svag varme under forsigtig omrøring i ca. 2 min. og smag til.",
       "Varm TARTELETTER og fyld dem med høns i asparges. Server straks."
     ],
-    "imageUrl": "/images/retter/tarteletter-hons-asparges.png"
+    "imageUrl": "/images/retter/tarteletter-hons-asparges.webp"
   },
   {
     "slug": "pulled-pork-burger-coleslaw",
@@ -5314,7 +5314,7 @@
       "Læg PULLED PORK/CHICKEN i bollen og top med coleslaw.",
       "Tilsæt evt. krydderurter før du lægger låget på burgeren."
     ],
-    "imageUrl": "/images/retter/pulled-pork-burger-coleslaw.png"
+    "imageUrl": "/images/retter/pulled-pork-burger-coleslaw.webp"
   },
   {
     "slug": "aebleflaek",
@@ -5364,7 +5364,7 @@
       "Hak purløg groft og drys det over æbleflæsket.",
       "Rist RUGBRØD og server det til retten."
     ],
-    "imageUrl": "/images/retter/aebleflaek.png"
+    "imageUrl": "/images/retter/aebleflaek.webp"
   },
   {
     "slug": "kikaerter-krydret-tomatsauce",
@@ -5435,7 +5435,7 @@
       "Skyl KIKÆRTER grundigt og tilsæt dem til panden. Smag til med salt og peber.",
       "Kog BASMATI RIS efter anvisningen på pakken og server til retten."
     ],
-    "imageUrl": "/images/retter/kikaerter-krydret-tomatsauce.jpg"
+    "imageUrl": "/images/retter/kikaerter-krydret-tomatsauce.webp"
   },
   {
     "slug": "tikka-masala",
@@ -5502,7 +5502,7 @@
       "Rør grøntsagsbouillon, groft salt, tørrede chiliflager og de bagte kyllingestykker med marinade i. Varm saucen igennem og smag til.",
       "Kog BASMATI RIS efter anvisningen på pakken og server tikka masalaen til."
     ],
-    "imageUrl": "/images/retter/tikka-masala.png"
+    "imageUrl": "/images/retter/tikka-masala.webp"
   },
   {
     "slug": "fyldte-squash",
@@ -5565,7 +5565,7 @@
       "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
       "Bag de fyldte squash i ovnen ved 200° i ca. 25 minutter."
     ],
-    "imageUrl": "/images/retter/fyldte-squash.png"
+    "imageUrl": "/images/retter/fyldte-squash.webp"
   },
   {
     "slug": "fyldte-squash-kylling",
@@ -5632,7 +5632,7 @@
       "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
       "Bag de fyldte squash i ovnen ved 200° i ca. 25 minutter."
     ],
-    "imageUrl": "/images/retter/fyldte-squash-kylling.png"
+    "imageUrl": "/images/retter/fyldte-squash-kylling.webp"
   },
   {
     "slug": "fyldte-squash-gris-kalv",
@@ -5695,7 +5695,7 @@
       "Læg de udhulede SQUASH på en bageplade med bagepapir og fyld dem med oksekødsfyldet. Drys PARMESANOST over.",
       "Bag de fyldte squash i ovnen ved 200° i ca. 25 minutter."
     ],
-    "imageUrl": "/images/retter/fyldte-squash-gris-kalv.png"
+    "imageUrl": "/images/retter/fyldte-squash-gris-kalv.webp"
   },
   {
     "slug": "bacon-porretaerte",
@@ -5751,7 +5751,7 @@
       "Bag tærten i ovnen ved 185 °C i ca. 35 minutter.",
       "Lad tærten hvile 5 minutter inden servering."
     ],
-    "imageUrl": "/images/retter/bacon-porretaerte.png"
+    "imageUrl": "/images/retter/bacon-porretaerte.webp"
   },
   {
     "slug": "bacon-broccolitage",
@@ -5807,7 +5807,7 @@
       "Bag tærten i ovnen ved 185 °C i ca. 35 minutter.",
       "Lad tærten hvile 5 minutter inden servering."
     ],
-    "imageUrl": "/images/retter/bacon-broccolitage.png"
+    "imageUrl": "/images/retter/bacon-broccolitage.webp"
   },
   {
     "slug": "vegetarisk-broccolitage",
@@ -5857,7 +5857,7 @@
       "Bag tærten i ovnen ved 185 °C i ca. 35 minutter.",
       "Lad tærten hvile 5 minutter inden servering."
     ],
-    "imageUrl": "/images/retter/vegetarisk-broccolitage.png"
+    "imageUrl": "/images/retter/vegetarisk-broccolitage.webp"
   },
   {
     "slug": "indisk-kartoffelcurry",
@@ -5932,7 +5932,7 @@
       "Smag til med limesaft fra LIME, salt og frisk koriander.",
       "Kog BASMATI RIS efter anvisningen på pakken og server til kartoffelcurryen."
     ],
-    "imageUrl": "/images/retter/indisk-kartoffelcurry.png"
+    "imageUrl": "/images/retter/indisk-kartoffelcurry.webp"
   },
   {
     "slug": "indisk-kartoffelcurry-kikaerter",
@@ -6007,7 +6007,7 @@
       "Smag til med limesaft fra LIME, salt og frisk koriander.",
       "Kog BASMATI RIS efter anvisningen på pakken og server til kartoffelcurryen."
     ],
-    "imageUrl": "/images/retter/indisk-kartoffelcurry-kikaerter.png"
+    "imageUrl": "/images/retter/indisk-kartoffelcurry-kikaerter.webp"
   },
   {
     "slug": "kikaertegryde-blomkaal-spinat",
@@ -6084,7 +6084,7 @@
       "Vend SPINAT i til sidst og smag til med salt og peber.",
       "Server med varme BASMATI RIS."
     ],
-    "imageUrl": "/images/retter/kikaertegryde-blomkaal-spinat.png"
+    "imageUrl": "/images/retter/kikaertegryde-blomkaal-spinat.webp"
   },
   {
     "slug": "laks-kartofler-salat",
@@ -6129,7 +6129,7 @@
       "Sæt fadet tilbage i ovnen og bag retten i ca. 15 minutter mere.",
       "Pynt med dild og server med salat."
     ],
-    "imageUrl": "/images/retter/laks-kartofler-salat.png"
+    "imageUrl": "/images/retter/laks-kartofler-salat.webp"
   },
   {
     "slug": "kylling-broccoli-ris",
@@ -6179,7 +6179,7 @@
       "Damp eller steg BROCCOLI til den er mør med lidt bid.",
       "Server kylling med BROCCOLI, DÅSEMAJS og RIS."
     ],
-    "imageUrl": "/images/retter/kylling-broccoli-ris.png"
+    "imageUrl": "/images/retter/kylling-broccoli-ris.webp"
   },
   {
     "slug": "hel-kylling-broccoli-ris",
@@ -6233,7 +6233,7 @@
       "Damp eller steg BROCCOLI til den er mør med lidt bid.",
       "Skær kyllingen ud og server med BROCCOLI, DÅSEMAJS og RIS."
     ],
-    "imageUrl": "/images/retter/hel-kylling-broccoli-ris.png"
+    "imageUrl": "/images/retter/hel-kylling-broccoli-ris.webp"
   },
   {
     "slug": "fiskefilet-rugbroed-salat",
@@ -6275,7 +6275,7 @@
       "Skær CITRON i både og server ved siden af.",
       "Anret med RUGBRØD og salat. Server med remulade."
     ],
-    "imageUrl": "/images/retter/fiskefilet-rugbroed-salat.png"
+    "imageUrl": "/images/retter/fiskefilet-rugbroed-salat.webp"
   },
   {
     "slug": "morksej-kuller-kartofler-salat",
@@ -6320,7 +6320,7 @@
       "Sæt fadet tilbage i ovnen og bag retten i ca. 15 minutter mere.",
       "Pynt med dild og server med salat."
     ],
-    "imageUrl": "/images/retter/morksej-kuller-kartofler-salat.png"
+    "imageUrl": "/images/retter/morksej-kuller-kartofler-salat.webp"
   },
   {
     "slug": "fiskefrikadeller",
@@ -6400,7 +6400,7 @@
       "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
       "Server med RUGBRØD og tomatsalat."
     ],
-    "imageUrl": "/images/retter/fiskefrikadeller.png"
+    "imageUrl": "/images/retter/fiskefrikadeller.webp"
   },
   {
     "slug": "kyllinge-frikadeller",
@@ -6472,7 +6472,7 @@
       "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
       "Server med RUGBRØD og tomatsalat."
     ],
-    "imageUrl": "/images/retter/kyllinge-frikadeller.png"
+    "imageUrl": "/images/retter/kyllinge-frikadeller.webp"
   },
   {
     "slug": "grise-frikadeller",
@@ -6548,7 +6548,7 @@
       "Skær TOMATER og RØDLØG i skiver. Anret med SALATOST, sorte oliven og dressing af balsamico, olivenolie, sukker, salt og peber.",
       "Server med RUGBRØD og tomatsalat."
     ],
-    "imageUrl": "/images/retter/grise-frikadeller.png"
+    "imageUrl": "/images/retter/grise-frikadeller.webp"
   },
   {
     "slug": "ovnstegt-kyllingelaar-ris",
@@ -6602,7 +6602,7 @@
       "Kog BASMATI RIS efter anvisningen på pakken imens.",
       "Server kyllingelårene med de ovnstegte grøntsager og ris."
     ],
-    "imageUrl": "/images/retter/ovnstegt-kyllingelaar-ris.png"
+    "imageUrl": "/images/retter/ovnstegt-kyllingelaar-ris.webp"
   },
   {
     "slug": "ovnstegt-kyllingelaar-kartofler",
@@ -6651,7 +6651,7 @@
       "Sæt bradepanden og risten i ovnen og steg i ca. 40 minutter, til kyllingelårene er gennemstegte og har fået sprød hud.",
       "Server kyllingelårene med de ovnstegte grøntsager og kartofler."
     ],
-    "imageUrl": "/images/retter/ovnstegt-kyllingelaar-kartofler.png"
+    "imageUrl": "/images/retter/ovnstegt-kyllingelaar-kartofler.webp"
   },
   {
     "slug": "ovnstegt-hel-kylling-ris",
@@ -6705,7 +6705,7 @@
       "Kog BASMATI RIS efter anvisningen på pakken imens.",
       "Server kyllingen med de ovnstegte grøntsager og ris."
     ],
-    "imageUrl": "/images/retter/ovnstegt-hel-kylling-ris.png"
+    "imageUrl": "/images/retter/ovnstegt-hel-kylling-ris.webp"
   },
   {
     "slug": "ovnstegt-hel-kylling-kartofler",
@@ -6754,7 +6754,7 @@
       "Sæt bradepanden og risten i ovnen og steg i ca. 60 minutter, til kyllingen er gennemstegt og skindet er sprødt og gyldent.",
       "Server kyllingen med de ovnstegte grøntsager og kartofler."
     ],
-    "imageUrl": "/images/retter/ovnstegt-hel-kylling-kartofler.png"
+    "imageUrl": "/images/retter/ovnstegt-hel-kylling-kartofler.webp"
   },
   {
     "slug": "stegte-ris-kyllingefilet",
@@ -6819,7 +6819,7 @@
       "Steg de kogte RIS i lidt olie på en varm pande i et par minutter. Tilsæt DÅSEMAJS og vend det hele sammen.",
       "Server de stegte ris med kylling og de ovnbagte grøntsager."
     ],
-    "imageUrl": "/images/retter/stegte-ris-kyllingefilet.png"
+    "imageUrl": "/images/retter/stegte-ris-kyllingefilet.webp"
   },
   {
     "slug": "stegte-ris-kyllingelaar",
@@ -6884,6 +6884,6 @@
       "Steg de kogte RIS i lidt olie på en varm pande i et par minutter. Tilsæt DÅSEMAJS og vend det hele sammen.",
       "Server de stegte ris med kyllingelår og de ovnbagte grøntsager."
     ],
-    "imageUrl": "/images/retter/stegte-ris-kyllingelaar.png"
+    "imageUrl": "/images/retter/stegte-ris-kyllingelaar.webp"
   }
 ]
