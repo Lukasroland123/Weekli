@@ -17,7 +17,6 @@ const TAGS: { value: Tag; label: string }[] = [
   { value: "fisk", label: "Fisk" },
   { value: "vegetar", label: "Vegetar" },
 ];
-const OWNER_EMAIL = "lukas.rs.arbejde@gmail.com";
 
 const vl_map: Record<string, { stkVaegt: number; enhed: string }> = {};
 for (const entry of vaegtLogikJson as Array<{ kategori: string; stkVaegt: number; enhed: string }>) {
@@ -101,6 +100,8 @@ export default function ProfilPage() {
   const [pendingRows, setPendingRows] = useState<PendingRow[]>([]);
   const [recipeFremgangsmaade, setRecipeFremgangsmaade] = useState("");
   const [recipeSaved, setRecipeSaved] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState<string | null>(null);
 
   const allCanonicals = useMemo(() => {
     const set = new Set(products.map((p) => p.kategori.toUpperCase()));
@@ -150,34 +151,46 @@ export default function ProfilPage() {
     setPendingRows((prev) => prev.filter((r) => r.id !== id));
   }
 
-  function handleSaveAndSubmitRecipe() {
+  async function handleSaveAndSubmitRecipe() {
     if (!recipeName.trim() || !recipePersons || draftIngredients.length === 0) return;
+
+    setSending(true);
+    setSendError(null);
 
     // 1) Gem lokalt, så den dukker op i "Dine opskrifter" med pris-opslag
     addUserRecipe({ name: recipeName.trim(), personer: recipePersons, ingredienser: draftIngredients, fremgangsmaade: recipeFremgangsmaade.trim() || undefined });
 
-    // 2) Send til Weekli til verificering, før den evt. kommer i appens opskriftsdatabase
-    const subject = encodeURIComponent(`Ny brugeropskrift: ${recipeName.trim()}`);
-    const bodyLines = [
-      `Opskrift: ${recipeName.trim()}`,
-      `Antal personer: ${recipePersons}`,
-      "",
-      "Ingredienser:",
-      ...draftIngredients.map((i) => `- ${i.canonical.toLowerCase()}: ${i.maengde} ${i.enhed}`),
-    ];
-    if (recipeFremgangsmaade.trim()) {
-      bodyLines.push("", "Fremgangsmåde:", recipeFremgangsmaade.trim());
+    // 2) Send til Weekli til verificering — direkte i appen, intet mailprogram åbnes
+    try {
+      const res = await fetch("/api/send-recipe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: recipeName.trim(),
+          personer: recipePersons,
+          ingredienser: draftIngredients,
+          fremgangsmaade: recipeFremgangsmaade.trim() || undefined,
+        }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error ?? "Kunne ikke sende opskriften.");
+      }
+    } catch (err) {
+      setSending(false);
+      setSendError(err instanceof Error ? err.message : "Kunne ikke sende opskriften.");
+      return;
     }
-    window.open(`mailto:${OWNER_EMAIL}?subject=${subject}&body=${encodeURIComponent(bodyLines.join("\n"))}`);
 
     setRecipeName("");
     setRecipePersons(null);
     setDraftIngredients([]);
     setPendingRows([]);
     setRecipeFremgangsmaade("");
+    setSending(false);
     setRecipeSaved(true);
     setOpenMyRecipes(true);
-    setTimeout(() => setRecipeSaved(false), 2000);
+    setTimeout(() => setRecipeSaved(false), 2500);
   }
 
   // Besparelse — kun fra afkrydsede (completed) planer og opskrifter
@@ -563,15 +576,18 @@ export default function ProfilPage() {
 
             <button
               onClick={handleSaveAndSubmitRecipe}
-              disabled={!recipeName.trim() || !recipePersons || draftIngredients.length === 0}
+              disabled={!recipeName.trim() || !recipePersons || draftIngredients.length === 0 || sending}
               className={`w-full py-3 rounded-xl text-sm font-semibold transition-colors ${
                 recipeSaved
                   ? "bg-green-100 text-green-700"
                   : "bg-green-600 text-white disabled:bg-gray-100 disabled:text-gray-400"
               }`}
             >
-              {recipeSaved ? "Gemt og sendt!" : "Gem og send til Weekli"}
+              {recipeSaved ? "Gemt og sendt!" : sending ? "Sender..." : "Gem og send til Weekli"}
             </button>
+            {sendError && (
+              <p className="text-xs text-red-500 bg-red-50 rounded-xl px-3 py-2">{sendError}</p>
+            )}
           </div>
         )}
       </div>
