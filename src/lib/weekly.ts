@@ -104,6 +104,25 @@ export function calcPlanCost(
   return total;
 }
 
+// Total tilbud-besparelse for en hel plan — samme aggregering som calcPlanCost,
+// men summerer match.spar i stedet for match.pris.
+export function calcPlanSpar(
+  recipes: Recipe[],
+  products: Product[],
+  persons: number,
+  fridgeItems: FridgeItem[] = []
+): number {
+  const needs = aggregateNeeds(recipes, persons, fridgeItems);
+  let total = 0;
+  for (const [canonical, { totalNeeded }] of needs) {
+    const prods = products.filter((p) => p.kategori.toUpperCase() === canonical);
+    if (prods.length === 0) continue;
+    const match = findBestOption(prods, totalNeeded);
+    if (match) total += match.spar;
+  }
+  return total;
+}
+
 // Aggregated shopping list for a whole plan — each item covers all recipes that need it.
 export function buildPlanShoppingList(
   recipes: Recipe[],
@@ -204,12 +223,14 @@ export function generateWeeklyPlan(
   }
 
   const totalPris = calcPlanCost(picked, activeProducts, persons, fridgeItems);
+  const sparPris = calcPlanSpar(picked, activeProducts, persons, fridgeItems);
   const indkoebsliste = buildPlanShoppingList(picked, activeProducts, persons, fridgeItems);
 
   return {
     days: picked.map((recipe, i) => ({ day: DAY_NAMES[i], recipe })),
     totalPris,
     prPerPerson: persons > 0 ? totalPris / persons : totalPris,
+    sparPris,
     indkoebsliste,
   };
 }

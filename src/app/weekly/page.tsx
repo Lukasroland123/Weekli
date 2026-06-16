@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import { useApp } from "@/context/AppContext";
 import { useRecipes } from "@/lib/recipes";
 import { useProducts } from "@/lib/products";
-import { generateWeeklyPlan, calcPlanCost, buildPlanShoppingList, filterRecipes } from "@/lib/weekly";
+import { generateWeeklyPlan, calcPlanCost, calcPlanSpar, buildPlanShoppingList, filterRecipes } from "@/lib/weekly";
 import { formatPrice, formatRecipeAmount, calcRecipePrice } from "@/lib/pricing";
 import { useVaegtLogik } from "@/lib/vaegt-logik";
 import { Recipe, WeeklyPlan } from "@/lib/types";
@@ -51,8 +51,9 @@ export default function WeeklyPage() {
     );
     const remaining = newDays.flatMap((d) => (d.recipe ? [d.recipe] : []));
     const totalPris = calcPlanCost(remaining, activeProducts, state.persons, state.fridgeItems);
+    const sparPris = calcPlanSpar(remaining, activeProducts, state.persons, state.fridgeItems);
     const indkoebsliste = buildPlanShoppingList(remaining, activeProducts, state.persons, state.fridgeItems);
-    setPlan({ ...plan, days: newDays, totalPris, prPerPerson: state.persons > 0 ? totalPris / state.persons : totalPris, indkoebsliste });
+    setPlan({ ...plan, days: newDays, totalPris, prPerPerson: state.persons > 0 ? totalPris / state.persons : totalPris, sparPris, indkoebsliste });
     setExpandedDay(null);
   }
 
@@ -63,8 +64,9 @@ export default function WeeklyPage() {
     );
     const allRecipes = newDays.flatMap((d) => (d.recipe ? [d.recipe] : []));
     const totalPris = calcPlanCost(allRecipes, activeProducts, state.persons, state.fridgeItems);
+    const sparPris = calcPlanSpar(allRecipes, activeProducts, state.persons, state.fridgeItems);
     const indkoebsliste = buildPlanShoppingList(allRecipes, activeProducts, state.persons, state.fridgeItems);
-    setPlan({ ...plan, days: newDays, totalPris, prPerPerson: state.persons > 0 ? totalPris / state.persons : totalPris, indkoebsliste });
+    setPlan({ ...plan, days: newDays, totalPris, prPerPerson: state.persons > 0 ? totalPris / state.persons : totalPris, sparPris, indkoebsliste });
     setAddingDay(null);
     setAddQuery("");
   }
@@ -130,6 +132,11 @@ export default function WeeklyPage() {
             <div className="text-right">
               <p className="text-lg font-bold text-green-600">{formatPrice(plan.totalPris)}</p>
               <p className="text-xs text-gray-400">{formatPrice(plan.prPerPerson)}/pers.</p>
+              {plan.sparPris > 0 && (
+                <p className="text-xs text-yellow-600 font-medium mt-0.5">
+                  Spar {formatPrice(plan.sparPris)} på tilbud
+                </p>
+              )}
             </div>
           )}
         </div>
@@ -184,9 +191,16 @@ export default function WeeklyPage() {
                 </li>
               ))}
             </ul>
-            <div className="flex justify-between font-semibold text-gray-900 px-4 py-3 bg-gray-50 border-t border-gray-100">
-              <span>Total</span>
-              <span className="text-green-600">{formatPrice(plan.totalPris)}</span>
+            <div className="px-4 py-3 bg-gray-50 border-t border-gray-100">
+              <div className="flex justify-between font-semibold text-gray-900">
+                <span>Total</span>
+                <span className="text-green-600">{formatPrice(plan.totalPris)}</span>
+              </div>
+              {plan.sparPris > 0 && (
+                <p className="text-xs text-yellow-600 font-medium mt-1">
+                  Heraf {formatPrice(plan.sparPris)} sparet på tilbud
+                </p>
+              )}
             </div>
           </div>
         )}
@@ -235,7 +249,11 @@ export default function WeeklyPage() {
         {/* Day cards */}
         {plan && (
           <div className="space-y-3 mb-6">
-            {plan.days.map((dayPlan, idx) => (
+            {plan.days.map((dayPlan, idx) => {
+              const daySpar = dayPlan.recipe
+                ? calcRecipePrice(dayPlan.recipe, products, state.persons, state.selectedChains, state.prisLogik, state.fridgeItems).sparPris
+                : 0;
+              return (
               <div key={dayPlan.day} className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 {dayPlan.recipe ? (
                   <>
@@ -256,6 +274,11 @@ export default function WeeklyPage() {
                         <p className="font-semibold text-gray-900 text-sm leading-tight line-clamp-2">
                           {dayPlan.recipe.titel}
                         </p>
+                        {daySpar > 0 && (
+                          <span className="inline-block mt-1 bg-yellow-100 text-yellow-700 text-xs font-semibold px-1.5 py-0.5 rounded-full">
+                            Spar {formatPrice(daySpar)}
+                          </span>
+                        )}
                       </div>
                       <div className="flex items-center gap-1 shrink-0">
                         <svg
@@ -415,7 +438,8 @@ export default function WeeklyPage() {
                   </>
                 )}
               </div>
-            ))}
+              );
+            })}
           </div>
         )}
 

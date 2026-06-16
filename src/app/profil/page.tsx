@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import { useApp } from "@/context/AppContext";
 import { useProducts } from "@/lib/products";
 import { useRecipes } from "@/lib/recipes";
@@ -53,6 +54,7 @@ export default function ProfilPage() {
   const { state, setPersons, setSelectedChains, setPrisLogik, setTagFilters, addUserRecipe, removeUserRecipe } = useApp();
   const products = useProducts();
   const { recipes } = useRecipes();
+  const router = useRouter();
 
   const [openPrefs, setOpenPrefs] = useState(false);
   const [openAddRecipe, setOpenAddRecipe] = useState(false);
@@ -94,11 +96,11 @@ export default function ProfilPage() {
 
   // Recipe form
   const [recipeName, setRecipeName] = useState("");
+  const [recipePersons, setRecipePersons] = useState<number | null>(null);
   const [draftIngredients, setDraftIngredients] = useState<DraftIngredient[]>([]);
   const [pendingRows, setPendingRows] = useState<PendingRow[]>([]);
   const [recipeFremgangsmaade, setRecipeFremgangsmaade] = useState("");
   const [recipeSaved, setRecipeSaved] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   const allCanonicals = useMemo(() => {
     const set = new Set(products.map((p) => p.kategori.toUpperCase()));
@@ -148,23 +150,17 @@ export default function ProfilPage() {
     setPendingRows((prev) => prev.filter((r) => r.id !== id));
   }
 
-  function handleSaveRecipe() {
-    if (!recipeName.trim() || draftIngredients.length === 0) return;
-    addUserRecipe({ name: recipeName.trim(), ingredienser: draftIngredients, fremgangsmaade: recipeFremgangsmaade.trim() || undefined });
-    setRecipeName("");
-    setDraftIngredients([]);
-    setPendingRows([]);
-    setRecipeFremgangsmaade("");
-    setRecipeSaved(true);
-    setOpenMyRecipes(true);
-    setTimeout(() => setRecipeSaved(false), 2000);
-  }
+  function handleSaveAndSubmitRecipe() {
+    if (!recipeName.trim() || !recipePersons || draftIngredients.length === 0) return;
 
-  function handleSubmitRecipe() {
-    if (!recipeName.trim() || draftIngredients.length === 0) return;
+    // 1) Gem lokalt, så den dukker op i "Dine opskrifter" med pris-opslag
+    addUserRecipe({ name: recipeName.trim(), personer: recipePersons, ingredienser: draftIngredients, fremgangsmaade: recipeFremgangsmaade.trim() || undefined });
+
+    // 2) Send til Weekli til verificering, før den evt. kommer i appens opskriftsdatabase
     const subject = encodeURIComponent(`Ny brugeropskrift: ${recipeName.trim()}`);
     const bodyLines = [
       `Opskrift: ${recipeName.trim()}`,
+      `Antal personer: ${recipePersons}`,
       "",
       "Ingredienser:",
       ...draftIngredients.map((i) => `- ${i.canonical.toLowerCase()}: ${i.maengde} ${i.enhed}`),
@@ -173,8 +169,15 @@ export default function ProfilPage() {
       bodyLines.push("", "Fremgangsmåde:", recipeFremgangsmaade.trim());
     }
     window.open(`mailto:${OWNER_EMAIL}?subject=${subject}&body=${encodeURIComponent(bodyLines.join("\n"))}`);
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
+
+    setRecipeName("");
+    setRecipePersons(null);
+    setDraftIngredients([]);
+    setPendingRows([]);
+    setRecipeFremgangsmaade("");
+    setRecipeSaved(true);
+    setOpenMyRecipes(true);
+    setTimeout(() => setRecipeSaved(false), 2000);
   }
 
   // Besparelse — kun fra afkrydsede (completed) planer og opskrifter
@@ -387,6 +390,29 @@ export default function ProfilPage() {
               />
             </div>
 
+            {/* Antal personer */}
+            <div>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5">
+                Antal personer <span className="text-red-500">*</span>
+              </p>
+              <div className="flex gap-2">
+                {[1, 2, 3, 4, 5, 6].map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => setRecipePersons(n)}
+                    className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-colors ${
+                      recipePersons === n ? "bg-green-600 text-white" : "bg-gray-100 text-gray-600"
+                    }`}
+                  >
+                    {n}
+                  </button>
+                ))}
+              </div>
+              {recipePersons === null && (
+                <p className="text-xs text-red-500 mt-1.5">Vælg hvor mange personer opskriften er til</p>
+              )}
+            </div>
+
             {/* Ingredienser */}
             <div>
               <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Ingredienser</p>
@@ -536,27 +562,15 @@ export default function ProfilPage() {
             </div>
 
             <button
-              onClick={handleSaveRecipe}
-              disabled={!recipeName.trim() || draftIngredients.length === 0}
+              onClick={handleSaveAndSubmitRecipe}
+              disabled={!recipeName.trim() || !recipePersons || draftIngredients.length === 0}
               className={`w-full py-3 rounded-xl text-sm font-semibold transition-colors ${
                 recipeSaved
-                  ? "bg-green-100 text-green-700"
-                  : "bg-gray-800 text-white disabled:bg-gray-100 disabled:text-gray-400"
-              }`}
-            >
-              {recipeSaved ? "Gemt!" : "Gem opskrift"}
-            </button>
-
-            <button
-              onClick={handleSubmitRecipe}
-              disabled={!recipeName.trim() || draftIngredients.length === 0}
-              className={`w-full py-3 rounded-xl text-sm font-semibold transition-colors ${
-                submitted
                   ? "bg-green-100 text-green-700"
                   : "bg-green-600 text-white disabled:bg-gray-100 disabled:text-gray-400"
               }`}
             >
-              {submitted ? "Opskrift sendt!" : "Send opskrift til Weekli"}
+              {recipeSaved ? "Gemt og sendt!" : "Gem og send til Weekli"}
             </button>
           </div>
         )}
@@ -586,16 +600,26 @@ export default function ProfilPage() {
           <div className="border-t border-gray-100">
             {state.userRecipes.length === 0 ? (
               <p className="px-4 py-4 text-sm text-gray-400">
-                Ingen gemte opskrifter endnu. Udfyld formularen ovenfor og tryk "Gem opskrift".
+                Ingen gemte opskrifter endnu. Udfyld formularen ovenfor og tryk &quot;Gem og send til Weekli&quot;.
               </p>
             ) : (
               <div className="divide-y divide-gray-50">
                 {state.userRecipes.map((recipe) => (
-                  <div key={recipe.id} className="px-4 py-3">
+                  <div
+                    key={recipe.id}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => router.push(`/mine-opskrifter/${recipe.id}`)}
+                    onKeyDown={(e) => { if (e.key === "Enter") router.push(`/mine-opskrifter/${recipe.id}`); }}
+                    className="px-4 py-3 cursor-pointer hover:bg-gray-50 transition-colors"
+                  >
                     <div className="flex items-center justify-between mb-1.5">
-                      <p className="text-sm font-semibold text-gray-800">{recipe.name}</p>
+                      <div className="flex items-center gap-2">
+                        <p className="text-sm font-semibold text-gray-800">{recipe.name}</p>
+                        <span className="text-xs text-gray-400">· {recipe.personer ?? "?"} pers.</span>
+                      </div>
                       <button
-                        onClick={() => removeUserRecipe(recipe.id)}
+                        onClick={(e) => { e.stopPropagation(); removeUserRecipe(recipe.id); }}
                         className="text-gray-400 hover:text-red-500 transition-colors"
                       >
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -613,6 +637,7 @@ export default function ProfilPage() {
                     {recipe.fremgangsmaade && (
                       <p className="text-xs text-gray-400 mt-2 leading-relaxed">{recipe.fremgangsmaade}</p>
                     )}
+                    <p className="text-xs text-green-600 font-medium mt-2">Se hvor det er billigst →</p>
                   </div>
                 ))}
               </div>

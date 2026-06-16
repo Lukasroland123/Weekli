@@ -777,7 +777,7 @@
     "maengde": 600.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 125.0,
     "maerke": "salling"
   },
@@ -825,7 +825,7 @@
     "maengde": 200.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 80.0,
     "maerke": "puck"
   },
@@ -837,7 +837,7 @@
     "maengde": 500.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 64.0,
     "maerke": "puck"
   },
@@ -873,7 +873,7 @@
     "maengde": 450.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 44.44444444444444,
     "maerke": "salling"
   },
@@ -957,7 +957,7 @@
     "maengde": 330.0,
     "maengdeEnhed": "ml",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 24.242424242424242,
     "maerke": "ama"
   },
@@ -969,7 +969,7 @@
     "maengde": 1000.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 25.0,
     "maerke": "athena"
   },
@@ -981,7 +981,7 @@
     "maengde": 400.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 44.875,
     "maerke": "athena"
   },
@@ -1557,7 +1557,7 @@
     "maengde": 75.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 186.66666666666669,
     "maerke": "salling"
   },
@@ -1569,7 +1569,7 @@
     "maengde": 150.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 66.67,
     "maerke": "salling"
   },
@@ -2024,7 +2024,7 @@
     "maengde": 1.0,
     "maengdeEnhed": "stk",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "stkPris": 2.5,
     "maerke": "se varen"
   },
@@ -2204,7 +2204,7 @@
     "maengde": 450.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 77.6667,
     "maerke": "velsmag"
   },
@@ -2228,7 +2228,7 @@
     "maengde": 300.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 50.0,
     "maerke": "danpo"
   },
@@ -2252,7 +2252,7 @@
     "maengde": 400.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 37.5,
     "maerke": "danpo"
   },
@@ -2348,7 +2348,7 @@
     "maengde": 500.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 49.9,
     "maerke": "velsmag"
   },
@@ -2360,7 +2360,7 @@
     "maengde": 700.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 99.9429,
     "maerke": "velsmag"
   },
@@ -2384,7 +2384,7 @@
     "maengde": 400.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 74.875,
     "maerke": "velsmag"
   },
@@ -2432,7 +2432,7 @@
     "maengde": 100.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 120.0,
     "maerke": "brunchy"
   },
@@ -2444,7 +2444,7 @@
     "maengde": 400.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 25.0,
     "maerke": "danish crown"
   },
@@ -2492,7 +2492,7 @@
     "maengde": 600.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 141.66666666666666,
     "maerke": "velsmag"
   },
@@ -2589,7 +2589,7 @@
     "maengde": 150.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 166.6667,
     "maerke": "zanetti"
   },
@@ -2733,7 +2733,7 @@
     "maengde": 1000.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 29.0,
     "maerke": "athena"
   },
@@ -2889,7 +2889,7 @@
     "maengde": 275.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 50.9455,
     "maerke": "næmt"
   },
@@ -3561,7 +3561,7 @@
     "maengde": 400.0,
     "maengdeEnhed": "g",
     "vegetar": false,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 73.9,
     "maerke": "navito"
   },
@@ -5233,7 +5233,7 @@
     "maengde": 600.0,
     "maengdeEnhed": "g",
     "vegetar": true,
-    "paTilbud": true,
+    "paTilbud": false,
     "kilopris": 16.67,
     "maerke": "rema1000"
   },

@@ -36,6 +36,12 @@ yarn-error.log*
 # prisdata billeder
 /priser
 
+# Ukomprimerede originalbilleder (komprimeret WebP er allerede committed under public/)
+/Billeder af retter/
+
+# Lokale debug-screenshots, ikke del af appen
+/Frontend fejl sceenshots/
+
 # Opskriftbilleder er komprimeret til WebP og committed direkte
 
 # vercel

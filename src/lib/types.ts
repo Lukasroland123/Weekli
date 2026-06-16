@@ -105,6 +105,7 @@ export interface WeeklyPlan {
   }>;
   totalPris: number;
   prPerPerson: number;
+  sparPris: number;          // total besparelse fra tilbud-produkter i hele planen
   indkoebsliste: ShoppingItem[];
 }
 
@@ -129,6 +130,7 @@ export interface UserRecipeIngredient {
 export interface UserRecipe {
   id: string;
   name: string;
+  personer: number;
   ingredienser: UserRecipeIngredient[];
   fremgangsmaade?: string;
 }

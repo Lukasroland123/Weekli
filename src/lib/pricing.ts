@@ -1,4 +1,4 @@
-import { Recipe, Product, RecipePrice, MatchedIngredient, ShoppingItem, PrisLogik, RecipeIngredientDef, Salat, SalatType, RecipePlaceholder, FridgeItem } from "./types";
+import { Recipe, Product, RecipePrice, MatchedIngredient, ShoppingItem, PrisLogik, RecipeIngredientDef, Salat, SalatType, RecipePlaceholder, FridgeItem, UserRecipe } from "./types";
 import salaterJson from "@/data/salater.json";
 import vaegtLogikJson from "@/data/vaegt-logik.json";
 
@@ -270,6 +270,62 @@ export function calcRecipePrice(
   return {
     totalPris,
     prPerPerson: persons > 0 ? totalPris / persons : totalPris,
+    matchede,
+    manglerMatch,
+    sparPris,
+  };
+}
+
+// Prisberegning for brugerens egne opskrifter (Profil → Tilføj opskrift).
+// Ingrediensmængder er indtastet som TOTAL for opskriftens personantal — ikke per person
+// som i recipes.json — så der skaleres ikke yderligere, i modsætning til calcRecipePrice().
+export function calcUserRecipePrice(
+  recipe: UserRecipe,
+  products: Product[],
+  selectedChains: string[]
+): RecipePrice {
+  const matchede: MatchedIngredient[] = [];
+  const manglerMatch: string[] = [];
+  let sparPris = 0;
+
+  const activeProducts =
+    selectedChains.length === 0
+      ? products
+      : products.filter((p) => selectedChains.includes(p.butik));
+
+  for (const ing of recipe.ingredienser) {
+    const kandidater = activeProducts.filter(
+      (p) => p.kategori.toUpperCase() === ing.canonical.toUpperCase()
+    );
+
+    if (kandidater.length === 0) {
+      manglerMatch.push(ing.canonical);
+      continue;
+    }
+
+    const match = findBestOption(kandidater, ing.maengde);
+    if (!match) {
+      manglerMatch.push(ing.canonical);
+      continue;
+    }
+
+    sparPris += match.spar;
+    matchede.push({
+      canonical: ing.canonical,
+      maengdeBehoevet: ing.maengde,
+      enhed: ing.enhed,
+      produkt: match.produkt,
+      pakker: match.pakker,
+      pris: match.pris,
+      spar: match.spar,
+    });
+  }
+
+  const totalPris = matchede.reduce((sum, m) => sum + m.pris, 0);
+
+  return {
+    totalPris,
+    prPerPerson: recipe.personer > 0 ? totalPris / recipe.personer : totalPris,
     matchede,
     manglerMatch,
     sparPris,

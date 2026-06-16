@@ -7,7 +7,7 @@ Læs dette inden du tilføjer opskrifter, produkter eller ændrer prisberegnings
 
 ## 1. Produktdatabasen (`src/data/products.json`)
 
-- **Genereres automatisk** via `scripts/convert-excel.py` fra Excel-filerne i `C:\Users\Lukas\Desktop\Opdateret produktdatabase\`
+- **Genereres automatisk** via `scripts/convert-excel.py` fra Excel-filerne i `Opdateret produktdatabase/` (i projektets rod)
 - **Redigeres aldrig manuelt** — kør scriptet igen hvis data skal opdateres
 - 3 kæder: `REMA 1000`, `NETTO`, `FØTEX`
 - Ca. 388 produkter (126 FØTEX, 133 NETTO, 126+ REMA 1000)
@@ -208,6 +208,26 @@ pakker = ceil(maengdeBehoevet / produktPakkestørrelse)
 pris = pakker × normalPris
 ```
 
+### Tilbuds-overlay (`src/data/tilbud.json`)
+Ugens aktive tilbud ligger i en separat overlay-fil — **rører aldrig** `products.json`.
+Hentes/kobles ind af `useProducts()` i `src/lib/products.ts`.
+
+```json
+[
+  { "butik": "REMA 1000", "kategori": "LØG", "produktnavn": "løg", "tilbudsPris": 8 }
+]
+```
+
+- `butik` + `kategori` + `produktnavn` skal matche **præcis** et produkt i `products.json`
+- `tilbudsPris` overskriver produktets `normalPris`, og `paTilbud` sættes til `true`
+- Tom liste (`[]`) = ingen aktive tilbud — det er udgangspunktet, brug aldrig fiktive testdata her
+- **Opdateres manuelt hver uge** lige nu (tjek tilbudsaviser/apps for REMA 1000, NETTO, FØTEX,
+  og indtast). Skal på sigt udskiftes med automatisk scraping — overlay-formatet er allerede
+  designet til at kunne skiftes ud uden at røre prisberegningslogikken.
+- Findes ingen aktiv tilbudsside i appen — tilbud regnes automatisk ind i alle priser
+  (opskrifter, Planner, indkøbslister) via `findBestOption()` i `pricing.ts`, og vises som
+  "Spar X kr"-badges hvor relevant.
+
 ---
 
 ## 6. Placeholders (fremtidig funktion)
@@ -249,11 +269,12 @@ Inden du gemmer en ny opskrift i `recipes.json`:
 
 | Fil | Formål |
 |-----|--------|
-| `billige-retter/src/data/products.json` | Produktdatabase (auto-genereret) |
-| `billige-retter/src/data/recipes.json` | Opskriftsdatabase |
-| `billige-retter/src/data/vaegt-logik.json` | Stk-vægte til frontend-visning |
-| `billige-retter/src/lib/types.ts` | TypeScript-typer for alt data |
-| `billige-retter/src/lib/pricing.ts` | Prisberegningslogik |
-| `billige-retter/src/lib/weekly.ts` | Ugeplanlægningslogik |
-| `billige-retter/scripts/convert-excel.py` | Import af Excel → products.json |
-| `C:\Users\Lukas\Desktop\Opdateret produktdatabase\` | Kilde-Excel-filer |
+| `src/data/products.json` | Produktdatabase (auto-genereret) |
+| `src/data/recipes.json` | Opskriftsdatabase |
+| `src/data/vaegt-logik.json` | Stk-vægte til frontend-visning |
+| `src/data/tilbud.json` | Ugens aktive tilbud (manuel overlay) |
+| `src/lib/types.ts` | TypeScript-typer for alt data |
+| `src/lib/pricing.ts` | Prisberegningslogik |
+| `src/lib/weekly.ts` | Ugeplanlægningslogik |
+| `scripts/convert-excel.py` | Import af Excel → products.json |
+| `Opdateret produktdatabase/` | Kilde-Excel-filer (i projektets rod) |
