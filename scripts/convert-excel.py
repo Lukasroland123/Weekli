@@ -14,10 +14,28 @@ EXCEL_DIR = Path(__file__).parent.parent / "Opdateret produktdatabase"
 OUTPUT = Path(__file__).parent.parent / "src" / "data" / "products.json"
 
 FILES = [
-    EXCEL_DIR / "Føtex produkt database(1).xlsx",
-    EXCEL_DIR / "Netto produkt database(1).xlsx",
-    EXCEL_DIR / "Rema1000 produkt database(1).xlsx",
+    EXCEL_DIR / "(Opdateret 29.06) Føtex produkt database(1).xlsx",
+    EXCEL_DIR / "(opdateret 29.06)Netto produkt database(1).xlsx",
+    EXCEL_DIR / "(opdateret 29.06) Rema1000 produkt database(1).xlsx",
+    # Permanente nedsættelser fundet i tilbudsaviser (tilbudspris = normalpris) som
+    # endnu ikke er flettet ind i hoved-databasefilerne. Almindelige kandidater — ikke tilbud.
+    EXCEL_DIR / "Permanente nedsættelser (fra tilbudsavis).xlsx",
 ]
+
+# Butiksnavne skal matche præcis én af de tre kæder. Excel-filerne har
+# stavevarianter (fx "REMA1000" uden mellemrum) der ellers ville blive
+# behandlet som en fjerde butik og bryde tilbuds-matching + konsolidering.
+BUTIK_NORMALISER = {
+    "rema1000": "REMA 1000",
+    "rema 1000": "REMA 1000",
+    "netto": "NETTO",
+    "føtex": "FØTEX",
+    "fotex": "FØTEX",
+}
+
+def normaliser_butik(val):
+    s = str(val).strip() if val else ""
+    return BUTIK_NORMALISER.get(s.lower(), s)
 
 # Kolonnenavne i Excel (i rækkefølge)
 # Butik | Kategori | Produktnavn | Normal pris i kr. | Mængde | Enhed (g/ml/stk)
@@ -64,15 +82,20 @@ for filepath in FILES:
             continue
 
         product = {
-            "butik": str(butik).strip() if butik else "",
+            "butik": normaliser_butik(butik),
             "kategori": str(kategori).strip().upper(),
             "produktnavn": str(produktnavn).strip(),
             "normalPris": normal_pris_num,
             "maengde": parse_number(maengde),
             "maengdeEnhed": enhed_str,
             "vegetar": parse_bool(vegetar),
-            "paTilbud": parse_bool(pa_tilbud),
+            # paTilbud er ALTID false i products.json. Tilbudsstatus kommer udelukkende
+            # fra tilbuds-overlayet (src/data/tilbud.json), som sætter paTilbud=true på sine
+            # kandidater. Excel-kolonnen "På tilbud" markerer blot at den noterede pris var en
+            # tilbudspris (bruges til prisaudit, ikke til visning) — jf. beslutning 2026-06-16.
+            "paTilbud": False,
         }
+        _ = pa_tilbud  # bevidst ignoreret (se kommentar ovenfor)
 
         kp = parse_number(kilopris)
         if kp is not None:

@@ -10,23 +10,35 @@ interface TilbudOverlayEntry {
   kategori: string;
   produktnavn: string;
   tilbudsPris: number;
+  maengde: number;
+  maengdeEnhed: string;
+  vegetar?: boolean;
+  maerke?: string;
 }
 
 const tilbudOverlay = tilbudJson as TilbudOverlayEntry[];
 
-// Ugentligt tilbuds-overlay — overlejrer paTilbud + pris på navngivne produkter
-// uden at røre products.json. Opdateres manuelt hver uge i src/data/tilbud.json
-// (samme felter: butik, kategori, produktnavn, tilbudsPris). Tom ([]) = ingen
-// aktive tilbud. Skal på sigt udskiftes med automatisk scraping.
+// Ugentligt tilbuds-overlay — tilbud matches på KATEGORI, ikke på produktnavn.
+// Hvert tilbud tilføjes som en kandidat-vare i sin kategori (paTilbud: true,
+// normalPris = tilbudsPris) uden at røre products.json. findBestOption() vælger
+// derefter billigste total i kategorien, så en tilbudsvare vinder hvis den er
+// billigere end de normale varer — og udregner "Spar" mod billigste ikke-tilbud.
+// Opdateres manuelt hver uge i src/data/tilbud.json. Tom ([]) = ingen aktive
+// tilbud. Skal på sigt udskiftes med automatisk scraping.
 function applyTilbudOverlay(products: Product[]): Product[] {
   if (tilbudOverlay.length === 0) return products;
-  return products.map((p) => {
-    const match = tilbudOverlay.find(
-      (o) => o.butik === p.butik && o.kategori === p.kategori && o.produktnavn === p.produktnavn
-    );
-    if (!match) return p;
-    return { ...p, paTilbud: true, normalPris: match.tilbudsPris };
-  });
+  const tilbudProducts: Product[] = tilbudOverlay.map((o) => ({
+    butik: o.butik,
+    kategori: o.kategori,
+    produktnavn: o.produktnavn,
+    normalPris: o.tilbudsPris,
+    maengde: o.maengde,
+    maengdeEnhed: o.maengdeEnhed,
+    vegetar: o.vegetar ?? false,
+    paTilbud: true,
+    ...(o.maerke ? { maerke: o.maerke } : {}),
+  }));
+  return [...products, ...tilbudProducts];
 }
 
 // Beregnes én gang ved modul-load, ikke ved hvert hook-kald — ellers laver .map()

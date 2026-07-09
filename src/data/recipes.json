@@ -6885,5 +6885,68 @@
       "Server de stegte ris med kyllingelår og de ovnbagte grøntsager."
     ],
     "imageUrl": "/images/retter/stegte-ris-kyllingelaar.webp"
+  },
+  {
+    "slug": "spaghetti-med-chorizo",
+    "titel": "Spaghetti med chorizo",
+    "beskrivelse": "Sprød chorizo i en simrende tomatsauce vendt med spaghetti og toppet med parmesan",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "SPAGHETTI",
+        "kandidater": [
+          "SPAGHETTI",
+          "PASTA"
+        ],
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPANSK PØLSE",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "kandidater": [
+          "LØG",
+          "RØDLØG"
+        ],
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 5
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 25,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak LØG og HVIDLØG fint.",
+      "Skær SPANSK PØLSE (chorizo) i skiver og steg den sprød på en pande. Tilsæt LØG og HVIDLØG, og svits med, til de er klare.",
+      "Tilsæt HAKKEDE TOMATER og lad det simre. Kog i mellemtiden SPAGHETTI i rigeligt saltet vand efter pakkens anvisning.",
+      "Vend den kogte SPAGHETTI i saucen, smag til med salt og peber, og server med revet PARMESANOST på toppen."
+    ],
+    "imageUrl": "/images/retter/spaghetti-med-chorizo.webp"
   }
 ]

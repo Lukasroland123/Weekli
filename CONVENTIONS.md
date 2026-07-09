@@ -214,16 +214,27 @@ Hentes/kobles ind af `useProducts()` i `src/lib/products.ts`.
 
 ```json
 [
-  { "butik": "REMA 1000", "kategori": "LØG", "produktnavn": "løg", "tilbudsPris": 8 }
+  { "butik": "REMA 1000", "kategori": "KOTELETTER", "produktnavn": "nakke koteletter",
+    "tilbudsPris": 29, "maengde": 300, "maengdeEnhed": "g", "vegetar": false, "maerke": "rema1000" }
 ]
 ```
 
-- `butik` + `kategori` + `produktnavn` skal matche **præcis** et produkt i `products.json`
-- `tilbudsPris` overskriver produktets `normalPris`, og `paTilbud` sættes til `true`
-- Tom liste (`[]`) = ingen aktive tilbud — det er udgangspunktet, brug aldrig fiktive testdata her
+- **Tilbud matches på KATEGORI, ikke på produktnavn.** Hvert tilbud tilføjes som en
+  *kandidat-vare* i sin kategori (`paTilbud: true`, `normalPris = tilbudsPris`). Tilbudsvaren
+  behøver altså IKKE matche en eksisterende vare — den kan være en ny variant.
+- `findBestOption()` vælger billigste total i kategorien, så tilbudsvaren vinder hvis den er
+  billigere end de normale varer, og "Spar X kr" udregnes mod billigste ikke-tilbudsvare.
+- `butik` skal være præcis `"REMA 1000"`, `"NETTO"` eller `"FØTEX"`. `kategori` skal matche en
+  kategori i `products.json` (UPPERCASE). `maengde` + `maengdeEnhed` er nødvendige for total-
+  prisberegningen (`ceil(behov / maengde) × tilbudsPris`).
+- Tom liste (`[]`) = ingen aktive tilbud — det er udgangspunktet, brug aldrig fiktive testdata her.
+- **Permanent nedsatte varer hører IKKE hjemme her.** Er `tilbudspris = normalpris` i avisen, er
+  det en permanent ny normalpris → hører i produktdatabasen (Excel → `products.json`), ikke som
+  ugentligt tilbud. Kun `tilbudspris < normalpris` lægges i `tilbud.json`.
 - **Opdateres manuelt hver uge** lige nu (tjek tilbudsaviser/apps for REMA 1000, NETTO, FØTEX,
-  og indtast). Skal på sigt udskiftes med automatisk scraping — overlay-formatet er allerede
-  designet til at kunne skiftes ud uden at røre prisberegningslogikken.
+  og indtast). Kan genereres fra tilbuds-Excel i `Opdateret produktdatabase/Tilbud/`. Skal på
+  sigt udskiftes med automatisk scraping — overlay-formatet er allerede designet til at kunne
+  skiftes ud uden at røre prisberegningslogikken.
 - Findes ingen aktiv tilbudsside i appen — tilbud regnes automatisk ind i alle priser
   (opskrifter, Planner, indkøbslister) via `findBestOption()` i `pricing.ts`, og vises som
   "Spar X kr"-badges hvor relevant.
