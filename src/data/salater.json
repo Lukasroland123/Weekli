@@ -99,5 +99,17 @@
       { "canonical": "MOZZARELLA", "maengde": 31, "enhed": "g" }
     ],
     "basisvarer": ["citronsaft", "olivenolie", "salt", "peber"]
+  },
+  {
+    "id": "kartoffelsalat",
+    "navn": "Kartoffelsalat",
+    "passer_til": ["svin", "kylling"],
+    "ingredienser": [
+      { "canonical": "KARTOFLER", "maengde": 187.5, "enhed": "g" },
+      { "canonical": "CREME FRAICHE", "maengde": 125, "enhed": "ml" },
+      { "canonical": "RØDLØG", "maengde": 30, "enhed": "g" },
+      { "canonical": "CITRON", "maengde": 0.0625, "enhed": "stk", "minTotal": 0.25 }
+    ],
+    "basisvarer": ["klippet purløg", "sød fransk sennep", "groft salt", "friskkværnet hvid peber", "brøndkarse"]
   }
 ]
