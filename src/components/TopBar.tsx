@@ -52,7 +52,7 @@ export default function TopBar() {
   const personsActive = state.persons !== 2;
 
   return (
-    <div ref={containerRef} className="bg-white border-b border-gray-100 px-4 pt-3 sticky top-0 z-40">
+    <div ref={containerRef} className="bg-white border-b border-gray-100 px-4 pt-3 sticky top-12 z-40">
       {/* Search row */}
       <div className="flex gap-2 mb-3">
         <div className="flex-1">

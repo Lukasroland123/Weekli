@@ -132,6 +132,7 @@ export interface UserRecipe {
   name: string;
   personer: number;
   ingredienser: UserRecipeIngredient[];
+  basisvarer?: string[];      // free-text pantry items without a category — shown, not priced
   fremgangsmaade?: string;
 }
 

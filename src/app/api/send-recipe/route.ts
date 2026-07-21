@@ -15,6 +15,7 @@ interface RecipePayload {
   name?: string;
   personer?: number;
   ingredienser?: IncomingIngredient[];
+  basisvarer?: string[];
   fremgangsmaade?: string;
 }
 
@@ -56,6 +57,11 @@ export async function POST(request: Request) {
     .map((i) => `<li>${escapeHtml(i.canonical.toLowerCase())}: ${i.maengde} ${escapeHtml(i.enhed)}</li>`)
     .join("");
 
+  const basisvarer = (payload.basisvarer ?? []).map((b) => b.trim()).filter(Boolean);
+  const basisvarerLines = basisvarer
+    .map((b) => `<li>${escapeHtml(b.toLowerCase())}</li>`)
+    .join("");
+
   const fremgang = payload.fremgangsmaade?.trim();
 
   const html = `
@@ -63,6 +69,7 @@ export async function POST(request: Request) {
     <p><strong>Antal personer:</strong> ${personer}</p>
     <h3>Ingredienser</h3>
     <ul>${ingredientLines}</ul>
+    ${basisvarerLines ? `<h3>Basisvarer &amp; krydderier</h3><ul>${basisvarerLines}</ul>` : ""}
     ${fremgang ? `<h3>Fremgangsmåde</h3><p>${escapeHtml(fremgang).replace(/\n/g, "<br>")}</p>` : ""}
   `;
 

@@ -40,15 +40,6 @@ function BookmarkIcon() {
   );
 }
 
-function PersonIcon() {
-  return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-      <circle cx="12" cy="7" r="4" />
-    </svg>
-  );
-}
-
 function FridgeIcon() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -60,12 +51,21 @@ function FridgeIcon() {
   );
 }
 
+function BookIcon() {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+    </svg>
+  );
+}
+
 const NAV_ITEMS: NavItem[] = [
   { href: "/", label: "Daily", icon: <HomeIcon /> },
   { href: "/weekly", label: "Planner", icon: <CalendarIcon /> },
+  { href: "/mine-retter", label: "Mine retter", icon: <BookIcon /> },
   { href: "/koeleskab", label: "Køleskab", icon: <FridgeIcon /> },
   { href: "/gemte", label: "Gemte", icon: <BookmarkIcon /> },
-  { href: "/profil", label: "Profil", icon: <PersonIcon /> },
 ];
 
 export default function BottomNav() {

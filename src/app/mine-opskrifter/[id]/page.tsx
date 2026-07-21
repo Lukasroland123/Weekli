@@ -102,6 +102,19 @@ export default function MinOpskriftPage({ params }: { params: Promise<{ id: stri
           </div>
         )}
 
+        {/* Basisvarer & krydderier */}
+        {recipe.basisvarer && recipe.basisvarer.length > 0 && (
+          <section className="mt-6">
+            <h2 className="text-base font-semibold text-gray-900 mb-1">Basisvarer &amp; krydderier</h2>
+            <p className="text-xs text-gray-400 mb-3">Forventes at være i et standardkøkken — ikke med i prisen.</p>
+            <div className="flex flex-wrap gap-1.5">
+              {recipe.basisvarer.map((b) => (
+                <span key={b} className="bg-gray-100 text-gray-600 rounded-full px-3 py-1 text-sm capitalize">{b}</span>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Fremgangsmåde */}
         {recipe.fremgangsmaade && (
           <section className="mt-6">
