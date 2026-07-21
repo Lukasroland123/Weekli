@@ -4942,7 +4942,11 @@
       {
         "canonical": "FLÆSKESTEG",
         "maengde": 150,
-        "enhed": "g"
+        "enhed": "g",
+        "kandidater": [
+          "FLÆSKESTEG",
+          "RIBBENSSTEG"
+        ]
       },
       {
         "canonical": "SYLTET RØDKÅL",
@@ -4992,7 +4996,11 @@
       {
         "canonical": "FLÆSKESTEG",
         "maengde": 150,
-        "enhed": "g"
+        "enhed": "g",
+        "kandidater": [
+          "FLÆSKESTEG",
+          "RIBBENSSTEG"
+        ]
       },
       {
         "canonical": "SYLTET RØDKÅL",
@@ -6948,5 +6956,775 @@
       "Vend den kogte SPAGHETTI i saucen, smag til med salt og peber, og server med revet PARMESANOST på toppen."
     ],
     "imageUrl": "/images/retter/spaghetti-med-chorizo.webp"
+  },
+  {
+    "slug": "steak-med-brune-loeg",
+    "titel": "Steak med brune løg",
+    "beskrivelse": "Saftige steaks med bløde, brune løg, kartofler og en flødesauce kogt på panden",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "BØFFER",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PISKEFLØDE",
+        "kandidater": [
+          "PISKEFLØDE",
+          "MADLAVNINGSFLØDE"
+        ],
+        "maengde": 25,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vineddike",
+      "sukker",
+      "oksebouillon",
+      "salt",
+      "peber",
+      "timian"
+    ],
+    "fremgangsmaade": [
+      "Tag BØFFERNE ud 45 minutter før stegning og salt dem let.",
+      "Steg LØGENE bløde og gyldne i smør med timian. Tilsæt vineddike, sukker og lidt salt.",
+      "Steg BØFFERNE i smør til ønsket stegegrad.",
+      "Kog panden af med oksebouillon og PISKEFLØDE, og smag til med salt og peber.",
+      "Kog KARTOFLERNE og server med bøffer, løg og sauce."
+    ],
+    "imageUrl": "/images/retter/steak-med-brune-loeg.webp"
+  },
+  {
+    "slug": "hakkeboeffer-med-brune-loeg",
+    "titel": "Hakkebøffer med brune løg",
+    "beskrivelse": "Saftige hakkebøffer af oksekød med bløde, brune løg, kartofler og en flødesauce kogt på panden",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 45,
+    "ingredienser": [
+      {
+        "canonical": "HAKKET OKSEKØD",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PISKEFLØDE",
+        "kandidater": [
+          "PISKEFLØDE",
+          "MADLAVNINGSFLØDE"
+        ],
+        "maengde": 25,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "vineddike",
+      "sukker",
+      "oksebouillon",
+      "salt",
+      "peber",
+      "timian"
+    ],
+    "fremgangsmaade": [
+      "Form HAKKET OKSEKØD til 4 hakkebøffer og krydr med salt og peber.",
+      "Steg LØGENE bløde og gyldne i smør med timian. Tilsæt vineddike, sukker og lidt salt.",
+      "Steg HAKKEBØFFERNE i smør til ønsket stegegrad.",
+      "Kog panden af med oksebouillon og PISKEFLØDE, og smag til med salt og peber.",
+      "Kog KARTOFLERNE og server med hakkebøffer, løg og sauce."
+    ],
+    "imageUrl": "/images/retter/hakkeboeffer-med-brune-loeg.webp"
+  },
+  {
+    "slug": "pastasalat-med-tun",
+    "titel": "Pastasalat med tun",
+    "beskrivelse": "Kold pastasalat med tun, cherrytomater, agurk, rødløg og pesto",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "PASTA",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "CHERRYTOMATER",
+        "maengde": 62.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "DÅSE TUN",
+        "maengde": 93.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØD PESTO",
+        "kandidater": [
+          "RØD PESTO",
+          "GRØN PESTO"
+        ],
+        "maengde": 15,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "sorte oliven",
+      "salt",
+      "peber",
+      "chiliflager"
+    ],
+    "fremgangsmaade": [
+      "Kog PASTA i letsaltet vand efter pakkens anvisning, og lad den efterfølgende køle ned.",
+      "Skær RØDLØG i meget fine tern og AGURK i grove tern.",
+      "Halvér CHERRYTOMATER og de sorte oliven.",
+      "Hæld vandet fra DÅSE TUN, og bland tunkødet sammen med PASTA, RØDLØG, AGURK, CHERRYTOMATER, sorte oliven og PESTO.",
+      "Smag salaten til med salt, peber og evt. lidt chiliflager."
+    ],
+    "imageUrl": "/images/retter/pastasalat-med-tun.webp"
+  },
+  {
+    "slug": "hamburgerryg-med-grontsager",
+    "titel": "Hamburgerryg med grøntsager",
+    "beskrivelse": "Kogt hamburgerryg med kartofler, blomkål, gulerødder, grønne bønner, rørt smør og sennep",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 75,
+    "ingredienser": [
+      {
+        "canonical": "HAMBURGERRYG",
+        "maengde": 187.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BLOMKÅL",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 80,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FROSNE BØNNER",
+        "maengde": 62.5,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "sennep",
+      "salt"
+    ],
+    "fremgangsmaade": [
+      "Kog HAMBURGERRYG i vand i ca. 45 min. ved lav varme. Lad den trække i kogevandet 20 min., fjern net/hinde og skær i skiver.",
+      "Kog KARTOFLER møre i letsaltet vand (ca. 20 min.).",
+      "Kog BLOMKÅL 2 min., GULERØDDER 3-5 min. og FROSNE BØNNER 4-5 min.",
+      "Rør smør med 1 spsk af kogevandet fra hamburgerryggen til en cremet konsistens.",
+      "Server HAMBURGERRYG med KARTOFLER, grøntsager, rørt smør og sennep."
+    ],
+    "imageUrl": "/images/retter/hamburgerryg-med-grontsager.webp"
+  },
+  {
+    "slug": "kylling-burger-boef",
+    "titel": "Kyllingeburger med frost kyllingebøffer",
+    "beskrivelse": "Saftig stegt kyllingebøf med smeltet cheddar, friske grøntsager og sprødt burgerbølle",
+    "personer": 4,
+    "tags": [
+      "kylling"
+    ],
+    "tilberedningstid": 20,
+    "ingredienser": [
+      {
+        "canonical": "KYLLINGE BØFFER FROST",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "BURGERBOLLER",
+        "maengde": 55,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ICEBERGSALAT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "TOMATER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHEDDAR",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "AGURK",
+        "maengde": 0.125,
+        "enhed": "stk"
+      }
+    ],
+    "basisvarer": [
+      "ketchup",
+      "mayonnaise",
+      "olie",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Krydr KYLLINGE BØFFER FROST med salt og peber.",
+      "Skyl ICEBERGSALAT og skær i grove strimler. Skær TOMATER, AGURK og RØDLØG i tynde skiver.",
+      "Varm olie på pande ved høj varme. Steg KYLLINGE BØFFER FROST ca. 4-5 minutter på hver side til gennemstegt.",
+      "Fordel CHEDDAR oven på bøfferne det sidste minut, så den smelter.",
+      "Flæk BURGERBOLLER og rist dem let på skærefladen til lune og sprøde.",
+      "Smør bollerne med ketchup og mayonnaise. Læg ICEBERGSALAT i bunden, derefter kylling med ost, TOMATER, AGURK og RØDLØG. Server straks."
+    ],
+    "imageUrl": "/images/retter/kylling-burger.webp"
+  },
+  {
+    "slug": "medister-med-kartoffelsalat",
+    "titel": "Medister med kartoffelsalat",
+    "beskrivelse": "Stegt medisterpølse serveret med hjemmerørt kartoffelsalat og flute",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "MEDISTER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 187.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CREME FRAICHE",
+        "maengde": 125,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.0625,
+        "enhed": "stk",
+        "minTotal": 0.25
+      },
+      {
+        "canonical": "FLUTE",
+        "maengde": 100,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "klippet purløg",
+      "sød fransk sennep",
+      "groft salt",
+      "friskkværnet hvid peber",
+      "brøndkarse"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER til kartoffelsalaten møre i letsaltet vand, og lad dem køle af. Skær dem i skiver eller tern.",
+      "Rør CREME FRAICHE med sød fransk sennep, finthakket RØDLØG, revet skal og saft af CITRON, klippet purløg, salt og hvid peber. Vend KARTOFLER i og top med brøndkarse.",
+      "Steg MEDISTER i olie på panden ca. 12-15 min., til den er gennemstegt og gylden.",
+      "Server MEDISTER med kartoffelsalaten og lunt FLUTE."
+    ],
+    "imageUrl": "/images/retter/medister-med-kartoffelsalat.webp"
+  },
+  {
+    "slug": "medister-med-brunsovs",
+    "titel": "Medister med brunsovs",
+    "beskrivelse": "Stegt medisterpølse med kartofler, brun sovs, syltet rødkål samt stegte løg og æbler",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SYLTET RØDKÅL",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "ÆBLER",
+        "maengde": 28.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MEDISTER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LETMÆLK",
+        "maengde": 125,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "majsstivelse",
+      "sovsekulør",
+      "oksebouillon",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER møre, og varm SYLTET RØDKÅL.",
+      "Skær LØG i ringe og ÆBLER i både. Steg dem bløde i olie.",
+      "Steg MEDISTER gylden og gennemstegt.",
+      "Lav sovsen på panden: Tilsæt LETMÆLK og oksebouillon, kog op, jævn med majsstivelse og tilsæt sovsekulør. Smag til med salt og peber.",
+      "Server MEDISTER med KARTOFLER, sovs, SYLTET RØDKÅL samt LØG og ÆBLER."
+    ],
+    "imageUrl": "/images/retter/medister-med-brunsovs.webp"
+  },
+  {
+    "slug": "rejepasta-med-parmesan",
+    "titel": "Rejepasta med parmesan",
+    "beskrivelse": "Cremet spaghetti med rejer, squash, hvidløg, chili, fløde, parmesan og citronskal",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "SPAGHETTI",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "REJER",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SQUASH",
+        "maengde": 0.125,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 4.375,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "PISKEFLØDE",
+        "kandidater": [
+          "PISKEFLØDE",
+          "MADLAVNINGSFLØDE"
+        ],
+        "maengde": 25,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "PARMESANOST",
+        "maengde": 11.25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.125,
+        "enhed": "stk",
+        "minTotal": 0.25
+      }
+    ],
+    "basisvarer": [
+      "olivenolie",
+      "frisk rød chili",
+      "hvidvin",
+      "frisk persille",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Kog SPAGHETTI al dente, og gem lidt af pastavandet.",
+      "Steg REJER og SQUASH i olie ved høj varme, og tag dem af panden.",
+      "Steg HVIDLØG og chili på panden. Tilsæt evt. hvidvin og lad den koge lidt ind.",
+      "Vend SPAGHETTI og persille i panden. Tilsæt PISKEFLØDE, PARMESANOST og lidt pastavand, til retten er cremet.",
+      "Kom REJER og SQUASH tilbage i retten og smag til med revet skal af CITRON, salt, peber og evt. mere chili.",
+      "Server med persille og PARMESANOST."
+    ],
+    "imageUrl": "/images/retter/rejepasta-med-parmesan.webp"
+  },
+  {
+    "slug": "poelser-med-kartoffelsalat",
+    "titel": "Pølser med kartoffelsalat",
+    "beskrivelse": "Stegte pølser serveret med hjemmerørt kartoffelsalat og flute",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 40,
+    "ingredienser": [
+      {
+        "canonical": "PØLSER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 187.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CREME FRAICHE",
+        "maengde": 125,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "RØDLØG",
+        "maengde": 30,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CITRON",
+        "maengde": 0.0625,
+        "enhed": "stk",
+        "minTotal": 0.25
+      },
+      {
+        "canonical": "FLUTE",
+        "maengde": 100,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "olie",
+      "klippet purløg",
+      "sød fransk sennep",
+      "groft salt",
+      "friskkværnet hvid peber",
+      "brøndkarse"
+    ],
+    "fremgangsmaade": [
+      "Kog KARTOFLER til kartoffelsalaten møre i letsaltet vand, og lad dem køle af. Skær dem i skiver eller tern.",
+      "Rør CREME FRAICHE med sød fransk sennep, finthakket RØDLØG, revet skal og saft af CITRON, klippet purløg, salt og hvid peber. Vend KARTOFLER i og top med brøndkarse.",
+      "Steg PØLSER på panden ca. 8-10 min., til de er gennemstegte og gyldne.",
+      "Server PØLSER med kartoffelsalaten og lunt FLUTE."
+    ],
+    "imageUrl": "/images/retter/poelser-med-kartoffelsalat.webp"
+  },
+  {
+    "slug": "svensk-poelseret",
+    "titel": "Svensk pølseret",
+    "beskrivelse": "Svensk pølseret med kartofler, pølser og en cremet tomat-paprikasovs",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 250,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PØLSER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "LØG",
+        "maengde": 60,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 2.5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "TOMATPURE",
+        "maengde": 25,
+        "enhed": "g"
+      },
+      {
+        "canonical": "MADLAVNINGSFLØDE",
+        "maengde": 62.5,
+        "enhed": "ml"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "mild paprika",
+      "ketchup",
+      "æblecidereddike",
+      "groft salt",
+      "friskkværnet peber",
+      "klippet purløg"
+    ],
+    "fremgangsmaade": [
+      "Skær KARTOFLER og PØLSER i mindre stykker.",
+      "Lad smørret blive gyldent i en sauterpande og svits PØLSER gyldne ved høj varme i ca. 3 min.",
+      "Tilsæt LØG og HVIDLØG og svits i ca. 1 min.",
+      "Tilsæt TOMATPURE og paprika og lad det svitse med i ca. 3 min.",
+      "Skru ned til jævn varme og tilsæt KARTOFLER, ketchup, æblecidereddike, MADLAVNINGSFLØDE, salt og peber. Lad retten koge i ca. 10 min., til den er godt varm.",
+      "Pynt med klippet purløg og server."
+    ],
+    "imageUrl": "/images/retter/svensk-poelseret.webp"
+  },
+  {
+    "slug": "roedspaetter-i-fad",
+    "titel": "Rødspættefileter i fad med grøntsager",
+    "beskrivelse": "Bagte rødspætteruller på et fad af spidskål, porrer og rodfrugter i flødesovs",
+    "personer": 4,
+    "tags": [
+      "fisk"
+    ],
+    "tilberedningstid": 35,
+    "ingredienser": [
+      {
+        "canonical": "RØDSPÆTTER",
+        "maengde": 125,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SPIDSKÅL",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "PORRER",
+        "maengde": 0.5,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "GULERØDDER",
+        "maengde": 40,
+        "enhed": "g"
+      },
+      {
+        "canonical": "PISKEFLØDE",
+        "kandidater": [
+          "PISKEFLØDE",
+          "MADLAVNINGSFLØDE"
+        ],
+        "maengde": 125,
+        "enhed": "ml"
+      },
+      {
+        "canonical": "LIME",
+        "kandidater": [
+          "LIME",
+          "CITRON"
+        ],
+        "maengde": 0.25,
+        "enhed": "stk",
+        "minTotal": 0.25
+      }
+    ],
+    "basisvarer": [
+      "persillerødder",
+      "frisk persille",
+      "sennep",
+      "salt",
+      "friskkværnet peber"
+    ],
+    "fremgangsmaade": [
+      "Salt RØDSPÆTTER, rul dem sammen, og lad dem hvile.",
+      "Halvér SPIDSKÅL, fjern den træge bund, og snit kålen i mindre stykker. Fordel den i et stort ildfast fad.",
+      "Snit PORRER i tynde skiver og persillerødder og GULERØDDER i tynde stænger. Fordel dem i fadet sammen med grofthakket persille.",
+      "Rør PISKEFLØDE sammen med sennep. Hæld blandingen over grøntsagerne, og krydr med salt og peber.",
+      "Læg rødspætterullerne ovenpå, dryp med lidt saft fra LIME, og bag ved 200 °C varmluft i ca. 20 minutter."
+    ],
+    "imageUrl": "/images/retter/roedspaetter-i-fad.webp"
+  },
+  {
+    "slug": "spareribs-med-salat-og-kartofler",
+    "titel": "Spareribs med salat og kartofler",
+    "beskrivelse": "Sprøde spareribs serveret med kogte kartofler og en frisk salat",
+    "personer": 4,
+    "tags": [
+      "kød"
+    ],
+    "tilberedningstid": 30,
+    "ingredienser": [
+      {
+        "canonical": "SPARERIBS",
+        "maengde": 200,
+        "enhed": "g"
+      },
+      {
+        "canonical": "KARTOFLER",
+        "maengde": 150,
+        "enhed": "g"
+      },
+      {
+        "placeholder": "salat_svin"
+      }
+    ],
+    "basisvarer": [
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Sæt SPARERIBS i ovnen ved 180 °C i cirka 30 minutter (eller læs på pakken).",
+      "Kog KARTOFLER til de falder af gaflen.",
+      "Skær TOMATER, MOZZARELLA og RØDLØG i tynde skiver og arrangér dem på en tallerken."
+    ],
+    "imageUrl": "/images/retter/spareribs-med-salat-og-kartofler.webp"
+  },
+  {
+    "slug": "vegetarisk-boennegryde",
+    "titel": "Vegetarisk bønnegryde",
+    "beskrivelse": "Krydret vegetarisk bønnegryde med peberfrugt, tomat og flødeost, serveret med flute",
+    "personer": 4,
+    "tags": [
+      "vegetar"
+    ],
+    "tilberedningstid": 25,
+    "ingredienser": [
+      {
+        "canonical": "LØG",
+        "maengde": 50,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HVIDLØG",
+        "maengde": 5,
+        "enhed": "g",
+        "minTotal": 10
+      },
+      {
+        "canonical": "PEBERFRUGT",
+        "maengde": 0.25,
+        "enhed": "stk"
+      },
+      {
+        "canonical": "KIDNEYBØNNER",
+        "kandidater": [
+          "KIDNEYBØNNER",
+          "SORTE BØNNER"
+        ],
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "HAKKEDE TOMATER",
+        "maengde": 100,
+        "enhed": "g"
+      },
+      {
+        "canonical": "SMØREOST",
+        "kandidater": [
+          "SMØREOST",
+          "CREME FRAICHE",
+          "GRÆSK YOGHURT",
+          "MADLAVNINGSFLØDE",
+          "PISKEFLØDE"
+        ],
+        "maengde": 37.5,
+        "enhed": "g"
+      },
+      {
+        "canonical": "CHEDDAR",
+        "kandidater": [
+          "CHEDDAR",
+          "FETA OST",
+          "MOZZARELLA"
+        ],
+        "maengde": 18.75,
+        "enhed": "g"
+      },
+      {
+        "canonical": "FLUTE",
+        "maengde": 100,
+        "enhed": "g"
+      }
+    ],
+    "basisvarer": [
+      "smør",
+      "spidskommen",
+      "chili",
+      "grøntsagsbouillon",
+      "salt",
+      "peber"
+    ],
+    "fremgangsmaade": [
+      "Hak både HVIDLØG og LØG fint.",
+      "Varm en gryde med smør og vend HVIDLØG i et par sekunder. Tilsæt LØG. Vend rundt på mellemvarme et par minutter — det skal ikke brunes, blot vendes til gennemsigtigt.",
+      "Tilsæt hakket PEBERFRUGT, spidskommen, chili, bønner, HAKKEDE TOMATER, vand og grøntsagsbouillon. Læg låg på og lad simre i fem minutter. Smag til med salt og peber. Kom flødeost (eller fløde) i til sidst — det bør ikke koge, da særligt flødeost kan klumpe, når det koger op.",
+      "Retten kan sagtens simre i længere tid — sørg blot for at bønnerne ikke bliver udkogt.",
+      "Portionsanret og server med ost og grønt på toppen. Server f.eks. med FLUTE, ristet pitabrød eller tortilla."
+    ],
+    "imageUrl": "/images/retter/vegetarisk-boennegryde.webp"
   }
 ]

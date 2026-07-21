@@ -67,10 +67,17 @@ function resolveSalatPlaceholder(
   type: SalatType,
   products: Product[],
   persons: number,
-  prisLogik: PrisLogik
+  prisLogik: PrisLogik,
+  salatIds?: string[]
 ): { matchede: MatchedIngredient[]; manglerMatch: string[]; sparPris: number } | null {
   const passerTil = SALAT_TYPE_MAP[type];
-  const candidates = salater.filter((s) => (s.passer_til as string[]).includes(passerTil));
+  let candidates = salater.filter((s) => (s.passer_til as string[]).includes(passerTil));
+  // If the placeholder names specific salads, restrict to those (fall back to all if none match)
+  if (salatIds && salatIds.length > 0) {
+    const allow = new Set(salatIds.map((id) => id.toLowerCase()));
+    const restricted = candidates.filter((s) => allow.has(s.id.toLowerCase()));
+    if (restricted.length > 0) candidates = restricted;
+  }
   if (candidates.length === 0) return null;
 
   let best: ReturnType<typeof priceSalatIngredients> | null = null;
@@ -143,7 +150,7 @@ export function calcRecipePrice(
     if ("placeholder" in ing) {
       const ph = ing as RecipePlaceholder;
       if (ph.placeholder in SALAT_TYPE_MAP) {
-        const result = resolveSalatPlaceholder(ph.placeholder as SalatType, activeProducts, persons, prisLogik);
+        const result = resolveSalatPlaceholder(ph.placeholder as SalatType, activeProducts, persons, prisLogik, ph.kandidater);
         if (result) {
           matchede.push(...result.matchede);
           manglerMatch.push(...result.manglerMatch);
