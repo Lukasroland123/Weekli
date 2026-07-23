@@ -201,9 +201,8 @@ export default function AddRecipeSection() {
 
             {/* Antal personer */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5">
-                Antal personer <span className="text-red-500">*</span>
-              </p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Antal personer</p>
+              <p className="text-xs text-gray-400 mb-2">Vælg hvor mange personer opskriften er til.</p>
               <div className="flex gap-2">
                 {[1, 2, 3, 4, 5, 6].map((n) => (
                   <button
@@ -217,14 +216,12 @@ export default function AddRecipeSection() {
                   </button>
                 ))}
               </div>
-              {recipePersons === null && (
-                <p className="text-xs text-red-500 mt-1.5">Vælg hvor mange personer opskriften er til</p>
-              )}
             </div>
 
             {/* Ingredienser */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Ingredienser</p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Ingredienser</p>
+              <p className="text-xs text-gray-400 mb-2">Varerne med pris — bruges til at beregne hvad retten koster.</p>
 
               {/* Confirmed ingredient rows */}
               {draftIngredients.length > 0 && (
