@@ -8,7 +8,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   return (
-    <div className="max-w-[430px] mx-auto relative min-h-screen bg-white">
+    <div className="max-w-[430px] mx-auto relative min-h-screen bg-white sm:shadow-xl sm:shadow-gray-300/40">
       {/* Global header — logo + settings gear */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-4 h-12 bg-white border-b border-gray-100">
         <span className="text-lg font-bold text-green-600 tracking-tight">Weekli</span>

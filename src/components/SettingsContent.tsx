@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { useApp } from "@/context/AppContext";
 import { useProducts } from "@/lib/products";
 import { useRecipes } from "@/lib/recipes";
@@ -280,6 +281,25 @@ export default function SettingsContent() {
           </div>
         )}
       </div>
+
+      {/* ── Om Weekli ── */}
+      <Link
+        href="/om"
+        className="flex items-center gap-3 px-4 py-4 bg-white border border-gray-100 shadow-sm rounded-2xl"
+      >
+        <div className="w-9 h-9 bg-gray-100 rounded-xl flex items-center justify-center shrink-0">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6b7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+          </svg>
+        </div>
+        <div className="flex-1 text-left">
+          <p className="font-semibold text-gray-800 text-sm leading-tight">Om Weekli</p>
+          <p className="text-xs text-gray-400 mt-0.5">Priser, privatliv og kontakt</p>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" className="shrink-0">
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+      </Link>
     </div>
   );
 }
