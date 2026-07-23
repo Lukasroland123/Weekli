@@ -163,15 +163,23 @@ export default function OpskriftClient({ recipe }: { recipe: Recipe }) {
         <section className="mb-5">
           <h2 className="text-base font-semibold text-gray-900 mb-3">Indkøbsliste</h2>
           <ul className="space-y-2">
-            {price.matchede.map((m) => (
+            {price.matchede.map((m) => {
+              const harAllerede = m.pakker === 0;
+              return (
               <li key={m.canonical} className="flex items-center justify-between bg-white border border-gray-100 rounded-xl px-4 py-3">
                 <div>
-                  <p className="font-medium text-gray-800 text-sm">{m.produkt.produktnavn}</p>
+                  <p className={`font-medium text-gray-800 text-sm ${harAllerede ? "capitalize" : ""}`}>
+                    {harAllerede ? m.canonical.toLowerCase() : m.produkt.produktnavn}
+                  </p>
                   <p className="text-xs text-gray-400">
-                    {erLøs(m.canonical, m.produkt.maengde, m.produkt.maengdeEnhed)
-                      ? `${m.pakker}× løse`
-                      : `${formatShoppingAmount(m.canonical, 1, m.produkt.maengde, m.produkt.maengdeEnhed)}${m.pakker > 1 ? ` × ${m.pakker}` : ""}`}
-                    {" · "}{m.produkt.butik}
+                    {harAllerede
+                      ? "Har du allerede"
+                      : <>
+                          {erLøs(m.canonical, m.produkt.maengde, m.produkt.maengdeEnhed)
+                            ? `${m.pakker}× løse`
+                            : `${formatShoppingAmount(m.canonical, 1, m.produkt.maengde, m.produkt.maengdeEnhed)}${m.pakker > 1 ? ` × ${m.pakker}` : ""}`}
+                          {" · "}{m.produkt.butik}
+                        </>}
                   </p>
                 </div>
                 <div className="text-right shrink-0 ml-3">
@@ -185,7 +193,8 @@ export default function OpskriftClient({ recipe }: { recipe: Recipe }) {
                   )}
                 </div>
               </li>
-            ))}
+              );
+            })}
             {price.manglerMatch.map((canonical) => (
               <li key={canonical} className="flex items-center bg-amber-50 border border-amber-100 rounded-xl px-4 py-3">
                 <p className="text-sm text-amber-700">{canonical.toLowerCase()} — ikke fundet i valgte kæder</p>

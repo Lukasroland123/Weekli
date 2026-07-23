@@ -168,9 +168,12 @@ export function calcRecipePrice(
       ingDef.minTotal ?? 0
     );
 
-    // Fridge: check if ingredient is (partially) covered by fridge items
+    // Fridge: check if ingredient is (partially) covered by fridge items.
+    // Match mod BÅDE primær-canonical OG kandidater — ellers overses fx "JASMIN RIS"
+    // i køleskabet for en ret hvis ingrediens er "BASMATI RIS" med jasmin som kandidat.
+    const ingCanonicals = (ingDef.kandidater ?? [ingDef.canonical]).map((c) => c.toUpperCase());
     const fridgeItem = fridgeItems.find(
-      (f) => f.canonical.toUpperCase() === ingDef.canonical.toUpperCase()
+      (f) => ingCanonicals.includes(f.canonical.toUpperCase())
     );
     if (fridgeItem) {
       // Try to compare in grams first
