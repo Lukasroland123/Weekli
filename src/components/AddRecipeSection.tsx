@@ -350,17 +350,17 @@ export default function AddRecipeSection() {
                 </div>
               ))}
 
-              {/* + button — always visible */}
+              {/* Tilføj-ingrediens — styles as basisvarer's input + Tilføj-button */}
               <button
                 onClick={addPendingRow}
-                className="flex items-center gap-2 text-sm font-medium text-green-700 hover:text-green-800 transition-colors py-1"
+                className="flex gap-2 w-full text-left group"
               >
-                <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
-                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round">
-                    <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
-                  </svg>
-                </div>
-                Tilføj ingrediens
+                <span className="flex-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-gray-400 group-hover:border-green-300 transition-colors">
+                  Søg og tilføj ingrediens, f.eks. kylling...
+                </span>
+                <span className="px-4 py-2.5 rounded-xl text-sm font-semibold bg-green-600 text-white shrink-0">
+                  Tilføj
+                </span>
               </button>
             </div>
 
