@@ -20,6 +20,7 @@ export interface Product {
   maerke?: string;
   vegetar: boolean;
   paTilbud: boolean;      // metadata only — not the backbone price
+  foerPris?: number;      // original price before offer (from tilbudsavis) — for showing "Spar X"
 }
 
 // One ingredient line in a recipe (as written in JSON)

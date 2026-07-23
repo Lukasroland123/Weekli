@@ -220,7 +220,7 @@ Hentes/kobles ind af `useProducts()` i `src/lib/products.ts`.
 ```json
 [
   { "butik": "REMA 1000", "kategori": "KOTELETTER", "produktnavn": "nakke koteletter",
-    "tilbudsPris": 29, "maengde": 300, "maengdeEnhed": "g", "vegetar": false, "maerke": "rema1000" }
+    "tilbudsPris": 29, "foerPris": 45, "maengde": 300, "maengdeEnhed": "g", "vegetar": false, "maerke": "rema1000" }
 ]
 ```
 
@@ -229,6 +229,10 @@ Hentes/kobles ind af `useProducts()` i `src/lib/products.ts`.
   behøver altså IKKE matche en eksisterende vare — den kan være en ny variant.
 - `findBestOption()` vælger billigste total i kategorien, så tilbudsvaren vinder hvis den er
   billigere end de normale varer, og "Spar X kr" udregnes mod billigste ikke-tilbudsvare.
+- **`foerPris` (valgfri) = varens normale ("før")-pris fra avisen.** Angiv den så vidt muligt —
+  så vises den overstregne originalpris + "Spar X" på tilbudsvaren (i vare-søgningen og på
+  opskrifter). Findes der ingen normalvare i kategorien at sammenligne med, bruges `foerPris`
+  som grundlag for besparelsen. `foerPris` skal være > `tilbudsPris`.
 - `butik` skal være præcis `"REMA 1000"`, `"NETTO"` eller `"FØTEX"`. `kategori` skal matche en
   kategori i `products.json` (UPPERCASE). `maengde` + `maengdeEnhed` er nødvendige for total-
   prisberegningen (`ceil(behov / maengde) × tilbudsPris`).

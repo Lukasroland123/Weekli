@@ -121,10 +121,16 @@ export function findBestOption(
 
   if (!best) return null;
 
-  const spar =
-    best.produkt.paTilbud && bestRegular
-      ? Math.max(0, bestRegular.pris - best.pris)
-      : 0;
+  let spar = 0;
+  if (best.produkt.paTilbud) {
+    if (bestRegular) {
+      // Besparelse mod billigste ikke-tilbudsvare i kategorien
+      spar = Math.max(0, bestRegular.pris - best.pris);
+    } else if (best.produkt.foerPris != null) {
+      // Ingen normalvare i kategorien — brug avisens "før"-pris × antal pakker
+      spar = Math.max(0, best.pakker * best.produkt.foerPris - best.pris);
+    }
+  }
 
   return { ...best, spar };
 }

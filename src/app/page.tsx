@@ -112,9 +112,17 @@ export default function DailyPage() {
                               )}
                             </p>
                           </div>
-                          <span className="text-sm font-semibold text-gray-800 shrink-0 ml-3">
-                            {formatPrice(p.normalPris)}
-                          </span>
+                          <div className="text-right shrink-0 ml-3">
+                            {p.paTilbud && p.foerPris && p.foerPris > p.normalPris ? (
+                              <>
+                                <span className="text-xs text-gray-400 line-through">{formatPrice(p.foerPris)}</span>
+                                <span className="block text-sm font-semibold text-green-600">{formatPrice(p.normalPris)}</span>
+                                <span className="block text-[11px] text-green-600 font-medium">Spar {formatPrice(p.foerPris - p.normalPris)}</span>
+                              </>
+                            ) : (
+                              <span className="text-sm font-semibold text-gray-800">{formatPrice(p.normalPris)}</span>
+                            )}
+                          </div>
                         </li>
                       ))}
                     </ul>

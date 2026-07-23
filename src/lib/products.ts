@@ -10,6 +10,7 @@ interface TilbudOverlayEntry {
   kategori: string;
   produktnavn: string;
   tilbudsPris: number;
+  foerPris?: number;      // original ("før")-pris fra avisen — valgfri, bruges til "Spar X"
   maengde: number;
   maengdeEnhed: string;
   vegetar?: boolean;
@@ -36,6 +37,7 @@ function applyTilbudOverlay(products: Product[]): Product[] {
     maengdeEnhed: o.maengdeEnhed,
     vegetar: o.vegetar ?? false,
     paTilbud: true,
+    ...(o.foerPris ? { foerPris: o.foerPris } : {}),
     ...(o.maerke ? { maerke: o.maerke } : {}),
   }));
   return [...products, ...tilbudProducts];
