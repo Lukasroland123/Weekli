@@ -37,6 +37,26 @@ function ChevronIcon({ open }: { open: boolean }) {
   );
 }
 
+// Nummereret trin-overskrift — grønt nummer der bliver til ✓ når trinnet er udfyldt.
+function StepHeader({ num, title, done, optional, badge }: {
+  num: number; title: string; done: boolean; optional?: boolean; badge?: string;
+}) {
+  return (
+    <div className="flex items-center gap-2 mb-1.5">
+      <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[11px] font-bold shrink-0 transition-colors ${done ? "bg-green-600 text-white" : "bg-gray-200 text-gray-500"}`}>
+        {done ? (
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+        ) : num}
+      </span>
+      <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide">{title}</span>
+      {optional && <span className="text-[11px] text-gray-400 font-normal normal-case">valgfri</span>}
+      {badge && <span className="ml-auto text-[11px] font-semibold text-green-600">{badge}</span>}
+    </div>
+  );
+}
+
 export default function AddRecipeSection() {
   const { state, addUserRecipe, removeUserRecipe } = useApp();
   const products = useProducts();
@@ -189,7 +209,7 @@ export default function AddRecipeSection() {
 
             {/* Navn */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5">Navn</p>
+              <StepHeader num={1} title="Navn" done={!!recipeName.trim()} />
               <input
                 type="text"
                 value={recipeName}
@@ -201,7 +221,7 @@ export default function AddRecipeSection() {
 
             {/* Antal personer */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Antal personer</p>
+              <StepHeader num={2} title="Antal personer" done={recipePersons !== null} />
               <p className="text-xs text-gray-400 mb-2">Vælg hvor mange personer opskriften er til.</p>
               <div className="flex gap-2">
                 {[1, 2, 3, 4, 5, 6].map((n) => (
@@ -220,7 +240,8 @@ export default function AddRecipeSection() {
 
             {/* Ingredienser */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Ingredienser</p>
+              <StepHeader num={3} title="Ingredienser" done={draftIngredients.length > 0}
+                badge={draftIngredients.length > 0 ? `${draftIngredients.length} tilføjet` : undefined} />
               <p className="text-xs text-gray-400 mb-2">Varerne med pris — bruges til at beregne hvad retten koster.</p>
 
               {/* Confirmed ingredient rows */}
@@ -366,7 +387,8 @@ export default function AddRecipeSection() {
 
             {/* Basisvarer / krydderier */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Basisvarer &amp; krydderier</p>
+              <StepHeader num={4} title="Basisvarer & krydderier" optional done={basisvarer.length > 0}
+                badge={basisvarer.length > 0 ? `${basisvarer.length} tilføjet` : undefined} />
               <p className="text-xs text-gray-400 mb-2">Ting uden pris, fx salt, olie eller persille — vises, men indgår ikke i prisen.</p>
               {basisvarer.length > 0 && (
                 <div className="flex flex-wrap gap-1.5 mb-2">
@@ -407,7 +429,7 @@ export default function AddRecipeSection() {
 
             {/* Fremgangsmåde */}
             <div>
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1.5">Fremgangsmåde</p>
+              <StepHeader num={5} title="Fremgangsmåde" optional done={!!recipeFremgangsmaade.trim()} />
               <textarea
                 value={recipeFremgangsmaade}
                 onChange={(e) => setRecipeFremgangsmaade(e.target.value)}
