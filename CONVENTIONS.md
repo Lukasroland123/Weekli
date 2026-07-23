@@ -1,5 +1,10 @@
 # Weekli — Konventioner og logik
 
+> **Rolle:** Dette er *implementerings*-referencen — konkrete filstier, JSON-strukturer, enheder og
+> funktioner i koden (*hvordan*). For den overordnede produktvision og de låste designbeslutninger
+> (*hvad* og *hvorfor*), se `MASTER_SPEC_V2.md`. Ved konflikt om konkret dataformat/kode vinder
+> dette dokument; om produktadfærd vinder MASTER_SPEC.
+
 Dette dokument beskriver alle de regler og konventioner der gælder for data og logik i projektet.
 Læs dette inden du tilføjer opskrifter, produkter eller ændrer prisberegningslogik.
 
@@ -241,24 +246,34 @@ Hentes/kobles ind af `useProducts()` i `src/lib/products.ts`.
 
 ---
 
-## 6. Placeholders (fremtidig funktion)
+## 6. Salat-placeholders (implementeret)
 
-Ikke implementeret endnu — struktur er defineret i `types.ts`.
+Salat-placeholders resolves ved runtime i `pricing.ts` — en ret kan bede om "en salat der
+passer til svin", og systemet vælger den billigste passende salat i de valgte kæder.
 
 ```ts
-// Salat-typer der resolves ved runtime
-type SalatType = "salat_fisk" | "salat_okse" | "salat_svin"
+// Salat-typer der resolves ved runtime (types.ts)
+type SalatType = "salat_fisk" | "salat_okse" | "salat_svin" | "salat_kylling"
 
 // Bruges i ingredienser-array i stedet for RecipeIngredientDef
 interface RecipePlaceholder {
   placeholder: SalatType | "blandede grøntsager"
-  kandidater?: string[]  // til "blandede grøntsager"
+  kandidater?: string[]  // valgfrit: begræns til bestemte salat-id'er
   antal?: number         // antal kategorier at vælge (default: 2)
 }
 ```
 
-Salater gemmes i `src/data/salater.json` (endnu ikke oprettet).
-Brugeren bestemmer hvilke salater der passer til hvilke proteiner.
+- Salaterne ligger i `src/data/salater.json` (`Salat[]`). Hver salat har et `passer_til`-array
+  (`"fisk" | "okse" | "svin" | "kylling"`) og en egen ingrediensliste.
+- `resolveSalatPlaceholder()` i `pricing.ts` filtrerer salater på `passer_til`, prisberegner hver
+  kandidat med `priceSalatIngredients()`, og vælger den **billigste samlede** salat.
+- Angiver placeholderen `kandidater` (salat-id'er), begrænses valget til dem — ellers overvejes
+  alle salater der passer til proteinet.
+- I `recipes.json` skrives placeholderen direkte i `ingredienser`-arrayet, fx
+  `{ "placeholder": "salat_svin" }`, i stedet for en almindelig `{ "canonical": ... }`-post.
+
+> `"blandede grøntsager"`-placeholderen er defineret i typerne, men resolves endnu ikke i
+> `pricing.ts` — kun salat-typerne er aktive i dag.
 
 ---
 

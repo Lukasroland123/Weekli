@@ -8,11 +8,13 @@ Læs dette dokument, før du læser eller ændrer noget i projektet.
 
 ## Gamle dokumenter er arkiv
 
-Følgende dokumenter beskriver en forældet version af projektet og må **ikke** bruges som primær reference:
+Følgende dokumenter beskriver en forældet version af projektet og må **ikke** bruges som primær reference. De er flyttet til `docs/archive/`:
 
-- `SPEC.md`
-- `DATA_MODEL.md`
-- `DECISIONS.md`
-- `PLAN.md`
+- `docs/archive/SPEC.md`
+- `docs/archive/DATA_MODEL.md`
+- `docs/archive/DECISIONS.md`
+- `docs/archive/PLAN.md`
 
 De er bevaret som historisk arkiv. De gælder ikke længere.
+
+For konkrete kode- og dataformater, se `CONVENTIONS.md`.

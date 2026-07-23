@@ -1,8 +1,12 @@
 # MASTER SPEC V2 — Gældende source of truth
 
 > Oprettet: 2026-03-31
-> Sidst opdateret: 2026-03-31
-> Erstatter: SPEC.md, DATA_MODEL.md, DECISIONS.md (disse er nu arkiv)
+> Sidst opdateret: 2026-07-23
+> Erstatter: SPEC.md, DATA_MODEL.md, DECISIONS.md (disse er nu arkiv, se `docs/archive/`)
+
+> **Rolle:** Dette dokument beskriver produktvisionen og de låste designbeslutninger (*hvad* og
+> *hvorfor*). For konkrete filstier, dataformater og kodekonventioner (*hvordan*), se
+> `CONVENTIONS.md`.
 
 ---
 
@@ -27,6 +31,12 @@ Opskrifter kobles til produkter via canonical ord (`Kategori`-kolonnen), ikke vi
 ---
 
 ## 2. Datamodel — source of truth
+
+> **Altitude-note:** Dette afsnit beskriver den *konceptuelle* datamodel og Excel-arkene, som er
+> den redaktionelle kilde ejeren vedligeholder. Den kørende app læser **ikke** Excel direkte — den
+> læser `src/data/products.json` (auto-genereret fra arkene via `scripts/convert-excel.py`) og
+> tilbudsoverlayet `src/data/tilbud.json`. Excel er altså kilden *bag* generatoren; JSON-filerne er
+> det appen faktisk kører på. De konkrete felt- og filformater er dokumenteret i `CONVENTIONS.md`.
 
 ### Backbone: Standard-arkene
 De primære ark i Excel-filen er:
@@ -224,13 +234,13 @@ Fordele: Next.js læser dem direkte uden konverteringstrin, ingen ekstern afhæn
 
 ## 9. Status på gamle dokumenter
 
-Følgende dokumenter er **arkiv** og må ikke bruges som primær reference:
+Følgende dokumenter er **arkiv** (flyttet til `docs/archive/`) og må ikke bruges som primær reference:
 
 | Dokument | Status |
 |---|---|
-| `SPEC.md` | Arkiv — beskriver en forældet model med basisvarer-toggle, eTilbudsavis og lineær skalering |
-| `DATA_MODEL.md` | Arkiv — beskriver en PostgreSQL-model der ikke længere er gældende |
-| `DECISIONS.md` | Arkiv — beslutninger er enten forældede eller overtaget af dette dokument |
-| `PLAN.md` | Arkiv |
+| `docs/archive/SPEC.md` | Arkiv — beskriver en forældet model med basisvarer-toggle, eTilbudsavis og lineær skalering |
+| `docs/archive/DATA_MODEL.md` | Arkiv — beskriver en PostgreSQL-model der ikke længere er gældende |
+| `docs/archive/DECISIONS.md` | Arkiv — beslutninger er enten forældede eller overtaget af dette dokument |
+| `docs/archive/PLAN.md` | Arkiv |
 
 **Gældende source of truth: dette dokument (`MASTER_SPEC_V2.md`)**
